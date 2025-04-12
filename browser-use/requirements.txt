@@ -1,0 +1,6 @@
+ipykernel
+browser-use
+langchain-google-genai
+python-dotenv
+pydantic
+fastapi
