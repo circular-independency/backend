@@ -1,3 +1,9 @@
+import sys
+import asyncio
+
+if sys.platform.startswith("win"):
+    asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
+
 from fastapi import FastAPI
 from db.db import Db
 from dotenv import load_dotenv
@@ -5,11 +11,6 @@ from api_types import WeekMealPlan
 from db.models import FoodCategory, Shop, Item, ShoppingList
 from lib import handle_meal_plan, scraped_to_items, get_user_shopping_list_for_bu, prepare_for_bu, bu_do_cart
 
-import sys
-import asyncio
-
-if sys.platform.startswith("win"):
-    asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
 
 load_dotenv()
 app = FastAPI()
@@ -19,7 +20,7 @@ def read_root():
     return {"Hello": "World"}
 
 @app.get("/item/list")
-def read_item_list():
+def read_item_list(): 
     return Item.get_all()
 
 @app.get("/shop/list")

@@ -20,6 +20,9 @@ def handle_recipe(recipe : Recipe):
 
     for ingredient in recipe.ingredients:   
 
+        # map ingredient to food category
+
+
         # check if we have ingredient in fridge
         # if we have it, check if we have enough of it
         check = Storage.user_has_category(ingredient.name, ingredient.amount)
