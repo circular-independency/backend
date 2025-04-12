@@ -89,6 +89,9 @@ At this stage, check the basket on the top right (indicates the price) and check
 - **Final list of items in cart** (including any substitutions).
 Example:
 {example}
+- You must return the list of items in the same format as the example
+- You must return the list of input items even if you are not sure that they are in the cart.
+- You must return all the items that you got in the input.
 
 **Important:** Ensure efficiency and accuracy throughout the process."""
 
@@ -108,6 +111,7 @@ Visit [{store}]({store_link}), search for the required grocery items, add them t
 **Important:**
 - Make sure that you don't buy more than it's needed for each article.
 - After your search, if you click the "DODAJ V KOŠARICO" button or a button with the cart logo, it adds the item to the basket.
+- Do not under any circumstances go to the Spar-mobile website.
 ---
 
 ### Step 1: Navigate to the Website
@@ -157,6 +161,9 @@ At this stage, check the basket on the top right (indicates the price) and check
 - **Final list of items in cart** (including any substitutions).
 Example:
 {example}
+- You must return the list of items in the same format as the example
+- You must return the list of input items even if you are not sure that they are in the cart.
+- You must return all the items that you got in the input.
 
 **Important:** Ensure efficiency and accuracy throughout the process."""
 
@@ -226,6 +233,9 @@ At this stage, check the basket on the top right (indicates the price) and check
 - **Final list of items in cart** (including any substitutions).
 Example:
 {example}
+- You must return the list of items in the same format as the example
+- You must return the list of input items even if you are not sure that they are in the cart.
+- You must return all the items that you got in the input.
 
 **Important:** Ensure efficiency and accuracy throughout the process."""
 

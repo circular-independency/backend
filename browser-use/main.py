@@ -1,6 +1,8 @@
 import asyncio
 import os
 
+from playwright.sync_api import sync_playwright
+
 from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
 from pydantic import SecretStr
@@ -46,30 +48,33 @@ browser = Browser(
 )
 
 async def run_search(task):
-	agent = Agent(
-		task=task,
-		llm=llm,
-		max_actions_per_step=4,
-		browser=browser,
-		controller=controller,
-	)
+	async with await browser.new_context() as context:
+		agent = Agent(
+			task=task,
+			llm=llm,
+			max_actions_per_step=4,
+			browser_context=context,
+			#browser=browser,
+			controller=controller,
+		)
 
-	history = await agent.run(max_steps=25)
-	
-	result = history.final_result()
-	if result:
-		parsed: ShoppingCart = ShoppingCart.model_validate_json(result)
-		for post in parsed.posts:
-			print('\n--------------------------------')
-			print(f'Name:             {post.name}')
-			print(f'Quantity:         {post.quantity}')
-			print(f'Price:            {post.price}')
-	else:
-		print('No result')
-	
-	# wait 10 seconds before closing the browser
-	await asyncio.sleep(10)
+		history = await agent.run(max_steps=25)
+		
+		result = history.final_result()
+		if result:
+			parsed: ShoppingCart = ShoppingCart.model_validate_json(result)
+			for post in parsed.posts:
+				print('\n--------------------------------')
+				print(f'Name:             {post.name}')
+				print(f'Quantity:         {post.quantity}')
+				print(f'Price:            {post.price}')
+		else:
+			print('No result')
 
+		await asyncio.sleep(15)  # wait for a few seconds to see the result
+		#wait for the user to close the browser
+		await context.close()
+		await browser.close()
 
 if __name__ == '__main__':
 	stores = {
@@ -78,9 +83,6 @@ if __name__ == '__main__':
 		},
 		"tus": {
 			"link": "https://hitrinakup.com/priporoceni"
-		},
-		"lidl": {
-			"link": "https://www.lidl.si/"
 		},
 		"spar": {
 			"link": "https://www.spar.si/online/"
@@ -165,9 +167,13 @@ if __name__ == '__main__':
 	username = os.getenv('STORE_USERNAME')
 	password = os.getenv('STORE_PASSWORD')
 
-	store = "tus"
+	store = "spar"
 
 	task = generate_prompt(store, stores, username, password, shopping_list, preowned_ingridients, example)
 	print(task)
+
 	
+	#with sync_playwright() as p:
+	#	browser = p.chromium.launch(headless=False)
+		
 	asyncio.run(run_search(task))
