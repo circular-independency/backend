@@ -1,7 +1,11 @@
-from typing import Union
 from fastapi import FastAPI
 from db.db import Db
+from ai.gemini import GeminiClient
+from dotenv import load_dotenv
+from api_types import WeekMealPlan
 
+
+load_dotenv()
 app = FastAPI()
 
 @app.get("/")
@@ -10,17 +14,26 @@ def read_root():
 
 @app.get("/shop/list")
 def read_shop_list():
-    conn = Db.connection()
-    cursor = conn.cursor()
-
     qry = "SELECT * FROM shop;"
-    cursor.execute(qry)
-    rows = cursor.fetchall()
-    columns = [column[0] for column in cursor.description]
-    result = [dict(zip(columns, row)) for row in rows]
-
+    result = Db.select(qry)
     return result
 
+@app.get("/shop/{shop_id}")
+def read_shop(shop_id: int):
+    qry = f"SELECT * FROM shop WHERE id = {shop_id};"
+    result = Db.select(qry)
+    return result
+
+@app.get("/category/list")
+def read_category_list():
+    qry = "SELECT * FROM food_category;"
+    result = Db.select(qry)
+    return result
+
+@app.post("/plan/week")
+def handle_week_plan(week_plan: WeekMealPlan):
+    print(week_plan)
+    return {"FUCK": "YOU"}
 
 #@app.get("/items/{item_id}")
 #def read_item(item_id: int, q: Union[str, None] = None):

@@ -5,6 +5,7 @@ from typing import Type
 
 from db import Db
 
+
 def initialize_db(sql_file_path: str, db_path: str):
     # Connect to SQLite DB (creates it if it doesn't exist)
     conn = Db.connection()

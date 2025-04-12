@@ -15,10 +15,23 @@ class Db:
         return Db.CONNECTION
 
     @staticmethod
-    def disconnect(self):
+    def disconnect():
         if Db.CONNECTION is not None:
             Db.CONNECTION.close()
             Db.CONNECTION = None
+
+
+    @staticmethod
+    def select(qry):
+        conn = Db.connection()
+        cursor = conn.cursor()
+
+        cursor.execute(qry)
+        rows = cursor.fetchall()
+        columns = [column[0] for column in cursor.description]
+        result = [dict(zip(columns, row)) for row in rows]
+
+        return result
 
 
     
