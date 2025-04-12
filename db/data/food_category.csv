@@ -1,106 +1,105 @@
-name,kcal
-Grains,350
-Rice,130
-Brown Rice,111
-Pasta,131
-Spaghetti,158
-Couscous,112
-Quinoa,120
-Oats,389
-Buckwheat,343
-Barley,354
-Bread,265
-Whole Wheat Bread,247
-Tortilla,218
-Rye Bread,259
-Nori,35
-Wakame,45
-Kombu,43
-Tomato,18
-Potato,77
-Sweet Potato,86
-Onion,40
-Red Onion,40
-Carrot,41
-Cucumber,16
-Bell Pepper,31
-Spinach,23
-Broccoli,34
-Zucchini,17
-Eggplant,25
-Cabbage,25
-Garlic,149
-Leek,61
-Celery,16
-Mushroom,22
-Apple,52
-Banana,89
-Orange,47
-Lemon,29
-Lime,30
-Grapes,69
-Berries,57
-Strawberry,32
-Blueberry,57
-Pineapple,50
-Mango,60
-Pear,57
-Peach,39
-Milk,42
-Skim Milk,34
-Cheese,402
-Mozzarella,280
-Butter,717
-Yogurt,59
-Greek Yogurt,59
-Cream,345
-Beef,250
-Chicken,165
-Pork,242
-Lamb,294
-Turkey,189
-Duck,337
-Salmon,208
-Tuna,132
-Cod,82
-Trout,148
-Egg,155
-Egg White,52
-Legumes,120
-Lentils,116
-Chickpeas,164
-Kidney Beans,127
-Black Beans,132
-Green Peas,81
-Soybeans,173
-Nuts,600
-Almonds,579
-Peanuts,567
-Walnuts,654
-Cashews,553
-Olive Oil,884
-Vegetable Oil,884
-Coconut Oil,862
-Avocado Oil,884
-Condiments,150
-Salt,0
-Sugar,387
-Honey,304
-Vinegar,21
-Soy Sauce,53
-Miso,199
-Mustard,66
-Mayonnaise,680
-Herbs,20
-Basil,22
-Parsley,36
-Coriander,23
-Dill,43
-Spices,250
-Black Pepper,251
-Cinnamon,247
-Turmeric,312
-Paprika,282
-Tofu,76
-Tempeh,192
-Seaweed,35
+name,name_slo,kcal
+Grains,Žita,350
+Rice,Riž,130
+Brown Rice,Rjavi riž,111
+Pasta,Testenine,131
+Spaghetti,Špageti,158
+Couscous,Kuskus,112
+Quinoa,Kvinoja,120
+Oats,Ovseni kosmiči,389
+Buckwheat,Ajda,343
+Barley,Ječmen,354
+Bread,Kruh,265
+Whole Wheat Bread,Polnozrnat kruh,247
+Tortilla,Tortilja,218
+Rye Bread,Rženi kruh,259
+Nori,Nori,35
+Wakame,Wakame,45
+Kombu,Kombu,43
+Tomato,Paradižnik,18
+Potato,Krompir,77
+Sweet Potato,Sladki krompir,86
+Onion,Čebula,40
+Red Onion,Rdeča čebula,40
+Carrot,Korenje,41
+Cucumber,Kumara,16
+Bell Pepper,Paprika,31
+Spinach,Špinača,23
+Broccoli,Brokoli,34
+Zucchini,Bučka,17
+Eggplant,Jajčevec,25
+Cabbage,Zelje,25
+Garlic,Česen,149
+Leek,Por,61
+Celery,Zelena,16
+Mushroom,Goba,22
+Apple,Jabolko,52
+Banana,Banana,89
+Orange,Pomaranča,47
+Lemon,Limona,29
+Lime,Limeta,30
+Grapes,Grozdje,69
+Berries,Jagodičevje,57
+Strawberry,Jagoda,32
+Blueberry,Borovnica,57
+Pineapple,Ananas,50
+Mango,Mango,60
+Pear,Hruška,57
+Peach,Breskev,39
+Milk,Mleko,42
+Skim Milk,Posneto mleko,34
+Cheese,Sir,402
+Mozzarella,Mozzarella,280
+Butter,Maslo,717
+Yogurt,Jogurt,59
+Greek Yogurt,Grški jogurt,59
+Cream,Smetana,345
+Beef,Govedina,250
+Chicken,Piščanec,165
+Pork,Svinjina,242
+Lamb,Jagnjetina,294
+Turkey,Puranje meso,189
+Duck,Raca,337
+Salmon,Losos,208
+Tuna,Tuna,132
+Cod,Trska,82
+Trout,Postrv,148
+Egg,Jajce,155
+Egg White,Jajčni beljak,52
+Legumes,Stročnice,120
+Lentils,Leča,116
+Chickpeas,Čičerika,164
+Kidney Beans,Rdeči fižol,127
+Black Beans,Črni fižol,132
+Green Peas,Grahek,81
+Soybeans,Soja,173
+Nuts,Orehovci,600
+Almonds,Mandlji,579
+Peanuts,Araščidi,567
+Walnuts,Orehi,654
+Cashews,Indijski oreščki,553
+Olive Oil,Olivno olje,884
+Vegetable Oil,Rastlinsko olje,884
+Coconut Oil,Kokosovo olje,862
+Avocado Oil,Avokadovo olje,884
+Condiments,Začimbe in dodatki,150
+Salt,Sol,0
+Sugar,Sladkor,387
+Honey,Med,304
+Vinegar,Kis,21
+Soy Sauce,Sojina omaka,53
+Miso,Miso pasta,199
+Mustard,Gorčica,66
+Mayonnaise,Majoneza,680
+Herbs,Zelišča,20
+Basil,Bazilika,22
+Parsley,Peteršilj,36
+Coriander,Koriander,23
+Dill,Koper,43
+Black Pepper,Črni poper,251
+Cinnamon,Cimet,247
+Turmeric,Kurkuma,312
+Paprika,Mleta paprika,282
+Tofu,Tofu,76
+Tempeh,Tempeh,192
+Seaweed,Morska trava,35

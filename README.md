@@ -21,8 +21,7 @@ conda env export --no-builds > environment.yml
 
 
 ## DB init
-
-Navigate to `db` and run `init_db.py`
+run `python init_db.py`
 
 
 

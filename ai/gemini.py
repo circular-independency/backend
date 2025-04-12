@@ -1,7 +1,7 @@
 from google import genai
 import os
-from db.db import Db
 from ai.ai_utils import prepare_ai_category
+from db.models import Item, FoodCategory
 
 class GeminiClient:
 
@@ -14,4 +14,37 @@ class GeminiClient:
             model="gemini-2.0-flash-lite", contents="Explain how AI works in a few words"
         )
         return response.text
+    
+    @staticmethod
+    def scraped_parser(inp:str, store_id:int) -> list[Item]:
+        client = genai.Client(api_key=GeminiClient.KEY)
+        
+        categories = FoodCategory.get_all()
+
+        promt = f"""
+            {inp}
+            This is a list of items scraped from a store.
+            Please parse it and return a list of items in the provided JSON format.
+            For store id use {store_id}.
+
+            Map each item to the closest food category from the following list. Use the name column:
+            {categories}
+        """
+
+        response = client.models.generate_content_stream(
+            model="gemini-2.0-flash-lite",
+            contents=promt,
+            config={
+                'response_mime_type': 'application/json',
+                'response_schema': list[Item],
+            },
+        )
+
+        out = ""
+
+        for chunk in response:
+            print(chunk.text, end="")
+            out += chunk.text
+
+        return out
     

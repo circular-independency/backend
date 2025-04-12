@@ -7,7 +7,6 @@ class Ingredient(BaseModel):
     name: str
     amount: str
 
-
 class Recipe(BaseModel):
     name: str
     ingredients: list[Ingredient]

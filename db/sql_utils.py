@@ -3,12 +3,12 @@ import pandas as pd
 from pydantic import BaseModel
 from typing import Type
 
-from db import Db
+from db.db import Db
 
 
 def initialize_db(sql_file_path: str, db_path: str):
     # Connect to SQLite DB (creates it if it doesn't exist)
-    conn = Db.connection()
+    conn = sqlite3.connect(Db.DB_FILE)
     cursor = conn.cursor()
 
     # Read SQL schema

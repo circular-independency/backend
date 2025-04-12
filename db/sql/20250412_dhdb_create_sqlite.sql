@@ -15,14 +15,16 @@ CREATE TABLE IF NOT EXISTS shop (
 CREATE TABLE IF NOT EXISTS food_category (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   name TEXT NOT NULL,
+  name_slo TEXT NOT NULL,
   kcal INTEGER
 );
 
 -- Table `discount`
 CREATE TABLE IF NOT EXISTS discount (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  "from" DATE NOT NULL,
-  "to" DATE NOT NULL,
+  "from_date" DATE NOT NULL,
+  "to_date" DATE NOT NULL,
+  item_id INTEGER NOT NULL,
   value REAL NOT NULL
 );
 
@@ -34,8 +36,7 @@ CREATE TABLE IF NOT EXISTS item (
   vendor_id TEXT NOT NULL,
   src TEXT,
   food_category_id INTEGER NOT NULL,
-  shop_id INTEGER NOT NULL,
-  discount_id INTEGER NOT NULL
+  shop_id INTEGER NOT NULL
 );
 
 -- Table `storage`
@@ -75,4 +76,25 @@ CREATE TABLE IF NOT EXISTS recipe_item (
   recipe_id INTEGER NOT NULL,
   food_category_id INTEGER NOT NULL,
   grams INTEGER NOT NULL
+);
+
+
+CREATE TABLE IF NOT EXISTS shopping_list (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  user_id INTEGER NOT NULL,
+  item_id INTEGER NOT NULL,
+  is_active INTEGER NOT NULL DEFAULT 1
+  );
+
+CREATE TABLE IF NOT EXISTS scraped (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  shop_id INTEGER NOT NULL,
+  store TEXT ,
+  category TEXT ,
+  mid_category TEXT ,
+  product_id TEXT ,
+  name TEXT ,
+  price TEXT ,
+  discount TEXT ,
+  url TEXT 
 );
