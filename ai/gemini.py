@@ -5,7 +5,7 @@ from db.models import Item, FoodCategory
 
 class GeminiClient:
 
-    KEY = os.getenv("GEMINI_API")
+    KEY = os.getenv("GEMINI_API_KEY")
 
     @staticmethod
     def test():

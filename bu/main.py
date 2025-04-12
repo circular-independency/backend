@@ -16,7 +16,7 @@ from pydantic import BaseModel
 
 from browser_use import Agent, Controller
 
-from task import *
+from bu.task import *
 
 
 async def run_search(task):
@@ -73,7 +73,7 @@ async def run_search(task):
 
 		return result
 
-def put_items_in_cart(store, shopping_list, preowned_ingridients):
+async def put_items_in_cart(store, shopping_list, preowned_ingridients):
 	stores = {
 		"mercator": {
 			"link": "https://mercatoronline.si/"
@@ -89,10 +89,25 @@ def put_items_in_cart(store, shopping_list, preowned_ingridients):
 	username = os.getenv('STORE_USERNAME')
 	password = os.getenv('STORE_PASSWORD')
 
+	example = str([
+			{
+				"name": "sladkor",
+				"quantity": "1kg",
+				"price": 1.5
+			},
+			{
+				"name": "moka",
+				"quantity": "1kg",
+				"price": 2.0
+			}
+	])
+
 	task = generate_prompt(store, stores, username, password, shopping_list, preowned_ingridients, example)
 	#print(task)
 
-	asyncio.run(run_search(task))
+	#!asyncio.run(run_search(task))
+	await run_search(task)
+
 
 
 if __name__ == '__main__':
@@ -169,18 +184,5 @@ if __name__ == '__main__':
 		}
 	]
 
-	example = str([
-			{
-				"name": "sladkor",
-				"quantity": "1kg",
-				"price": 1.5
-			},
-			{
-				"name": "moka",
-				"quantity": "1kg",
-				"price": 2.0
-			}
-	])
-
-	store = "mercator"
+	store = "spar"
 	put_items_in_cart(store, shopping_list, preowned_ingridients)

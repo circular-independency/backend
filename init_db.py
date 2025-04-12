@@ -22,3 +22,4 @@ if __name__ == "__main__":
     read_and_init_table(db_file, user_file, User, "user")
 
 
+

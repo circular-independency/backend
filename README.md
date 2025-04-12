@@ -11,6 +11,11 @@ make sure to add
 ```sh
 pip install fastapi[standard]
 ```
+and
+```sh
+playwright install chromium
+```
+
 conda one does not work currently
 
 Env export

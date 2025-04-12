@@ -2,9 +2,14 @@ from fastapi import FastAPI
 from db.db import Db
 from dotenv import load_dotenv
 from api_types import WeekMealPlan
-from db.models import FoodCategory, Shop, Item, Recipe
-from lib import handle_meal_plan, scraped_to_items
-import pandas as pd
+from db.models import FoodCategory, Shop, Item, ShoppingList
+from lib import handle_meal_plan, scraped_to_items, get_user_shopping_list_for_bu, prepare_for_bu, bu_do_cart
+
+import sys
+import asyncio
+
+if sys.platform.startswith("win"):
+    asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
 
 load_dotenv()
 app = FastAPI()
@@ -71,7 +76,7 @@ async def add_item(items: list[Item]):
 @app.get("/parse/scrape")
 async def parse_scraped_data():
     spar = "./scraped/spar_data.csv"
-    scraped_to_items(spar, "SPAR")
+    scraped_to_items(spar, "spar")
 
     return {"status": 200}
 
@@ -82,14 +87,10 @@ def get_shopping_list(user_id: int):
     return res
 
 @app.get("/shopping/items/{user_id}")
-def get_shopping_list(user_id: int):
-    qry = f"SELECT i.vendor_id, fc.name_slo, s.name, s.site FROM shopping_list as sl, item AS i , food_category as fc, shop as s WHERE user_id = {user_id} AND is_active = 1 AND sl.item_id = i.id AND fc.id = i.food_category_id AND i.shop_id = s.id ;"
-    res = Db.select(qry)
-    return res
+async def get_shopping_list(user_id: int):
+    res = get_user_shopping_list_for_bu(user_id)
+    bu_data = prepare_for_bu(res)
 
+    await bu_do_cart(bu_data)
 
-
-
-#@app.get("/items/{item_id}")
-#def read_item(item_id: int, q: Union[str, None] = None):
-#    return {"item_id": item_id, "q": q}
+    return bu_data
