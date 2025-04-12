@@ -18,36 +18,36 @@ from browser_use import Agent, Controller
 
 from task import *
 
-load_dotenv()
-api_key = os.getenv('GEMINI_API_KEY')
-if not api_key:
-	raise ValueError('GEMINI_API_KEY is not set')
-
-
-class Ingredient(BaseModel):
-	name: str
-	quantity: str
-	price: float
-
-
-class ShoppingCart(BaseModel):
-	posts: List[Ingredient]
-
-
-controller = Controller(output_model=ShoppingCart)
-
-llm = ChatGoogleGenerativeAI(model='gemini-2.0-flash-exp', api_key=SecretStr(api_key))
-
-browser = Browser(
-	config=BrowserConfig(
-		new_context_config=BrowserContextConfig(
-			viewport_expansion=0,
-			#allowed_domains=['mercatoronline.si', 'www.spar.si', 'hitrinakup.com']
-		)
-	)
-)
 
 async def run_search(task):
+	load_dotenv()
+	api_key = os.getenv('GEMINI_API_KEY')
+	if not api_key:
+		raise ValueError('GEMINI_API_KEY is not set')
+
+
+	class Ingredient(BaseModel):
+		name: str
+		quantity: str
+		price: float
+
+
+	class ShoppingCart(BaseModel):
+		posts: List[Ingredient]
+
+
+	controller = Controller(output_model=ShoppingCart)
+
+	llm = ChatGoogleGenerativeAI(model='gemini-2.0-flash-exp', api_key=SecretStr(api_key))
+
+	browser = Browser(
+		config=BrowserConfig(
+			new_context_config=BrowserContextConfig(
+				viewport_expansion=0,
+				#allowed_domains=['mercatoronline.si', 'www.spar.si', 'hitrinakup.com']
+			)
+		)
+	)
 	async with await browser.new_context() as context:
 		agent = Agent(
 			task=task,
@@ -71,10 +71,29 @@ async def run_search(task):
 		else:
 			print('No result')
 
-		await asyncio.sleep(15)  # wait for a few seconds to see the result
-		#wait for the user to close the browser
-		await context.close()
-		await browser.close()
+		return result
+
+def put_items_in_cart(store, shopping_list, preowned_ingridients):
+	stores = {
+		"mercator": {
+			"link": "https://mercatoronline.si/"
+		},
+		"tus": {
+			"link": "https://hitrinakup.com/priporoceni"
+		},
+		"spar": {
+			"link": "https://www.spar.si/online/"
+		}
+	}
+	load_dotenv()
+	username = os.getenv('STORE_USERNAME')
+	password = os.getenv('STORE_PASSWORD')
+
+	task = generate_prompt(store, stores, username, password, shopping_list, preowned_ingridients, example)
+	#print(task)
+
+	asyncio.run(run_search(task))
+
 
 if __name__ == '__main__':
 	stores = {
@@ -163,17 +182,5 @@ if __name__ == '__main__':
 			}
 	])
 
-	load_dotenv()
-	username = os.getenv('STORE_USERNAME')
-	password = os.getenv('STORE_PASSWORD')
-
-	store = "spar"
-
-	task = generate_prompt(store, stores, username, password, shopping_list, preowned_ingridients, example)
-	print(task)
-
-	
-	#with sync_playwright() as p:
-	#	browser = p.chromium.launch(headless=False)
-		
-	asyncio.run(run_search(task))
+	store = "mercator"
+	put_items_in_cart(store, shopping_list, preowned_ingridients)
