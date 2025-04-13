@@ -109,8 +109,6 @@ def prepare_for_bu(data):
 
     return out
 
-async def bu_do_cart(data):
-    for store in data:
-        if len(data[store]) == 0:
-            continue
-        await put_items_in_cart(store, data, [])
+async def bu_do_cart(data, store):
+
+    await put_items_in_cart(store, data, [])

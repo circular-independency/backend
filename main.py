@@ -53,7 +53,7 @@ async def handle_week_plan(week_plan: WeekMealPlan):
     for shop in shops:
         shop = Shop(**shop)
         ShoppingList.shop_user_store_list(1, shop.id)
-        
+
 
     week_plan_mapped = GeminiClient.map_ingredient_to_category(week_plan)
     week_plan_mapped = json_module.loads(week_plan_mapped)
@@ -106,14 +106,15 @@ def get_shopping_list(user_id: int):
     res = Db.select(qry)
     return res
 
-@app.get("/shopping/items/{user_id}")
-async def get_shopping_list(user_id: int):
-    res = get_user_shopping_list_for_bu(user_id)
-    bu_data = prepare_for_bu(res)
+#@app.get("/shopping/items/{user_id}")
+#async def get_shopping_list(user_id: int):
+#    res = get_user_shopping_list_for_bu(user_id)
+#    bu_data = prepare_for_bu(res)
+#
+#    await bu_do_cart(bu_data)
+#
+#    return bu_data
 
-    await bu_do_cart(bu_data)
-
-    return bu_data
 
 @app.get("/storage/list/{user_id}")
 async def get_storage_list(user_id: int):
@@ -121,13 +122,20 @@ async def get_storage_list(user_id: int):
     res = Db.select(qry)
     return res
 
-@app.post("/shopping/shop/{shop_name}/{user_id}")
-async def shop_shopping_list(shop_name: str, user_id: int):
+@app.post("/shopping/shop/{shop_name}/{user_id}/{use_bu}")
+async def shop_shopping_list(shop_name: str, user_id: int, use_bu: int):
 
     res = Shop.get_by_name(shop_name)[0]
     shop = Shop(**res)
 
     Storage.add_items_from_shop(user_id, shop.id)
     ShoppingList.shop_user_store_list(user_id, shop.id)
+
+    if use_bu == 1:
+        res = get_user_shopping_list_for_bu(user_id)
+        bu_data = prepare_for_bu(res)
+
+        await bu_do_cart(bu_data, shop_name)
+
 
     return {"status": 200}
