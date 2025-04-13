@@ -226,6 +226,8 @@ class ShoppingList(BaseModel):
         qry = f"UPDATE shopping_list SET is_active = 0 WHERE user_id = {user_id} AND item_id IN (SELECT id FROM item WHERE shop_id = {store_id});"
         Db.update(qry)
 
+    
+
 class Scraped(BaseModel):
     id: int
     shop_id: int

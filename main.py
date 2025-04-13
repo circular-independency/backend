@@ -49,6 +49,12 @@ def read_category_list():
 @app.post("/plan/week")
 async def handle_week_plan(week_plan: WeekMealPlan):
 
+    shops = Shop.get_all()
+    for shop in shops:
+        shop = Shop(**shop)
+        ShoppingList.shop_user_store_list(1, shop.id)
+        
+
     week_plan_mapped = GeminiClient.map_ingredient_to_category(week_plan)
     week_plan_mapped = json_module.loads(week_plan_mapped)
     week_plan_mapped = WeekMealPlan(**week_plan_mapped)
@@ -60,10 +66,7 @@ async def handle_week_plan(week_plan: WeekMealPlan):
     fri = week_plan_mapped.friday
     sat = week_plan_mapped.saturday
     sun = week_plan_mapped.sunday
-
-    # here we will check if any ingredients were added aditionaly
-    # TODO: handle that
-
+    
     handle_meal_plan(mon)
     handle_meal_plan(tue)
     handle_meal_plan(wed)
