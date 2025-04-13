@@ -95,8 +95,11 @@ async def add_item(items: list[Item]):
 
 @app.get("/parse/scrape")
 async def parse_scraped_data():
-    spar = "./scraped/spar_data.csv"
-    scraped_to_items(spar, "spar")
+    #spar = "./scraped/spar_data.csv"
+    #scraped_to_items(spar, "spar")
+
+    merkator = "./scraped/mercator_data.csv"
+    scraped_to_items(merkator, "mercator")
 
     return {"status": 200}
 
