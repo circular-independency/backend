@@ -27,7 +27,7 @@ class GeminiClient:
             Please parse it and return a list of items in the provided JSON format.
             For store id use {store_id}.
 
-            Map each item to the closest food category from the following list. Use the name column:
+            Map each item to the closest food category from the following list. DO NOT CREATE NEW CATEGORIES. Use the name column:
             {categories}
         """
 

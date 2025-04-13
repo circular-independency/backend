@@ -64,7 +64,7 @@ class Item(BaseModel):
             raise ValueError(f"Category {category} not found in database.")
         
         category = FoodCategory(**res[0])
-        qry = f"SELECT i.id, i.price, d.value FROM item as i LEFT OUTER JOIN discount as d ON i.id = d.item_id WHERE i.food_category_id = {category.id};"
+        qry = f"SELECT i.id, i.price, d.value, i.grams FROM item as i LEFT OUTER JOIN discount as d ON i.id = d.item_id WHERE i.food_category_id = {category.id};"
         res = Db.select(qry)
         if len(res) == 0:
             return None
@@ -77,6 +77,9 @@ class Item(BaseModel):
                 price = curr["price"] * (1 - curr["value"])
             else:
                 price = curr["price"]
+
+            if curr["grams"] <= 0:  
+                continue
 
             price = price / curr["grams"]
             
