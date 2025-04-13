@@ -118,7 +118,7 @@ def get_shopping_list(user_id: int):
 
 @app.get("/storage/list/{user_id}")
 async def get_storage_list(user_id: int):
-    qry = f"SELECT * FROM storage WHERE user_id = {user_id};"
+    qry = f"SELECT s.grams, fc.name_slo FROM storage as s, food_category as fc WHERE s.user_id = {user_id} AND fc.id = s.food_category_id;"
     res = Db.select(qry)
     return res
 
