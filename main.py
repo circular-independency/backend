@@ -102,7 +102,7 @@ async def parse_scraped_data():
 
 @app.get("/shopping/list/{user_id}")
 def get_shopping_list(user_id: int):
-    qry = f"SELECT sl.id, s.name as shop, fc.name_slo, i.grams  FROM shopping_list as sl, item as i, shop as s, food_category as fc WHERE sl.user_id = {user_id} AND sl.is_active = 1 AND i.id = sl.item_id AND s.id = i.shop_id AND fc.id = i.food_category_id;"
+    qry = f"SELECT s.name as shop, fc.name_slo ,sum(i.grams) as grams_total FROM shopping_list as sl, item as i, shop as s, food_category as fc WHERE sl.user_id = {user_id} AND sl.is_active = 1 AND i.id = sl.item_id AND s.id = i.shop_id AND fc.id = i.food_category_id GROUP BY i.food_category_id;"
     res = Db.select(qry)
     return res
 
