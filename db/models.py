@@ -93,7 +93,7 @@ class Item(BaseModel):
                 price = curr["price"]
 
             if curr["grams"] <= 0:  
-                continue
+                curr["grams"] = 100
 
             price = price / curr["grams"]
             
