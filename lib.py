@@ -98,7 +98,7 @@ def prepare_for_bu(data):
             
             curr_item = {
 				"name": item["name_slo"],
-				"quantity": f"{item["grams"]}g",
+				"quantity": f"{item['grams']}g",
 				"price": item["price"],
 				"vendor_id": item["vendor_id"],
 				"source": store

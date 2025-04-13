@@ -5,6 +5,7 @@ if sys.platform.startswith("win"):
     asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
 
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from db.db import Db
 from dotenv import load_dotenv
 from api_types import WeekMealPlan
@@ -15,6 +16,15 @@ import json as json_module
 
 load_dotenv()
 app = FastAPI()
+
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allows all origins
+    allow_credentials=True,
+    allow_methods=["*"],  # Allows all methods
+    allow_headers=["*"],  # Allows all headers
+)
 
 @app.get("/")
 def read_root():
