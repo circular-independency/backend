@@ -60,7 +60,7 @@ def scraped_to_items(path: str, store_name : str) -> None:
         chunk_no_head = head+''.join(lines)
         full_file += chunk_no_head
 
-        chunk = head+chunk_no_head
+        chunk = head + chunk_no_head
         data += GeminiClient.scraped_parser(chunk, store.id)
 
     data = data.replace("][",",")

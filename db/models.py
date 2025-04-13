@@ -54,9 +54,23 @@ class Item(BaseModel):
             raise ValueError(f"Item {item_id} not found in database.")
         return Item(**res[0])
 
+    @staticmethod
+    def get_default(category_id):
+        test = {
+            "id": 0,
+            "price": 20.0,
+            "grams": 100,
+            "vendor_id": "",
+            "src": None,
+            "food_category_id": category_id,
+            "shop_id": 1
+        }
+        return Item(**test)
 
     @staticmethod
     def get_cheapest_item_for_category(category: str) -> "Item":
+
+        category_obj = FoodCategory.get_by_name(category)
 
         qry = f"SELECT * FROM food_category WHERE name = '{category}';"
         res = Db.select(qry)
@@ -67,7 +81,7 @@ class Item(BaseModel):
         qry = f"SELECT i.id, i.price, d.value, i.grams FROM item as i LEFT OUTER JOIN discount as d ON i.id = d.item_id WHERE i.food_category_id = {category.id};"
         res = Db.select(qry)
         if len(res) == 0:
-            return None
+            return Item.get_default(category_obj.id)
         
 
         best_price = 100000
