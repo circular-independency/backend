@@ -122,7 +122,7 @@ async def get_storage_list(user_id: int):
     res = Db.select(qry)
     return res
 
-@app.post("/shopping/shop/{shop_name}/{user_id}/{use_bu}")
+@app.get("/shopping/shop/{shop_name}/{user_id}/{use_bu}")
 async def shop_shopping_list(shop_name: str, user_id: int, use_bu: int):
 
     res = Shop.get_by_name(shop_name)[0]

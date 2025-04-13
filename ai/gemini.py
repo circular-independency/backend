@@ -29,6 +29,8 @@ class GeminiClient:
 
             Map each item to the closest food category from the following list. DO NOT CREATE NEW CATEGORIES. Use the name column:
             {categories}
+
+            Copy product_id column into vendor_id column.
         """
 
         response = client.models.generate_content_stream(

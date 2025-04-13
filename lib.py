@@ -41,7 +41,7 @@ def scraped_to_items(path: str, store_name : str) -> None:
     shop_res = Shop.get_by_name(store_name)[0]
     store = Shop(**shop_res)
 
-    f = open(path, "r")
+    f = open(path, "r", encoding="utf-8")
 
     data = ""
     full_file = ""
