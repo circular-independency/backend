@@ -67,7 +67,7 @@ class Item(BaseModel):
         qry = f"SELECT i.id, i.price, d.value FROM item as i LEFT OUTER JOIN discount as d ON i.id = d.item_id WHERE i.food_category_id = {category.id};"
         res = Db.select(qry)
         if len(res) == 0:
-            raise ValueError(f"Item {category.name} not found in database.")
+            return None
         
 
         best_price = 100000
@@ -77,6 +77,8 @@ class Item(BaseModel):
                 price = curr["price"] * (1 - curr["value"])
             else:
                 price = curr["price"]
+
+            price = price / curr["grams"]
             
             if price < best_price:
                 best_price = price
@@ -113,11 +115,24 @@ class Storage(BaseModel):
 
         category = FoodCategory.get_by_name(category_name)
 
+        if category is None:
+            print(f"Category not found: {category_name}")
+            return True
+
         user_id = 1
         result = Db.select(f"SELECT * FROM storage WHERE user_id = {user_id} AND food_category_id = {category.id} AND grams >= {amount};")
 
         return len(result) > 0
 
+    @staticmethod
+    def add_items_from_shop(user_id: int, shop_id: int) -> None:
+        qry = f"SELECT * FROM shopping_list as sl, item as i WHERE sl.user_id = {user_id} AND sl.is_active = 1 AND i.shop_id = {shop_id} AND i.id = sl.item_id;"
+        res = Db.select(qry)
+        
+        for curr in res:
+            item = Item(**curr)
+            qry = f"INSERT INTO storage (grams, user_id, food_category_id) VALUES ({item.grams}, {user_id}, {item.food_category_id});"
+            Db.insert(qry)
 
 
 
@@ -137,7 +152,15 @@ class FoodCategory(BaseModel):
         qry = f"SELECT * FROM food_category WHERE name = '{name}';"
         res = Db.select(qry)
         if len(res) == 0:
-            raise ValueError(f"Item {name} not found in database.")
+            return None
+        return FoodCategory(**res[0])
+    
+    @staticmethod
+    def get_by_id(category_id: int) -> "FoodCategory":
+        qry = f"SELECT * FROM food_category WHERE id = {category_id};"
+        res = Db.select(qry)
+        if len(res) == 0:
+            return None
         return FoodCategory(**res[0])
     
     @staticmethod
@@ -194,7 +217,11 @@ class ShoppingList(BaseModel):
         qry = f"SELECT i.vendor_id, fc.name_slo, s.name, s.site, i.grams, i.price FROM shopping_list as sl, item AS i , food_category as fc, shop as s WHERE user_id = {user_id} AND is_active = 1 AND sl.item_id = i.id AND fc.id = i.food_category_id AND i.shop_id = s.id AND s.id = {shop_id} ;"
         res = Db.select(qry)
         return res
-
+    
+    @staticmethod
+    def shop_user_store_list(user_id: int, store_id:int):
+        qry = f"UPDATE shopping_list SET is_active = 0 WHERE user_id = {user_id} AND item_id IN (SELECT id FROM item WHERE shop_id = {store_id});"
+        Db.update(qry)
 
 class Scraped(BaseModel):
     id: int

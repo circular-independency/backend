@@ -1,106 +1,1149 @@
 store,category,mid_category,product_id,name,price,discount,url
-Lidl,Grains,Premium,a27d840d-220c-4a37-a8e6-38b07c10049c,Grains 500g,9.38,-6%,https://example.com/product/a27d840d-220c-4a37-a8e6-38b07c10049c
-Lidl,Rice,Premium,203e7b75-2329-4329-a75a-f8a6ba813bab,Rice 100g,6.53,,https://example.com/product/203e7b75-2329-4329-a75a-f8a6ba813bab
-Hofer,Brown Rice,Premium,65b3cfd2-326b-4729-ab77-85d500f361d0,Brown Rice 750g,6.5,,https://example.com/product/65b3cfd2-326b-4729-ab77-85d500f361d0
-Tuš,Pasta,Organic,2b263444-b126-4572-8c1f-debbbaf92e89,Pasta 1000g,0.73,-30%,https://example.com/product/2b263444-b126-4572-8c1f-debbbaf92e89
-Hofer,Spaghetti,Local,197296a9-515c-484f-be99-ae464cbaa4be,Spaghetti 100g,4.82,-7%,https://example.com/product/197296a9-515c-484f-be99-ae464cbaa4be
-Tuš,Couscous,Basic,6d980d91-c9f0-4778-83ab-871f3d47c1c9,Couscous 1000g,6.83,-14%,https://example.com/product/6d980d91-c9f0-4778-83ab-871f3d47c1c9
-Tuš,Quinoa,Local,7ef86038-5800-43af-86df-c07572839f07,Quinoa 500g,1.12,-14%,https://example.com/product/7ef86038-5800-43af-86df-c07572839f07
-Lidl,Oats,Imported,dbc06d48-466e-46a6-bf0e-df1aa805f406,Oats 750g,9.49,,https://example.com/product/dbc06d48-466e-46a6-bf0e-df1aa805f406
-Spar,Buckwheat,Imported,0f3cfc54-590b-434b-9bcb-1aca2316e109,Buckwheat 100g,2.31,,https://example.com/product/0f3cfc54-590b-434b-9bcb-1aca2316e109
-Lidl,Barley,Local,d16bdff3-d92d-483f-9dfd-133761838b5e,Barley 750g,6.44,-29%,https://example.com/product/d16bdff3-d92d-483f-9dfd-133761838b5e
-Hofer,Bread,Basic,c3a2625b-106f-4bb6-8dfc-7e03c70ff02c,Bread 1000g,8.99,-7%,https://example.com/product/c3a2625b-106f-4bb6-8dfc-7e03c70ff02c
-Spar,Whole Wheat Bread,Basic,cecd4991-421e-462f-9049-aa33fdd87dc8,Whole Wheat Bread 1000g,8.33,,https://example.com/product/cecd4991-421e-462f-9049-aa33fdd87dc8
-Mercator,Tortilla,Premium,03eef65a-2693-4b50-9311-b7ae3b8d16f6,Tortilla 1000g,5.03,-12%,https://example.com/product/03eef65a-2693-4b50-9311-b7ae3b8d16f6
-Spar,Rye Bread,Organic,0b251fbc-e778-45e0-841b-75e310efdd02,Rye Bread 100g,2.58,,https://example.com/product/0b251fbc-e778-45e0-841b-75e310efdd02
-Spar,Nori,Premium,b560c911-3636-4db8-94cb-2a1cba6d3814,Nori 100g,9.3,,https://example.com/product/b560c911-3636-4db8-94cb-2a1cba6d3814
-Spar,Wakame,Premium,7e3ce9d1-0fd5-4c28-8d44-b8c47f6aa958,Wakame 500g,9.33,-15%,https://example.com/product/7e3ce9d1-0fd5-4c28-8d44-b8c47f6aa958
-Mercator,Kombu,Local,64eb24c8-25d6-4dc3-9c66-a0a7d9e82769,Kombu 750g,6.31,,https://example.com/product/64eb24c8-25d6-4dc3-9c66-a0a7d9e82769
-Spar,Tomato,Organic,629cdfbb-2e87-4e59-9542-a03ada6735e5,Tomato 100g,2.14,-18%,https://example.com/product/629cdfbb-2e87-4e59-9542-a03ada6735e5
-Spar,Potato,Basic,4019107b-f375-4049-8add-97ba0adcbd25,Potato 1000g,6.35,,https://example.com/product/4019107b-f375-4049-8add-97ba0adcbd25
-Lidl,Sweet Potato,Imported,7a1b5b7a-964b-46bd-bd1f-6d02cc658389,Sweet Potato 250g,2.65,,https://example.com/product/7a1b5b7a-964b-46bd-bd1f-6d02cc658389
-Lidl,Onion,Imported,85ee5dc4-29dd-422d-92cd-73ea6bdc0658,Onion 750g,4.15,-22%,https://example.com/product/85ee5dc4-29dd-422d-92cd-73ea6bdc0658
-Spar,Red Onion,Premium,d4786255-fcb0-40e6-be06-52f4af5f1e75,Red Onion 500g,1.78,,https://example.com/product/d4786255-fcb0-40e6-be06-52f4af5f1e75
-Tuš,Carrot,Basic,8cadb9e7-a400-46d1-8457-5a8d6752ef45,Carrot 250g,6.01,,https://example.com/product/8cadb9e7-a400-46d1-8457-5a8d6752ef45
-Hofer,Cucumber,Imported,51cda2b5-cde5-4077-8629-491dfcf4661c,Cucumber 500g,3.23,,https://example.com/product/51cda2b5-cde5-4077-8629-491dfcf4661c
-Lidl,Bell Pepper,Imported,cf80bdf5-8981-4f14-9208-f790adc6bcbc,Bell Pepper 250g,9.49,-13%,https://example.com/product/cf80bdf5-8981-4f14-9208-f790adc6bcbc
-Lidl,Spinach,Basic,38343944-59b4-4242-8704-0434f2c49b77,Spinach 500g,2.06,-29%,https://example.com/product/38343944-59b4-4242-8704-0434f2c49b77
-Spar,Broccoli,Imported,a7a94297-04e6-46c0-94dc-b0bbd8ef323d,Broccoli 500g,1.54,-11%,https://example.com/product/a7a94297-04e6-46c0-94dc-b0bbd8ef323d
-Hofer,Zucchini,Imported,85708476-f8db-4b5f-9856-5eaa6648c225,Zucchini 250g,3.09,-16%,https://example.com/product/85708476-f8db-4b5f-9856-5eaa6648c225
-Spar,Eggplant,Imported,fbcfeadb-1450-47c9-92a1-f3241ab00920,Eggplant 100g,8.18,-5%,https://example.com/product/fbcfeadb-1450-47c9-92a1-f3241ab00920
-Mercator,Cabbage,Basic,1bcc1a00-88b1-443c-8bc1-9a83547a97eb,Cabbage 250g,0.7,-14%,https://example.com/product/1bcc1a00-88b1-443c-8bc1-9a83547a97eb
-Mercator,Garlic,Premium,079139c2-34cf-45bd-b425-f16562ae536f,Garlic 250g,2.75,,https://example.com/product/079139c2-34cf-45bd-b425-f16562ae536f
-Mercator,Leek,Imported,e4bdfc36-6079-46b8-8cfd-89b897fbc46f,Leek 250g,5.47,,https://example.com/product/e4bdfc36-6079-46b8-8cfd-89b897fbc46f
-Tuš,Celery,Premium,3049e498-aada-4310-8d3f-f557cb618e74,Celery 1000g,4.53,,https://example.com/product/3049e498-aada-4310-8d3f-f557cb618e74
-Tuš,Mushroom,Local,b6110e75-7ed0-4d52-96a3-6645258e1b6f,Mushroom 1000g,1.79,,https://example.com/product/b6110e75-7ed0-4d52-96a3-6645258e1b6f
-Spar,Apple,Premium,564c9947-8276-40c2-8e0f-ca15e1783aa5,Apple 500g,1.57,-16%,https://example.com/product/564c9947-8276-40c2-8e0f-ca15e1783aa5
-Tuš,Banana,Imported,91ecf28e-1744-438f-8e38-0e88d9ec8c7f,Banana 1000g,2.76,,https://example.com/product/91ecf28e-1744-438f-8e38-0e88d9ec8c7f
-Tuš,Orange,Local,bd1fbfe2-434d-4612-88c2-e1ae1f53cd26,Orange 100g,6.96,,https://example.com/product/bd1fbfe2-434d-4612-88c2-e1ae1f53cd26
-Lidl,Lemon,Premium,ff936618-f8f2-4c80-aa57-ffb88cfaed0c,Lemon 500g,6.5,,https://example.com/product/ff936618-f8f2-4c80-aa57-ffb88cfaed0c
-Mercator,Lime,Organic,4182e5f9-40cc-4f43-80da-bf49ea795539,Lime 100g,2.79,,https://example.com/product/4182e5f9-40cc-4f43-80da-bf49ea795539
-Tuš,Grapes,Local,e371337d-9bd2-4f91-9401-062985b7e1c3,Grapes 750g,2.77,-29%,https://example.com/product/e371337d-9bd2-4f91-9401-062985b7e1c3
-Lidl,Berries,Imported,f94318b3-972c-4384-aff4-9e955f47a9c4,Berries 500g,4.27,-21%,https://example.com/product/f94318b3-972c-4384-aff4-9e955f47a9c4
-Hofer,Strawberry,Premium,fe29fd6d-c4b6-4f05-9f2f-c87897114c10,Strawberry 1000g,3.61,,https://example.com/product/fe29fd6d-c4b6-4f05-9f2f-c87897114c10
-Mercator,Blueberry,Imported,adfe7485-4b5a-4ba4-b4f0-ddcdf6cca89a,Blueberry 250g,8.02,,https://example.com/product/adfe7485-4b5a-4ba4-b4f0-ddcdf6cca89a
-Lidl,Pineapple,Basic,d9aeac8f-9bf0-4735-a5dd-7839cc255e9a,Pineapple 100g,5.74,-21%,https://example.com/product/d9aeac8f-9bf0-4735-a5dd-7839cc255e9a
-Hofer,Mango,Imported,8fdaf63b-5fef-458c-a9ba-2a6ed69487a5,Mango 1000g,7.87,-23%,https://example.com/product/8fdaf63b-5fef-458c-a9ba-2a6ed69487a5
-Tuš,Pear,Organic,8575a562-39a0-4619-9388-ea791826cf1d,Pear 1000g,6.14,-18%,https://example.com/product/8575a562-39a0-4619-9388-ea791826cf1d
-Lidl,Peach,Premium,af39d419-36da-49f7-b233-709c582d35a0,Peach 250g,8.06,-27%,https://example.com/product/af39d419-36da-49f7-b233-709c582d35a0
-Hofer,Milk,Premium,7ce42985-a69a-4744-a2df-75ef77406c36,Milk 500ml,6.23,-23%,https://example.com/product/7ce42985-a69a-4744-a2df-75ef77406c36
-Hofer,Skim Milk,Basic,a36caebf-5acb-4a5e-809c-9faefe78ae6b,Skim Milk 500g,8.32,-22%,https://example.com/product/a36caebf-5acb-4a5e-809c-9faefe78ae6b
-Lidl,Cheese,Basic,b5a43617-f024-4638-aac2-0e978f505d83,Cheese 750g,7.18,,https://example.com/product/b5a43617-f024-4638-aac2-0e978f505d83
-Lidl,Mozzarella,Organic,4bf7b430-fd86-48a6-815b-9ee7098143cc,Mozzarella 250g,8.7,-24%,https://example.com/product/4bf7b430-fd86-48a6-815b-9ee7098143cc
-Hofer,Butter,Basic,eef620b4-d8a6-42f2-8fd2-aecd9569f86e,Butter 1000g,0.94,-19%,https://example.com/product/eef620b4-d8a6-42f2-8fd2-aecd9569f86e
-Lidl,Yogurt,Premium,342a6057-2cf2-40c3-866d-d42f0b806fe7,Yogurt 750g,7.48,,https://example.com/product/342a6057-2cf2-40c3-866d-d42f0b806fe7
-Mercator,Greek Yogurt,Basic,f98766bd-4d40-479a-8332-365d96dd629a,Greek Yogurt 100g,6.49,-28%,https://example.com/product/f98766bd-4d40-479a-8332-365d96dd629a
-Tuš,Cream,Imported,b0ca369c-f5c8-4080-bee6-49f472bbbafb,Cream 750ml,9.96,,https://example.com/product/b0ca369c-f5c8-4080-bee6-49f472bbbafb
-Hofer,Beef,Premium,b755585b-5a75-4297-87cf-a27cd5a845a5,Beef 750g,1.7,,https://example.com/product/b755585b-5a75-4297-87cf-a27cd5a845a5
-Spar,Chicken,Organic,f9be4045-afe9-4998-8472-3ec2802c1805,Chicken 100g,6.35,,https://example.com/product/f9be4045-afe9-4998-8472-3ec2802c1805
-Mercator,Pork,Organic,f5e8609f-5b49-4f1f-ac45-82a394cdd8d0,Pork 500g,3.39,,https://example.com/product/f5e8609f-5b49-4f1f-ac45-82a394cdd8d0
-Lidl,Lamb,Basic,ea4d3968-d89a-4cc1-a6f2-44411d90c612,Lamb 500g,1.74,,https://example.com/product/ea4d3968-d89a-4cc1-a6f2-44411d90c612
-Mercator,Turkey,Local,e0341695-26a6-45e3-8d14-78850490071f,Turkey 500g,3.77,-12%,https://example.com/product/e0341695-26a6-45e3-8d14-78850490071f
-Mercator,Duck,Basic,ee3334aa-0ec3-446b-ae03-bf00f91972df,Duck 1000g,6.33,-22%,https://example.com/product/ee3334aa-0ec3-446b-ae03-bf00f91972df
-Mercator,Salmon,Imported,73274730-56c5-4ecc-98da-362104e650d5,Salmon 250g,8.19,-27%,https://example.com/product/73274730-56c5-4ecc-98da-362104e650d5
-Lidl,Tuna,Organic,7ba33836-0ef6-49ed-ac29-1007ea0070b1,Tuna 750g,2.9,-25%,https://example.com/product/7ba33836-0ef6-49ed-ac29-1007ea0070b1
-Spar,Cod,Premium,d34f3218-c253-4cd8-ab4b-ba37c1aee501,Cod 750g,8.91,,https://example.com/product/d34f3218-c253-4cd8-ab4b-ba37c1aee501
-Spar,Trout,Basic,57fe7e0c-0156-41bc-becc-b8789b8ad4c1,Trout 100g,7.0,-10%,https://example.com/product/57fe7e0c-0156-41bc-becc-b8789b8ad4c1
-Mercator,Egg,Premium,b47bd404-d862-4a3e-a404-e043c6f85ba7,Egg 1000g,1.18,-26%,https://example.com/product/b47bd404-d862-4a3e-a404-e043c6f85ba7
-Mercator,Egg White,Local,88ffeb82-11ac-47d7-964a-657f934d7dce,Egg White 1000g,4.66,-22%,https://example.com/product/88ffeb82-11ac-47d7-964a-657f934d7dce
-Mercator,Legumes,Local,5c61479b-4ba4-477e-8817-73e614fc50ad,Legumes 500g,3.58,-9%,https://example.com/product/5c61479b-4ba4-477e-8817-73e614fc50ad
-Spar,Lentils,Imported,dc24f73a-17ce-4bd9-923e-d8c8177c24da,Lentils 750g,5.37,,https://example.com/product/dc24f73a-17ce-4bd9-923e-d8c8177c24da
-Hofer,Chickpeas,Basic,90fac682-2c02-4b8f-a6c2-315559285938,Chickpeas 750g,1.6,,https://example.com/product/90fac682-2c02-4b8f-a6c2-315559285938
-Spar,Kidney Beans,Organic,1bc8bae5-f096-492d-9040-28db88072101,Kidney Beans 1000g,2.62,,https://example.com/product/1bc8bae5-f096-492d-9040-28db88072101
-Tuš,Black Beans,Local,994a168c-b41a-4b96-8c9f-af1ad56a653d,Black Beans 250g,6.02,,https://example.com/product/994a168c-b41a-4b96-8c9f-af1ad56a653d
-Hofer,Green Peas,Imported,c1e9f7de-6d16-49a0-ae72-a79294dc6d7b,Green Peas 250g,6.28,,https://example.com/product/c1e9f7de-6d16-49a0-ae72-a79294dc6d7b
-Mercator,Soybeans,Local,daf89366-1a8d-4c7e-817c-43761bd1606e,Soybeans 100g,8.5,-9%,https://example.com/product/daf89366-1a8d-4c7e-817c-43761bd1606e
-Spar,Nuts,Organic,b64277cc-3b92-4fc3-9784-793e16bbce3b,Nuts 500g,8.36,,https://example.com/product/b64277cc-3b92-4fc3-9784-793e16bbce3b
-Hofer,Almonds,Local,d0c92b0e-750a-40b9-9c99-4bc2ef69dacb,Almonds 750g,8.05,-24%,https://example.com/product/d0c92b0e-750a-40b9-9c99-4bc2ef69dacb
-Tuš,Peanuts,Premium,40f0df44-6672-43c4-9c88-bdf342b2eeef,Peanuts 1000g,1.2,,https://example.com/product/40f0df44-6672-43c4-9c88-bdf342b2eeef
-Mercator,Walnuts,Imported,04e5c89e-b688-4ad8-ad92-4d0ace57100a,Walnuts 750g,9.8,-29%,https://example.com/product/04e5c89e-b688-4ad8-ad92-4d0ace57100a
-Spar,Cashews,Premium,5c68a322-9d42-40c6-9879-baa0acd9c0a6,Cashews 1000g,2.48,-13%,https://example.com/product/5c68a322-9d42-40c6-9879-baa0acd9c0a6
-Tuš,Olive Oil,Organic,0b2ecaca-26d3-4ba4-abc5-3c0e84e8d1c1,Olive Oil 750ml,3.39,,https://example.com/product/0b2ecaca-26d3-4ba4-abc5-3c0e84e8d1c1
-Spar,Vegetable Oil,Local,b2cee360-7e2d-4917-baca-c30037448a64,Vegetable Oil 250ml,1.39,,https://example.com/product/b2cee360-7e2d-4917-baca-c30037448a64
-Lidl,Coconut Oil,Premium,21cbaebd-26c5-47fc-8761-ba17ef81ec36,Coconut Oil 1000ml,1.25,-26%,https://example.com/product/21cbaebd-26c5-47fc-8761-ba17ef81ec36
-Spar,Avocado Oil,Imported,1d28cb9a-49c0-4dda-95a4-50d7a08531cf,Avocado Oil 750ml,3.51,,https://example.com/product/1d28cb9a-49c0-4dda-95a4-50d7a08531cf
-Tuš,Condiments,Local,0fad6612-1884-4278-9865-d153f1feb7f6,Condiments 750g,2.44,-23%,https://example.com/product/0fad6612-1884-4278-9865-d153f1feb7f6
-Hofer,Salt,Organic,d3addecc-1e4d-4102-88f1-6851c2ccc94b,Salt 500g,6.53,-8%,https://example.com/product/d3addecc-1e4d-4102-88f1-6851c2ccc94b
-Tuš,Sugar,Local,87994be9-3adf-419b-a2e7-af789a1a1bf7,Sugar 500g,7.93,,https://example.com/product/87994be9-3adf-419b-a2e7-af789a1a1bf7
-Hofer,Honey,Premium,3bf3fbf4-9032-4df9-88aa-fe91e1c7f5aa,Honey 500g,5.01,-13%,https://example.com/product/3bf3fbf4-9032-4df9-88aa-fe91e1c7f5aa
-Tuš,Vinegar,Basic,636a782f-5e09-48f3-be95-4b14b65970e1,Vinegar 100ml,6.83,,https://example.com/product/636a782f-5e09-48f3-be95-4b14b65970e1
-Spar,Soy Sauce,Organic,a85686ab-27a4-4831-bfba-a461f663c9c8,Soy Sauce 1000ml,7.12,,https://example.com/product/a85686ab-27a4-4831-bfba-a461f663c9c8
-Tuš,Miso,Imported,b11a6e79-34e5-4289-8288-496d4d1aa61d,Miso 100g,3.81,,https://example.com/product/b11a6e79-34e5-4289-8288-496d4d1aa61d
-Mercator,Mustard,Organic,553796af-105c-4b05-9440-72018599a4f0,Mustard 1000g,9.34,-7%,https://example.com/product/553796af-105c-4b05-9440-72018599a4f0
-Tuš,Mayonnaise,Imported,c4fb3c16-64b9-4a74-a62e-de0d29064132,Mayonnaise 500g,1.21,,https://example.com/product/c4fb3c16-64b9-4a74-a62e-de0d29064132
-Tuš,Herbs,Premium,6c473fc3-6ab7-4ac1-9e58-4d5aea73c3f5,Herbs 750g,9.25,,https://example.com/product/6c473fc3-6ab7-4ac1-9e58-4d5aea73c3f5
-Spar,Basil,Organic,f35f3734-154a-4928-8f41-d104fd60db96,Basil 500g,5.45,-17%,https://example.com/product/f35f3734-154a-4928-8f41-d104fd60db96
-Lidl,Parsley,Imported,4b9d2afc-1f18-443d-845b-471d1b558985,Parsley 750g,1.59,,https://example.com/product/4b9d2afc-1f18-443d-845b-471d1b558985
-Hofer,Coriander,Local,179e6ea3-41f8-44e9-b05f-9b6eefb2bbe4,Coriander 250g,9.43,-13%,https://example.com/product/179e6ea3-41f8-44e9-b05f-9b6eefb2bbe4
-Mercator,Dill,Premium,0855f51c-5823-4d7d-ab3b-86a81111735d,Dill 1000g,7.7,-13%,https://example.com/product/0855f51c-5823-4d7d-ab3b-86a81111735d
-Mercator,Spices,Basic,6b784a9f-4cb6-4b7a-931c-b8cd36359f1b,Spices 100g,2.75,,https://example.com/product/6b784a9f-4cb6-4b7a-931c-b8cd36359f1b
-Lidl,Black Pepper,Local,ce1c03a5-6b09-4eef-8e10-a0f04f44bf3f,Black Pepper 100g,9.34,-9%,https://example.com/product/ce1c03a5-6b09-4eef-8e10-a0f04f44bf3f
-Hofer,Cinnamon,Local,ee41bd28-d55b-437d-be05-37345062c68f,Cinnamon 100g,7.19,-10%,https://example.com/product/ee41bd28-d55b-437d-be05-37345062c68f
-Hofer,Turmeric,Local,d520fdd6-9b2b-467a-84e6-6dfcf3ab3418,Turmeric 1000g,2.29,,https://example.com/product/d520fdd6-9b2b-467a-84e6-6dfcf3ab3418
-Tuš,Paprika,Premium,1565342f-acb2-41b4-b5ec-9b48887da4fa,Paprika 1000g,9.12,,https://example.com/product/1565342f-acb2-41b4-b5ec-9b48887da4fa
-Mercator,Tofu,Imported,c334aead-3a8c-4f4e-bb12-df0ecd49bd63,Tofu 100g,7.01,,https://example.com/product/c334aead-3a8c-4f4e-bb12-df0ecd49bd63
-Spar,Tempeh,Local,87ddc341-ad42-4058-a740-afb78b50e978,Tempeh 1000g,5.65,,https://example.com/product/87ddc341-ad42-4058-a740-afb78b50e978
-Spar,Seaweed,Premium,500373be-9197-410c-91e8-8f79b8e404ac,Seaweed 500g,8.27,-28%,https://example.com/product/500373be-9197-410c-91e8-8f79b8e404ac
+Spar,sadje in zelenjava,sveza zelenjava,438826,Spread 500g,"1,99 €",,https://www.spar.si/online/spinaca-spar-500g/p/438826
+Spar,sadje in zelenjava,sveza zelenjava,492054,Pear 500g,"2,49 €",,https://www.spar.si/online/sampinjoni-spar-500g/p/492054
+Spar,sadje in zelenjava,sveza zelenjava,503052,Pear 2500g,"3,49 €",,https://www.spar.si/online/krompir-za-pecenje-spar-25kg/p/503052
+Spar,sadje in zelenjava,sveza zelenjava,521567,Pear 1500g,"1,59 €",,https://www.spar.si/online/cebula-spar-15kg/p/521567
+Spar,sadje in zelenjava,sveza zelenjava,481706,Miso 1000g,"2,98 €",,https://www.spar.si/online/kislo-zelje-za-sarmo-spar-1kg/p/481706
+Spar,sadje in zelenjava,sveza zelenjava,521567,Pear 1500g,"1,59 €",,https://www.spar.si/online/cebula-spar-15kg/p/521567
+Spar,sadje in zelenjava,sveza zelenjava,541242,Green peas 200g,"2,49 €",,https://www.spar.si/online/cesen-spar-200g/p/541242
+Spar,sadje in zelenjava,sveza zelenjava,525528,Cream 1000g,"1,49 €",,https://www.spar.si/online/rdeca-cebula-spar-1-kg/p/525528
+Spar,sadje in zelenjava,sveza zelenjava,484994,Green peas 250g,"3,49 €",,https://www.spar.si/online/bio-cesen-spar-naturpur-250g/p/484994
+Spar,sadje in zelenjava,sveza zelenjava,483852,Pork 300g,"3,19 €",,https://www.spar.si/online/bio-por-spar-naturpur-300g-pakirano/p/483852
+Spar,sadje in zelenjava,sveza zelenjava,503052,Pear 2500g,"3,49 €",,https://www.spar.si/online/krompir-za-pecenje-spar-25kg/p/503052
+Spar,sadje in zelenjava,sveza zelenjava,434006,Pear 3500g,"2,99 €","REDNA CENA 4,29 €",https://www.spar.si/online/krompir-spar-35kg/p/434006
+Spar,sadje in zelenjava,sveza zelenjava,503033,Pear 2500g,"3,49 €",,https://www.spar.si/online/krompir-za-kuhanje-spar-25kg/p/503033
+Spar,sadje in zelenjava,sveza zelenjava,641053,Berries 5000g,"2,99 €",,https://www.spar.si/online/krompir-beli-s-budget-5kg/p/641053
+Spar,sadje in zelenjava,sveza zelenjava,438752,Salami 1000g,"1,99 €",,https://www.spar.si/online/krompir-sladki-1kg/p/438752
+Spar,sadje in zelenjava,sveza zelenjava,438826,Spread 500g,"1,99 €",,https://www.spar.si/online/spinaca-spar-500g/p/438826
+Spar,sadje in zelenjava,sveza zelenjava,438811,Spread 100g,"1,19 €",,https://www.spar.si/online/rukola-spar-100g/p/438811
+Spar,sadje in zelenjava,sveza zelenjava,438816,Spread 100g,"1,19 €",,https://www.spar.si/online/solata-berivka-spar-100g/p/438816
+Spar,sadje in zelenjava,sveza zelenjava,438808,Parsley 100g,"1,19 €",,https://www.spar.si/online/motovilec-spar-100g/p/438808
+Spar,sadje in zelenjava,sveza zelenjava,438819,Spread 150g,"0,99 €","REDNA CENA 1,29 €",https://www.spar.si/online/mesana-solata-spar-150g/p/438819
+Spar,sadje in zelenjava,sveza zelenjava,512096,Orange 1000g,"1,49 €",,https://www.spar.si/online/korenje-spar-1kg/p/512096
+Spar,sadje in zelenjava,sveza zelenjava,483849,Pear 500g,"2,29 €",,https://www.spar.si/online/bio-zelena-gomolj-spar-naturpur-500g/p/483849
+Spar,sadje in zelenjava,sveza zelenjava,483850,Onion 300g,"2,59 €",,https://www.spar.si/online/bio-petersilj-korenina-spar-naturpur-300g/p/483850
+Spar,sadje in zelenjava,sveza zelenjava,483848,Pear 350g,"2,39 €",,https://www.spar.si/online/bio-zelena-list-spar-naturpur-350g/p/483848
+Spar,sadje in zelenjava,sveza zelenjava,483822,Orange 500g,"1,59 €",,https://www.spar.si/online/bio-korenje-spar-naturpur-500g/p/483822
+Spar,sadje in zelenjava,sveza zelenjava,492054,Pear 500g,"2,49 €",,https://www.spar.si/online/sampinjoni-spar-500g/p/492054
+Spar,sadje in zelenjava,sveza zelenjava,492056,Pear 250g,"1,59 €",,https://www.spar.si/online/sampinjoni-spar-250g/p/492056
+Spar,sadje in zelenjava,sveza zelenjava,486528,Tea 80g,"3,49 €",,https://www.spar.si/online/mesanica-suhih-gob-z-jurcki-despar-80g/p/486528
+Spar,sadje in zelenjava,sveza zelenjava,586799,Grains 500g,"1,99 €",,https://www.spar.si/online/sampinjoni-rjavi-s-budget-500g/p/586799
+Spar,sadje in zelenjava,sveza zelenjava,379317,Berries 500g,"1,79 €",,https://www.spar.si/online/sampinjoni-beli-s-budget-500g/p/379317
+Spar,sadje in zelenjava,sveza zelenjava,485121,Pear 500g,"2,49 €",,https://www.spar.si/online/bio-bucke-spar-naturpur-500g/p/485121
+Spar,sadje in zelenjava,sveza zelenjava,481706,Miso 1000g,"2,98 €",,https://www.spar.si/online/kislo-zelje-za-sarmo-spar-1kg/p/481706
+Spar,sadje in zelenjava,sveza zelenjava,547983,Miso 660g,"1,79 €",,https://www.spar.si/online/kislo-zelje-spar-660g/p/547983
+Spar,sadje in zelenjava,sveza zelenjava,543001,Miso 500g,"1,49 €",,https://www.spar.si/online/kislo-zelje-spar-500g/p/543001
+Spar,sadje in zelenjava,sveza zelenjava,339633,Miso 1000g,"1,89 €",,https://www.spar.si/online/kislo-zelje-spar-1kg/p/339633
+Spar,sadje in zelenjava,sveza zelenjava,483849,Pear 500g,"2,29 €",,https://www.spar.si/online/bio-zelena-gomolj-spar-naturpur-500g/p/483849
+Spar,sadje in zelenjava,sveza zelenjava,508832,Pear 400g,"2,49 €","REDNA CENA 3,49 €",https://www.spar.si/online/paradiznik-papeletto-spar-400g/p/508832
+Spar,sadje in zelenjava,sveza zelenjava,484993,Pear 250g,"1,99 €",,https://www.spar.si/online/bio-paradiznik-daterino-spar-naturpur-250g/p/484993
+Spar,sadje in zelenjava,sveza zelenjava,483820,Pear 500g,"3,19 €",,https://www.spar.si/online/bio-paradiznik-spar-naturpur-500g/p/483820
+Spar,sadje in zelenjava,sveza zelenjava,483823,Pear 250g,"1,99 €",,https://www.spar.si/online/bio-cesnjev-paradiznik-spar-naturpur-250g/p/483823
+Spar,sadje in zelenjava,sveza zelenjava,483004,Paprika 400g,"3,49 €",,https://www.spar.si/online/bio-paprika-spar-naturpur-400g/p/483004
+Spar,sadje in zelenjava,sveza zelenjava,483897,Pear 400g,"3,99 €",,https://www.spar.si/online/bio-strocji-fizol-spar-naturpur-400g-pakirano/p/483897
+Spar,sadje in zelenjava,sveza zelenjava,645982,Tuna 500g,"1,69 €",,https://www.spar.si/online/jusna-zelenjava-spar-500g/p/645982
+Spar,sadje in zelenjava,sveza zelenjava,483804,Vinegar 300g,"2,99 €",,https://www.spar.si/online/bio-ingver-spar-naturpur-300g/p/483804
+Spar,sadje in zelenjava,sveza zelenjava,483817,Tuna 500g,"2,99 €",,https://www.spar.si/online/bio-jusna-zelenjava-spar-naturpur-500g/p/483817
+Spar,sadje in zelenjava,sveza zelenjava,512193,Tuna 400g,"1,29 €",,https://www.spar.si/online/jusna-zelenjava-s-budget-400g/p/512193
+Spar,sadje in zelenjava,sveza zelenjava,291650,Paprika 1000g,"0,70 €",,https://www.spar.si/online/articoka-1kg/p/291650
+Spar,sadje in zelenjava,sveze sadje,558016,Salami 2000g,"2,99 €",,https://www.spar.si/online/jabolka-gala-2kg-spar-pakirano/p/558016
+Spar,sadje in zelenjava,sveze sadje,653237,Mango 500g,"3,79 €",,https://www.spar.si/online/mango-v-kosckih-spar-500g/p/653237
+Spar,sadje in zelenjava,sveze sadje,568097,Banana 1000g,"1,00 €",,https://www.spar.si/online/bio-banane-spar-naturpur-1kg-nepakirano/p/568097
+Spar,sadje in zelenjava,sveze sadje,484992,Avocado oil 300g,"3,99 €",,https://www.spar.si/online/bio-avokado-spar-naturpur-300g/p/484992
+Spar,sadje in zelenjava,sveze sadje,660316,Brown rice 125g,"2,49 €",,https://www.spar.si/online/bio-borovnice-spar-naturpur-125g/p/660316
+Spar,sadje in zelenjava,sveze sadje,558016,Salami 2000g,"2,99 €",,https://www.spar.si/online/jabolka-gala-2kg-spar-pakirano/p/558016
+Spar,sadje in zelenjava,sveze sadje,653237,Mango 500g,"3,79 €",,https://www.spar.si/online/mango-v-kosckih-spar-500g/p/653237
+Spar,sadje in zelenjava,sveze sadje,484735,Cream 600g,"1,99 €",,https://www.spar.si/online/bio-rdeca-jabolka-spar-naturpur-600g/p/484735
+Spar,sadje in zelenjava,sveze sadje,483799,Pear 500g,"2,49 €",,https://www.spar.si/online/bio-hruske-spar-naturpur-500g/p/483799
+Spar,sadje in zelenjava,sveze sadje,568097,Banana 1000g,"1,00 €",,https://www.spar.si/online/bio-banane-spar-naturpur-1kg-nepakirano/p/568097
+Spar,sadje in zelenjava,sveze sadje,11638,Banana 1000g,"0,70 €",,https://www.spar.si/online/banane-1kg/p/11638
+Spar,sadje in zelenjava,sveze sadje,482801,Orange 1000g,"2,69 €",,https://www.spar.si/online/bio-pomarance-spar-naturpur-1kg/p/482801
+Spar,sadje in zelenjava,sveze sadje,482802,Lime 500g,"1,49 €",,https://www.spar.si/online/bio-limone-spar-naturpur-500g/p/482802
+Spar,sadje in zelenjava,sveze sadje,443890,Lime 500g,"0,99 €",,https://www.spar.si/online/limone-s-budget-500g-pakirano/p/443890
+Spar,sadje in zelenjava,sveze sadje,484246,Orange 1000g,"1,04 €","REDNA CENA 1,39 €",https://www.spar.si/online/pomarance-natalia-1kg/p/484246
+Spar,sadje in zelenjava,sveze sadje,215164,Lime 1000g,"1,05 €",,https://www.spar.si/online/limeta-1kg/p/215164
+Spar,sadje in zelenjava,sveze sadje,436055,Bread 500g,"2,49 €",,https://www.spar.si/online/grozdje-rdece-namizno-brez-pesk-500g/p/436055
+Spar,sadje in zelenjava,sveze sadje,304714,Bread 500g,"2,99 €",,https://www.spar.si/online/grozdje-belo-namizno-brez-pesk-500g/p/304714
+Spar,sadje in zelenjava,sveze sadje,523177,Mango 400g,"3,99 €",,https://www.spar.si/online/bio-mango-spar-naturpur-400g/p/523177
+Spar,sadje in zelenjava,sveze sadje,339362,Paprika 200g,"3,49 €",,https://www.spar.si/online/pasijonka-200g-pakirano/p/339362
+Spar,sadje in zelenjava,sveze sadje,339422,Cream 300g,"4,99 €",,https://www.spar.si/online/rdeca-pitaja-300g-pakirano/p/339422
+Spar,sadje in zelenjava,sveze sadje,51482,Mango 1000g,"1,99 €",,https://www.spar.si/online/mango-1kg/p/51482
+Spar,sadje in zelenjava,sveze sadje,51483,Paprika 1000g,"2,10 €",,https://www.spar.si/online/papaja-1kg/p/51483
+Spar,sadje in zelenjava,sveze sadje,484992,Avocado oil 300g,"3,99 €",,https://www.spar.si/online/bio-avokado-spar-naturpur-300g/p/484992
+Spar,sadje in zelenjava,sveze sadje,660316,Brown rice 125g,"2,49 €",,https://www.spar.si/online/bio-borovnice-spar-naturpur-125g/p/660316
+Spar,sadje in zelenjava,sveze sadje,483821,Pear 500g,"2,79 €",,https://www.spar.si/online/bio-kivi-spar-naturpur-500g/p/483821
+Spar,sadje in zelenjava,sveze sadje,643857,Pear 400g,"3,99 €",,https://www.spar.si/online/jagode-spar-premium-400g-pakirano/p/643857
+Spar,sadje in zelenjava,sveze sadje,317843,Potato 1000g,"2,85 €",,https://www.spar.si/online/rezan-ananas-spar-to-go-1kg/p/317843
+Spar,sadje in zelenjava,suho sadje in orescki,200489,Pear 200g,"2,99 €",,https://www.spar.si/online/lesniki-jedrca-spar-200g/p/200489
+Spar,sadje in zelenjava,suho sadje in orescki,553078,Pear 100g,"1,49 €",,https://www.spar.si/online/kandirane-cesnje-spar-100g/p/553078
+Spar,sadje in zelenjava,suho sadje in orescki,340799,Lentils 200g,"1,79 €","REDNA CENA 1,99 €",https://www.spar.si/online/mleti-orehi-spar-200g/p/340799
+Spar,sadje in zelenjava,suho sadje in orescki,274032,Tea 200g,"2,39 €",,https://www.spar.si/online/nastrgani-mandlji-spar-200g/p/274032
+Spar,sadje in zelenjava,suho sadje in orescki,200479,Pear 200g,"1,39 €",,https://www.spar.si/online/kokos-moka-spar-200g/p/200479
+Spar,sadje in zelenjava,suho sadje in orescki,553078,Pear 100g,"1,49 €",,https://www.spar.si/online/kandirane-cesnje-spar-100g/p/553078
+Spar,sadje in zelenjava,suho sadje in orescki,200479,Pear 200g,"1,39 €",,https://www.spar.si/online/kokos-moka-spar-200g/p/200479
+Spar,sadje in zelenjava,suho sadje in orescki,200222,Rice 200g,"0,95 €",,https://www.spar.si/online/suhe-rozine-spar-200g/p/200222
+Spar,sadje in zelenjava,suho sadje in orescki,305976,Rice 200g,"1,49 €",,https://www.spar.si/online/zlate-rozine-spar-200g/p/305976
+Spar,sadje in zelenjava,suho sadje in orescki,648072,Lime 200g,"2,09 €",,https://www.spar.si/online/suhe-slive-brez-koscic-brez-konzervansov-spar-200-g/p/648072
+Spar,sadje in zelenjava,suho sadje in orescki,353947,Semolina 150g,"4,99 €",,https://www.spar.si/online/pistacija-soljena-ltje-150g/p/353947
+Spar,sadje in zelenjava,suho sadje in orescki,200489,Pear 200g,"2,99 €",,https://www.spar.si/online/lesniki-jedrca-spar-200g/p/200489
+Spar,sadje in zelenjava,suho sadje in orescki,340799,Lentils 200g,"1,79 €","REDNA CENA 1,99 €",https://www.spar.si/online/mleti-orehi-spar-200g/p/340799
+Spar,sadje in zelenjava,strocnice in semena,658400,Pear 500g,"2,49 €",,https://www.spar.si/online/bio-cicerika-spar-naturpur-500g/p/658400
+Spar,sadje in zelenjava,strocnice in semena,658401,Mango 500g,"2,49 €",,https://www.spar.si/online/bio-fizol-mungo-spar-naturpur-500g/p/658401
+Spar,sadje in zelenjava,strocnice in semena,446076,Tempeh 250g,"1,39 €",,https://www.spar.si/online/bio-sezamovo-seme-spar-naturpur-250g/p/446076
+Spar,sadje in zelenjava,strocnice in semena,311753,Bun 200g,"2,99 €",,https://www.spar.si/online/bio-bucna-semena-spar-naturpur-200g/p/311753
+Spar,sadje in zelenjava,strocnice in semena,658399,Pear 500g,"2,99 €",,https://www.spar.si/online/bio-beluga-leca-spar-naturpur-500g/p/658399
+Spar,sadje in zelenjava,strocnice in semena,658400,Pear 500g,"2,49 €",,https://www.spar.si/online/bio-cicerika-spar-naturpur-500g/p/658400
+Spar,sadje in zelenjava,strocnice in semena,658401,Mango 500g,"2,49 €",,https://www.spar.si/online/bio-fizol-mungo-spar-naturpur-500g/p/658401
+Spar,sadje in zelenjava,strocnice in semena,658399,Pear 500g,"2,99 €",,https://www.spar.si/online/bio-beluga-leca-spar-naturpur-500g/p/658399
+Spar,sadje in zelenjava,strocnice in semena,153596,Tea 500g,"1,69 €",,https://www.spar.si/online/posusena-cicerika-despar-500g/p/153596
+Spar,sadje in zelenjava,strocnice in semena,147364,Tea 500g,"1,99 €",,https://www.spar.si/online/fizol-cannellini-despar-500g/p/147364
+Spar,sadje in zelenjava,strocnice in semena,446076,Tempeh 250g,"1,39 €",,https://www.spar.si/online/bio-sezamovo-seme-spar-naturpur-250g/p/446076
+Spar,sadje in zelenjava,strocnice in semena,311753,Bun 200g,"2,99 €",,https://www.spar.si/online/bio-bucna-semena-spar-naturpur-200g/p/311753
+Spar,sadje in zelenjava,strocnice in semena,565643,Banana 350g,"2,39 €",,https://www.spar.si/online/bio-lanena-semena-drobljena-spar-naturpur-350g/p/565643
+Spar,sadje in zelenjava,strocnice in semena,339922,Bun 200g,"2,99 €",,https://www.spar.si/online/bio-bucna-semena-prazena-in-soljena-spar-naturpur-200g/p/339922
+Spar,sadje in zelenjava,strocnice in semena,594587,Green peas 350g,"2,99 €",,https://www.spar.si/online/bio-mesanica-semen-spar-naturpur-350g/p/594587
+Spar,sadje in zelenjava,sveza zelisca in zacimbe,483850,Onion 300g,"2,59 €",,https://www.spar.si/online/bio-petersilj-korenina-spar-naturpur-300g/p/483850
+Spar,sadje in zelenjava,sveza zelisca in zacimbe,483850,Onion 300g,"2,59 €",,https://www.spar.si/online/bio-petersilj-korenina-spar-naturpur-300g/p/483850
+Spar,sadje in zelenjava,sveza zelisca in zacimbe,122024,Salami 100g,"2,49 €",,https://www.spar.si/online/kalcki-alfa-100g/p/122024
+Spar,sadje in zelenjava,sveza zelisca in zacimbe,327288,Tea 50g,"2,29 €",,https://www.spar.si/online/kalcki-redkvica-50g/p/327288
+Spar,sadje in zelenjava,sveze pripravljeni napitki in solate,449013,Oats 1000g,"3,00 €",,https://www.spar.si/online/solata-s-piscancjimi-fingersi-spar-to-go-1kg/p/449013
+Spar,sadje in zelenjava,sveze pripravljeni napitki in solate,541861,Potato 1000g,"2,09 €",,https://www.spar.si/online/testenine-s-sunko-spar-to-go-1kg/p/541861
+Spar,sadje in zelenjava,sveze pripravljeni napitki in solate,449013,Oats 1000g,"3,00 €",,https://www.spar.si/online/solata-s-piscancjimi-fingersi-spar-to-go-1kg/p/449013
+Spar,sadje in zelenjava,sveze pripravljeni napitki in solate,541861,Potato 1000g,"2,09 €",,https://www.spar.si/online/testenine-s-sunko-spar-to-go-1kg/p/541861
+Spar,hlajeni in mlecni izdelki,mleko in mlecni napitki,568451,Yogurt 250g,"0,46 €",,https://www.spar.si/online/jogurtov-napitek-na-turski-nacin-ayran-spar-250g/p/568451
+Spar,hlajeni in mlecni izdelki,mleko in mlecni napitki,493760,Milk 500g,"1,89 €",,https://www.spar.si/online/kondenzirano-mleko-spar-500g/p/493760
+Spar,hlajeni in mlecni izdelki,mleko in mlecni napitki,493760,Milk 500g,"1,89 €",,https://www.spar.si/online/kondenzirano-mleko-spar-500g/p/493760
+Spar,hlajeni in mlecni izdelki,mleko in mlecni napitki,552081,Mustard 0g,"1,39 €",,https://www.spar.si/online/trajno-mleko-brez-laktoze-35-mm-spar-free-from-1l/p/552081
+Spar,hlajeni in mlecni izdelki,mleko in mlecni napitki,392118,Skim milk 180g,"0,74 €",,https://www.spar.si/online/kislo-mleko-cvrsto-32-mm-zelene-doline-180g/p/392118
+Spar,hlajeni in mlecni izdelki,mleko in mlecni napitki,147699,Skim milk 500g,"1,62 €",,https://www.spar.si/online/kislo-mleko-11-mm-planika-500g/p/147699
+Spar,hlajeni in mlecni izdelki,mleko in mlecni napitki,443630,Skim milk 180g,"0,68 €",,https://www.spar.si/online/bohinjsko-kislo-mleko-bohinjska-sirarna-180g/p/443630
+Spar,hlajeni in mlecni izdelki,mleko in mlecni napitki,552457,Skim milk 500g,"1,75 €",,https://www.spar.si/online/bohinjsko-kislo-mleko-bohinjska-sirarna-500g/p/552457
+Spar,hlajeni in mlecni izdelki,mleko in mlecni napitki,587528,Skim milk 200g,"0,94 €",,https://www.spar.si/online/bio-kislo-mleko-32-mm-brez-gso-mlekarna-krepko-200g/p/587528
+Spar,hlajeni in mlecni izdelki,mleko in mlecni napitki,568451,Yogurt 250g,"0,46 €",,https://www.spar.si/online/jogurtov-napitek-na-turski-nacin-ayran-spar-250g/p/568451
+Spar,hlajeni in mlecni izdelki,mleko in mlecni napitki,636223,Tea 130g,"2,59 €",,https://www.spar.si/online/bio-ovseni-desert-vanilja-the-bridge-2x130g/p/636223
+Spar,hlajeni in mlecni izdelki,mleko in mlecni napitki,636224,Tea 130g,"2,59 €",,https://www.spar.si/online/bio-ovseni-desert-s-cokolado-the-bridge-2x130g/p/636224
+Spar,hlajeni in mlecni izdelki,mleko in mlecni napitki,567042,Semolina 125g,"3,19 €",,https://www.spar.si/online/sojin-desert-vanilija-alpro-4x125g/p/567042
+Spar,hlajeni in mlecni izdelki,mleko in mlecni napitki,567044,Semolina 125g,"3,19 €",,https://www.spar.si/online/sojin-desert-cokolada-alpro-4x125g/p/567044
+Spar,hlajeni in mlecni izdelki,mleko in mlecni napitki,619856,Brown rice 130g,"2,59 €",,https://www.spar.si/online/bio-rizev-desert-vanilja-the-bridge-2x130g/p/619856
+Spar,hlajeni in mlecni izdelki,smetana skuta maslo namazi,259842,Pasta 500g,"2,83 €",,https://www.spar.si/online/nepasirana-polmastna-skuta-spar-500g/p/259842
+Spar,hlajeni in mlecni izdelki,smetana skuta maslo namazi,541806,Mustard 400g,"1,19 €",,https://www.spar.si/online/kisla-smetana-20-mm-spar-400g/p/541806
+Spar,hlajeni in mlecni izdelki,smetana skuta maslo namazi,259841,Pasta 500g,"2,49 €",,https://www.spar.si/online/nepasirana-pusta-skuta-spar-500g/p/259841
+Spar,hlajeni in mlecni izdelki,smetana skuta maslo namazi,625361,Mustard 250g,"1,09 €",,https://www.spar.si/online/skuta-iz-pasteriziranega-mleka-20-mm-spar-250g/p/625361
+Spar,hlajeni in mlecni izdelki,smetana skuta maslo namazi,259842,Pasta 500g,"2,83 €",,https://www.spar.si/online/nepasirana-polmastna-skuta-spar-500g/p/259842
+Spar,hlajeni in mlecni izdelki,smetana skuta maslo namazi,259841,Pasta 500g,"2,49 €",,https://www.spar.si/online/nepasirana-pusta-skuta-spar-500g/p/259841
+Spar,hlajeni in mlecni izdelki,smetana skuta maslo namazi,625361,Mustard 250g,"1,09 €",,https://www.spar.si/online/skuta-iz-pasteriziranega-mleka-20-mm-spar-250g/p/625361
+Spar,hlajeni in mlecni izdelki,smetana skuta maslo namazi,625365,Sugar 250g,"1,13 €",,https://www.spar.si/online/skuta-iz-posnetega-pasteriziranega-mleka-pasirana-spar-250g/p/625365
+Spar,hlajeni in mlecni izdelki,smetana skuta maslo namazi,331718,Sugar 250g,"1,49 €",,https://www.spar.si/online/bio-nepasirana-skuta-20-spar-naturpur-250g/p/331718
+Spar,hlajeni in mlecni izdelki,smetana skuta maslo namazi,541806,Mustard 400g,"1,19 €",,https://www.spar.si/online/kisla-smetana-20-mm-spar-400g/p/541806
+Spar,hlajeni in mlecni izdelki,smetana skuta maslo namazi,533639,Pear 180g,"0,79 €",,https://www.spar.si/online/kisla-smetana-spar-180g/p/533639
+Spar,hlajeni in mlecni izdelki,smetana skuta maslo namazi,502947,Pear 250g,"0,94 €",,https://www.spar.si/online/bio-kisla-smetana-15-spar-naturpur-250g/p/502947
+Spar,hlajeni in mlecni izdelki,smetana skuta maslo namazi,378176,Bread 250g,"0,76 €",,https://www.spar.si/online/kisla-smetana-brez-laktoze-15-spar-free-from-250g/p/378176
+Spar,hlajeni in mlecni izdelki,smetana skuta maslo namazi,460546,Mustard 10g,"0,95 €",,https://www.spar.si/online/smetana-za-kavo-10-mm-spar-20x10g/p/460546
+Spar,hlajeni in mlecni izdelki,smetana skuta maslo namazi,425086,Pear 500g,"1,99 €",,https://www.spar.si/online/smetana-za-kuhanje-spar-500g/p/425086
+Spar,hlajeni in mlecni izdelki,smetana skuta maslo namazi,592437,Milk 0g,"1,57 €",,https://www.spar.si/online/bio-mleko-35-m-m-brez-laktoze-spar-free-from-1l/p/592437
+Spar,hlajeni in mlecni izdelki,smetana skuta maslo namazi,498268,Miso 250g,"2,99 €",,https://www.spar.si/online/namaz-z-maslom-in-repicnim-oljem-spar-250-g/p/498268
+Spar,hlajeni in mlecni izdelki,smetana skuta maslo namazi,650837,Mango 250g,"2,89 €",,https://www.spar.si/online/cajno-maslo-spar-250g/p/650837
+Spar,hlajeni in mlecni izdelki,smetana skuta maslo namazi,269107,Miso 250g,"2,79 €",,https://www.spar.si/online/surovo-maslo-spar-250g/p/269107
+Spar,hlajeni in mlecni izdelki,smetana skuta maslo namazi,461963,Pear 200g,"1,85 €",,https://www.spar.si/online/kokosova-mascoba-spar-200g/p/461963
+Spar,hlajeni in mlecni izdelki,smetana skuta maslo namazi,444929,Mango 250g,"2,69 €",,https://www.spar.si/online/maslo-brez-laktoze-spar-free-from-250g/p/444929
+Spar,hlajeni in mlecni izdelki,smetana skuta maslo namazi,601688,Cottage cheese 200g,"1,39 €",,https://www.spar.si/online/bio-svezi-zrnati-sir-cottage-cheese-spar-naturpur-200g/p/601688
+Spar,hlajeni in mlecni izdelki,smetana skuta maslo namazi,542285,Green peas 125g,"2,08 €",,https://www.spar.si/online/namaz-liptaver-spar-premium-125g/p/542285
+Spar,hlajeni in mlecni izdelki,smetana skuta maslo namazi,554652,Paprika 150g,"1,19 €",,https://www.spar.si/online/sirni-namaz-paprika-in-cili-s-budget-150g/p/554652
+Spar,hlajeni in mlecni izdelki,smetana skuta maslo namazi,548511,Cottage cheese 250g,"0,94 €",,https://www.spar.si/online/svezi-sir-natur-cottage-cheese-s-budget-250g/p/548511
+Spar,hlajeni in mlecni izdelki,smetana skuta maslo namazi,609226,Spread 200g,"1,29 €",,https://www.spar.si/online/pripravek-iz-svezega-sira-z-zelisci-s-budget-200g/p/609226
+Spar,hlajeni in mlecni izdelki,jogurti deserti in pudingi,292934,Pudding 200g,"0,37 €",,https://www.spar.si/online/puding-vanilija-s-smetano-spar-200g/p/292934
+Spar,hlajeni in mlecni izdelki,jogurti deserti in pudingi,294095,Yogurt 150g,"0,48 €",,https://www.spar.si/online/navadni-jogurt-15-mm-lca-spar-150g/p/294095
+Spar,hlajeni in mlecni izdelki,jogurti deserti in pudingi,499589,Vinegar 60g,"0,99 €",,https://www.spar.si/online/mlecni-desert-ingo-spar-4x60g/p/499589
+Spar,hlajeni in mlecni izdelki,jogurti deserti in pudingi,251615,Yogurt 500g,"1,13 €",,https://www.spar.si/online/jogurt-borovnica-spar-500g/p/251615
+Spar,hlajeni in mlecni izdelki,jogurti deserti in pudingi,503920,Yogurt 180g,"0,89 €",,https://www.spar.si/online/ovcji-jogurt-iz-pasteriziranega-ovcjega-mleka-spar-180g/p/503920
+Spar,hlajeni in mlecni izdelki,jogurti deserti in pudingi,294095,Yogurt 150g,"0,48 €",,https://www.spar.si/online/navadni-jogurt-15-mm-lca-spar-150g/p/294095
+Spar,hlajeni in mlecni izdelki,jogurti deserti in pudingi,503920,Yogurt 180g,"0,89 €",,https://www.spar.si/online/ovcji-jogurt-iz-pasteriziranega-ovcjega-mleka-spar-180g/p/503920
+Spar,hlajeni in mlecni izdelki,jogurti deserti in pudingi,368764,Yogurt 180g,"0,44 €",,https://www.spar.si/online/navadni-jogurt-13-mm-spar-180g/p/368764
+Spar,hlajeni in mlecni izdelki,jogurti deserti in pudingi,638803,Yogurt 500g,"0,92 €",,https://www.spar.si/online/tekoci-jogurt-32-mm-spar-500g/p/638803
+Spar,hlajeni in mlecni izdelki,jogurti deserti in pudingi,499589,Vinegar 60g,"0,99 €",,https://www.spar.si/online/mlecni-desert-ingo-spar-4x60g/p/499589
+Spar,hlajeni in mlecni izdelki,jogurti deserti in pudingi,251615,Yogurt 500g,"1,13 €",,https://www.spar.si/online/jogurt-borovnica-spar-500g/p/251615
+Spar,hlajeni in mlecni izdelki,jogurti deserti in pudingi,251613,Yogurt 500g,"0,92 €",,https://www.spar.si/online/jogurt-jagoda-spar-500g/p/251613
+Spar,hlajeni in mlecni izdelki,jogurti deserti in pudingi,648031,Yogurt 500g,"1,39 €",,https://www.spar.si/online/jogurt-jagoda-spar-500g/p/648031
+Spar,hlajeni in mlecni izdelki,jogurti deserti in pudingi,648040,Banana 500g,"1,39 €",,https://www.spar.si/online/jogurt-ananas-in-kokos-spar-500g/p/648040
+Spar,hlajeni in mlecni izdelki,jogurti deserti in pudingi,562783,Pear 60g,"1,42 €",,https://www.spar.si/online/cokoladni-mousse-spar-4x60g/p/562783
+Spar,hlajeni in mlecni izdelki,jogurti deserti in pudingi,560071,Pear 50g,"1,64 €",,https://www.spar.si/online/bio-skutin-pripravek-s-sadjem-frubi-doo-spar-6x50g/p/560071
+Spar,hlajeni in mlecni izdelki,jogurti deserti in pudingi,633366,Lentils 200g,"0,69 €",,https://www.spar.si/online/mlecni-riz-s-budget-200g/p/633366
+Spar,hlajeni in mlecni izdelki,jogurti deserti in pudingi,659037,Yogurt 180g,"0,79 €",,https://www.spar.si/online/skutina-krema-z-jogurtom-in-jagodami-s-budget-180g/p/659037
+Spar,hlajeni in mlecni izdelki,jogurti deserti in pudingi,633369,Lentils 200g,"0,69 €",,https://www.spar.si/online/mlecni-riz-s-cokoladnim-pripravkom-s-budget-200g/p/633369
+Spar,hlajeni in mlecni izdelki,jogurti deserti in pudingi,292934,Pudding 200g,"0,37 €",,https://www.spar.si/online/puding-vanilija-s-smetano-spar-200g/p/292934
+Spar,hlajeni in mlecni izdelki,jogurti deserti in pudingi,292914,Pudding 200g,"0,37 €",,https://www.spar.si/online/puding-cokolada-s-smetano-spar-200g/p/292914
+Spar,hlajeni in mlecni izdelki,jogurti deserti in pudingi,604610,Pudding 200g,"1,39 €",,https://www.spar.si/online/puding-high-protein-cokolada-in-smetana-ehrmann-200g/p/604610
+Spar,hlajeni in mlecni izdelki,jogurti deserti in pudingi,510548,Pudding 800g,"2,29 €",,https://www.spar.si/online/puding-cokolada-in-lesnik-noccio-weideglck-800g/p/510548
+Spar,hlajeni in mlecni izdelki,jogurti deserti in pudingi,614682,Pudding 200g,"1,23 €",,https://www.spar.si/online/puding-cokolada-protein-zott-200g/p/614682
+Spar,hlajeni in mlecni izdelki,jogurti deserti in pudingi,448631,Semolina 400g,"2,45 €",,https://www.spar.si/online/polnjena-mlecna-cokolada-s-kremo-in-karamelo-s-budget-400g/p/448631
+Spar,hlajeni in mlecni izdelki,jogurti deserti in pudingi,448633,Lemon 400g,"2,45 €",,https://www.spar.si/online/polnjena-mlecna-cokolada-s-sladkorno-kremo-s-budget-400g/p/448633
+Spar,hlajeni in mlecni izdelki,jogurti deserti in pudingi,448630,Lemon 400g,"2,68 €",,https://www.spar.si/online/polnjena-mlecna-cokolada-z-arasidi-karamelo-in-kremo-s-budget-400g/p/448630
+Spar,hlajeni in mlecni izdelki,jogurti deserti in pudingi,537795,Olive oil 39g,"0,79 €",,https://www.spar.si/online/biskvit-kakav-in-mleko-delice-kinder-39g/p/537795
+Spar,hlajeni in mlecni izdelki,siri,660471,Pear 250g,"2,99 €",,https://www.spar.si/online/sir-gauda-spar-250g/p/660471
+Spar,hlajeni in mlecni izdelki,siri,534512,Berries 180g,"1,56 €","REDNA CENA 1,75 €",https://www.spar.si/online/francoski-sir-brie-spar-180g/p/534512
+Spar,hlajeni in mlecni izdelki,siri,550423,Pear 1000g,"0,49 €",,https://www.spar.si/online/sir-tilsiter-spar-1kg-rezano/p/550423
+Spar,hlajeni in mlecni izdelki,siri,522393,Spread 400g,"3,59 €","REDNA CENA 4,79 €",https://www.spar.si/online/pripravek-iz-topljenega-sira-fondue-classic-spar-400g/p/522393
+Spar,hlajeni in mlecni izdelki,siri,533640,Pear 1000g,"0,49 €",,https://www.spar.si/online/sir-gauda-spar-1kg-rezano/p/533640
+Spar,hlajeni in mlecni izdelki,siri,534512,Berries 180g,"1,56 €","REDNA CENA 1,75 €",https://www.spar.si/online/francoski-sir-brie-spar-180g/p/534512
+Spar,hlajeni in mlecni izdelki,siri,618466,Rye bread 180g,"2,94 €",,https://www.spar.si/online/mehki-sir-iz-pasteriziranega-kozjega-mleka-spar-180g/p/618466
+Spar,hlajeni in mlecni izdelki,siri,613475,Pear 250g,"3,73 €",,https://www.spar.si/online/sir-halloumi-za-zar-in-peko-klasik-spar-250g/p/613475
+Spar,hlajeni in mlecni izdelki,siri,549141,Pear 200g,"1,69 €",,https://www.spar.si/online/bio-svezi-sir-natur-spar-naturpur-200g/p/549141
+Spar,hlajeni in mlecni izdelki,siri,599882,Pear 250g,"3,99 €",,https://www.spar.si/online/bio-sir-camembert-spar-naturpur-250g/p/599882
+Spar,hlajeni in mlecni izdelki,siri,660471,Pear 250g,"2,99 €",,https://www.spar.si/online/sir-gauda-spar-250g/p/660471
+Spar,hlajeni in mlecni izdelki,siri,550423,Pear 1000g,"0,49 €",,https://www.spar.si/online/sir-tilsiter-spar-1kg-rezano/p/550423
+Spar,hlajeni in mlecni izdelki,siri,533640,Pear 1000g,"0,49 €",,https://www.spar.si/online/sir-gauda-spar-1kg-rezano/p/533640
+Spar,hlajeni in mlecni izdelki,siri,587768,Mozzarella 250g,"3,29 €",,https://www.spar.si/online/sir-mozzarella-v-rezinah-spar-250g/p/587768
+Spar,hlajeni in mlecni izdelki,siri,604022,Pear 250g,"3,29 €",,https://www.spar.si/online/sir-masdamer-v-rezinah-spar-250g/p/604022
+Spar,hlajeni in mlecni izdelki,siri,593844,Eggplant 150g,"5,29 €",,https://www.spar.si/online/bio-parmezan-parmigiano-reggiano-spar-naturpur-150g/p/593844
+Spar,hlajeni in mlecni izdelki,siri,507554,Coriander 100g,"2,99 €",,https://www.spar.si/online/sir-pecorino-romano-zop-nariban-despar-100g/p/507554
+Spar,hlajeni in mlecni izdelki,siri,471338,Eggplant 100g,"1,83 €",,https://www.spar.si/online/parmezan-parmiggiano-reggiano-despar-100g/p/471338
+Spar,hlajeni in mlecni izdelki,siri,619800,Eggplant 60g,"2,09 €",,https://www.spar.si/online/ribani-trdi-sir-parmezan-parmigiano-reggiano-zop-despar-premium-60g/p/619800
+Spar,hlajeni in mlecni izdelki,siri,597544,Eggplant 200g,"7,29 €",,https://www.spar.si/online/trdi-sir-parmigiano-reggiano-spar-premium-200g/p/597544
+Spar,hlajeni in mlecni izdelki,siri,522393,Spread 400g,"3,59 €","REDNA CENA 4,79 €",https://www.spar.si/online/pripravek-iz-topljenega-sira-fondue-classic-spar-400g/p/522393
+Spar,hlajeni in mlecni izdelki,siri,536489,Pear 200g,"2,39 €",,https://www.spar.si/online/sir-cheddar-spar-200g/p/536489
+Spar,hlajeni in mlecni izdelki,siri,383818,Pear 250g,"2,64 €",,https://www.spar.si/online/topljeni-sir-za-mazanje-s-smetano-spar-81-250g/p/383818
+Spar,hlajeni in mlecni izdelki,siri,548938,Rice 175g,"1,93 €","REDNA CENA 2,15 €",https://www.spar.si/online/bio-gauda-rezine-spar-naturpur-175g/p/548938
+Spar,hlajeni in mlecni izdelki,siri,589524,Milk 175g,"2,01 €","REDNA CENA 2,23 €",https://www.spar.si/online/bio-sir-tilsiter-iz-senenega-mleka-spar-naturpur-175g/p/589524
+Spar,hlajeni in mlecni izdelki,siri,34093,Lime 200g,"3,58 €",,https://www.spar.si/online/sir-brie-president-200g/p/34093
+Spar,hlajeni in mlecni izdelki,siri,45229,Kombu 1000g,"0,80 €",,https://www.spar.si/online/sir-dorblu-1kg-v-kosu/p/45229
+Spar,hlajeni in mlecni izdelki,siri,533275,Pear 200g,"2,99 €",,https://www.spar.si/online/gorgonzola-despar-premium-200g/p/533275
+Spar,hlajeni in mlecni izdelki,siri,425079,Pear 500g,"5,75 €",,https://www.spar.si/online/sir-mascarpone-despar-500g/p/425079
+Spar,hlajeni in mlecni izdelki,siri,533443,Bread 250g,"1,99 €",,https://www.spar.si/online/mascarpone-brez-laktoze-spar-free-from-250g/p/533443
+Spar,hlajeni in mlecni izdelki,siri,544070,Cream 250g,"3,03 €",,https://www.spar.si/online/krem-maskarpone-zelene-doline-gurman-250g/p/544070
+Spar,hlajeni in mlecni izdelki,siri,609354,Spaghetti 250g,"3,25 €",,https://www.spar.si/online/sir-mascarpone-35-mm-zanetti-250g/p/609354
+Spar,hlajeni in mlecni izdelki,testo in pripravljene jedi,295988,Nori 500g,"1,23 €",,https://www.spar.si/online/krompirjevi-njoki-spar-500g/p/295988
+Spar,hlajeni in mlecni izdelki,testo in pripravljene jedi,309038,Pear 400g,"2,19 €",,https://www.spar.si/online/sveze-vleceno-testo-spar-400g/p/309038
+Spar,hlajeni in mlecni izdelki,testo in pripravljene jedi,553411,Pizza dough 400g,"1,29 €",,https://www.spar.si/online/kvaseno-testo-za-pizzo-spar-400g/p/553411
+Spar,hlajeni in mlecni izdelki,testo in pripravljene jedi,496172,Pizza dough 400g,"2,19 €",,https://www.spar.si/online/bio-kvaseno-testo-za-pizzo-spar-naturpur-400g/p/496172
+Spar,hlajeni in mlecni izdelki,testo in pripravljene jedi,539447,Mango 280g,"2,29 €",,https://www.spar.si/online/listnato-testo-masleno-spar-premium-280g/p/539447
+Spar,hlajeni in mlecni izdelki,testo in pripravljene jedi,309038,Pear 400g,"2,19 €",,https://www.spar.si/online/sveze-vleceno-testo-spar-400g/p/309038
+Spar,hlajeni in mlecni izdelki,testo in pripravljene jedi,539447,Mango 280g,"2,29 €",,https://www.spar.si/online/listnato-testo-masleno-spar-premium-280g/p/539447
+Spar,hlajeni in mlecni izdelki,testo in pripravljene jedi,432297,Paprika 500g,"1,35 €",,https://www.spar.si/online/sveze-vleceno-testo-v-listih-s-budget-111-500g/p/432297
+Spar,hlajeni in mlecni izdelki,testo in pripravljene jedi,157957,Pear 500g,"2,98 €",,https://www.spar.si/online/sveze-vleceno-testo-pecjak-500g/p/157957
+Spar,hlajeni in mlecni izdelki,testo in pripravljene jedi,553411,Pizza dough 400g,"1,29 €",,https://www.spar.si/online/kvaseno-testo-za-pizzo-spar-400g/p/553411
+Spar,hlajeni in mlecni izdelki,testo in pripravljene jedi,496172,Pizza dough 400g,"2,19 €",,https://www.spar.si/online/bio-kvaseno-testo-za-pizzo-spar-naturpur-400g/p/496172
+Spar,hlajeni in mlecni izdelki,testo in pripravljene jedi,502703,Sweet potato 400g,"3,69 €",,https://www.spar.si/online/sveze-pirino-testo-za-pizzo-tante-fanny-400g/p/502703
+Spar,hlajeni in mlecni izdelki,testo in pripravljene jedi,295988,Nori 500g,"1,23 €",,https://www.spar.si/online/krompirjevi-njoki-spar-500g/p/295988
+Spar,hlajeni in mlecni izdelki,testo in pripravljene jedi,367052,Nori 1000g,"1,39 €",,https://www.spar.si/online/krompirjevi-njoki-s-budget-1kg/p/367052
+Spar,hlajeni in mlecni izdelki,testo in pripravljene jedi,554582,Paprika 400g,"1,99 €",,https://www.spar.si/online/bio-krompirjevi-njoki-despar-bio-logico-400g/p/554582
+Spar,meso mesni izdelki ribe,sveze meso,571608,Parsley 500g,"4,59 €",,https://www.spar.si/online/piscancje-prsi-file-spar-500g/p/571608
+Spar,meso mesni izdelki ribe,sveze meso,545129,Pear 480g,"4,29 €",,https://www.spar.si/online/piscancji-zrezki-spar-480g/p/545129
+Spar,meso mesni izdelki ribe,sveze meso,555172,Pear 1000g,"7,00 €",,https://www.spar.si/online/mladi-goveji-zrezki-spar-1kg/p/555172
+Spar,meso mesni izdelki ribe,sveze meso,405796,Cereal 1000g,"6,58 €",,https://www.spar.si/online/piscanec-z-drobovino-celi-spar-1kg/p/405796
+Spar,meso mesni izdelki ribe,sveze meso,571605,Vinegar 850g,"3,89 €",,https://www.spar.si/online/piscancje-krace-in-stegna-spar-850g/p/571605
+Spar,meso mesni izdelki ribe,sveze meso,599895,Legumes 630g,"5,89 €",,https://www.spar.si/online/pripravek-mletega-mesa-svinjsko-in-goveje-spar-630g-xxl/p/599895
+Spar,meso mesni izdelki ribe,sveze meso,551053,Lemon 480g,"3,09 €",,https://www.spar.si/online/mleto-mesano-meso-svinjsko-in-goveje-spar-480g/p/551053
+Spar,meso mesni izdelki ribe,sveze meso,603742,Vinegar 450g,"6,19 €",,https://www.spar.si/online/pleskavice-450-g-premium-spar/p/603742
+Spar,meso mesni izdelki ribe,sveze meso,586869,Pear 300g,"2,79 €",,https://www.spar.si/online/debrecinke-spar-bbq-300g/p/586869
+Spar,meso mesni izdelki ribe,sveze meso,619023,Peanuts 280g,"4,89 €",,https://www.spar.si/online/bbq-klobasa-pikant-iz-divjega-prasica-uros-stefelin-spar-premium-280g/p/619023
+Spar,meso mesni izdelki ribe,sveze meso,555172,Pear 1000g,"7,00 €",,https://www.spar.si/online/mladi-goveji-zrezki-spar-1kg/p/555172
+Spar,meso mesni izdelki ribe,sveze meso,623491,Pear 450g,"13,99 €",,https://www.spar.si/online/bio-goveje-kocke-spar-naturpur-450g/p/623491
+Spar,meso mesni izdelki ribe,sveze meso,623490,Lemon 400g,"11,99 €",,https://www.spar.si/online/bio-goveje-mleto-meso-spar-naturpur-400g/p/623490
+Spar,meso mesni izdelki ribe,sveze meso,514749,Rye bread 1000g,"4,50 €",,https://www.spar.si/online/goveji-burger-red-angus-spar-bbq-1kg/p/514749
+Spar,meso mesni izdelki ribe,sveze meso,602502,Butter 300g,"7,49 €",,https://www.spar.si/online/goveji-burger-spar-premium-300g/p/602502
+Spar,meso mesni izdelki ribe,sveze meso,571608,Parsley 500g,"4,59 €",,https://www.spar.si/online/piscancje-prsi-file-spar-500g/p/571608
+Spar,meso mesni izdelki ribe,sveze meso,545129,Pear 480g,"4,29 €",,https://www.spar.si/online/piscancji-zrezki-spar-480g/p/545129
+Spar,meso mesni izdelki ribe,sveze meso,405796,Cereal 1000g,"6,58 €",,https://www.spar.si/online/piscanec-z-drobovino-celi-spar-1kg/p/405796
+Spar,meso mesni izdelki ribe,sveze meso,571605,Vinegar 850g,"3,89 €",,https://www.spar.si/online/piscancje-krace-in-stegna-spar-850g/p/571605
+Spar,meso mesni izdelki ribe,sveze meso,545130,Pear 400g,"3,49 €",,https://www.spar.si/online/piscancji-mini-file-spar-400g/p/545130
+Spar,meso mesni izdelki ribe,sveze meso,660095,Pear 1000g,"53,98 €",,https://www.spar.si/online/jagenjcek-mariniran-s-chefovimi-zacimbami-gregor-vracko-spar-premium-1kg/p/660095
+Spar,meso mesni izdelki ribe,sveze meso,636514,Leek 500g,"5,99 €",,https://www.spar.si/online/kuncje-plece-s-kostjo-pakirano-kmetija-zgajner-500g/p/636514
+Spar,meso mesni izdelki ribe,sveze meso,565374,Tea 1000g,"7,80 €",,https://www.spar.si/online/telecji-zrezki-iz-stegna-krismit-1kg/p/565374
+Spar,meso mesni izdelki ribe,sveze meso,631888,Cereal 1000g,"8,50 €",,https://www.spar.si/online/kunec-celi-pakirano-kmetija-zgajnar-1-kg/p/631888
+Spar,meso mesni izdelki ribe,mesni izdelki,506912,Salami 400g,"2,19 €",,https://www.spar.si/online/tirolska-salama-spar-400g/p/506912
+Spar,meso mesni izdelki ribe,mesni izdelki,596622,Pear 250g,"3,00 €",,https://www.spar.si/online/kmecka-klobasa-spar-cca250g/p/596622
+Spar,meso mesni izdelki ribe,mesni izdelki,568509,Pear 1000g,"4,99 €",,https://www.spar.si/online/prekajen-vrat-spar-1kg-v-kosu/p/568509
+Spar,meso mesni izdelki ribe,mesni izdelki,369640,Tuna 1000g,"0,55 €",,https://www.spar.si/online/sunka-v-ovitku-spar-1kg/p/369640
+Spar,meso mesni izdelki ribe,mesni izdelki,485532,Pear 400g,"2,55 €",,https://www.spar.si/online/blejska-klobasa-spar-400g/p/485532
+Spar,meso mesni izdelki ribe,mesni izdelki,387935,Parsley 1000g,"1,65 €",,https://www.spar.si/online/hrenovke-spar-1kg/p/387935
+Spar,meso mesni izdelki ribe,mesni izdelki,497475,Pasta 1000g,"5,52 €",,https://www.spar.si/online/kraska-panceta-spar-1kg/p/497475
+Spar,meso mesni izdelki ribe,mesni izdelki,654415,Pear 1000g,"8,99 €",,https://www.spar.si/online/cajna-klobasa-spar-1kg/p/654415
+Spar,meso mesni izdelki ribe,mesni izdelki,629823,Pear 1000g,"28,58 €",,https://www.spar.si/online/spar-frankfurter-barjena-klobasa-1kg/p/629823
+Spar,meso mesni izdelki ribe,mesni izdelki,618015,Vinegar 1000g,"9,60 €","REDNA CENA 12,00 €",https://www.spar.si/online/tolminski-zelodec-spar-premium-1kg/p/618015
+Spar,meso mesni izdelki ribe,mesni izdelki,506912,Salami 400g,"2,19 €",,https://www.spar.si/online/tirolska-salama-spar-400g/p/506912
+Spar,meso mesni izdelki ribe,mesni izdelki,596622,Pear 250g,"3,00 €",,https://www.spar.si/online/kmecka-klobasa-spar-cca250g/p/596622
+Spar,meso mesni izdelki ribe,mesni izdelki,568509,Pear 1000g,"4,99 €",,https://www.spar.si/online/prekajen-vrat-spar-1kg-v-kosu/p/568509
+Spar,meso mesni izdelki ribe,mesni izdelki,369640,Tuna 1000g,"0,55 €",,https://www.spar.si/online/sunka-v-ovitku-spar-1kg/p/369640
+Spar,meso mesni izdelki ribe,mesni izdelki,485532,Pear 400g,"2,55 €",,https://www.spar.si/online/blejska-klobasa-spar-400g/p/485532
+Spar,meso mesni izdelki ribe,mesni izdelki,246413,Pear 210g,"1,55 €",,https://www.spar.si/online/piscancje-hrenovke-spar-210g/p/246413
+Spar,meso mesni izdelki ribe,mesni izdelki,631067,Pear 280g,"4,59 €",,https://www.spar.si/online/kmecke-hrenovke-spar-280g/p/631067
+Spar,meso mesni izdelki ribe,mesni izdelki,599024,Bread 1000g,"3,99 €",,https://www.spar.si/online/barjena-klobasa-s-budget-1kg/p/599024
+Spar,meso mesni izdelki ribe,mesni izdelki,365736,Hot dog 500g,"2,99 €",,https://www.spar.si/online/hrenovke-party-hot-dog-s-budget-500g/p/365736
+Spar,meso mesni izdelki ribe,mesni izdelki,413560,Pear 230g,"3,32 €",,https://www.spar.si/online/ocvirki-spar-230g/p/413560
+Spar,meso mesni izdelki ribe,mesni izdelki,413562,Mustard 450g,"3,99 €",,https://www.spar.si/online/ocvirkova-mast-spar-450g/p/413562
+Spar,meso mesni izdelki ribe,mesni izdelki,413563,Mustard 950g,"3,79 €",,https://www.spar.si/online/tradicionalna-svinjska-mast-spar-950g/p/413563
+Spar,meso mesni izdelki ribe,mesni izdelki,383993,Tuna 200g,"1,54 €",,https://www.spar.si/online/jetrna-pasteta-spar-200g/p/383993
+Spar,meso mesni izdelki ribe,ribe,635292,Rice 240g,"5,99 €",,https://www.spar.si/online/kozice-v-hrustljavem-pikantnem-testu-hot-spicy-spar-240g/p/635292
+Spar,meso mesni izdelki ribe,ribe,596805,Walnuts 100g,"3,39 €",,https://www.spar.si/online/atlantski-losos-dimljen-v-rezinah-spar-100g/p/596805
+Spar,meso mesni izdelki ribe,ribe,570568,Rice 180g,"2,99 €",,https://www.spar.si/online/ociscene-kozice-predkuhane-v-slanici-spar-180g/p/570568
+Spar,meso mesni izdelki ribe,ribe,592816,Walnuts 100g,"3,79 €",,https://www.spar.si/online/bio-atlantski-losos-rezine-spar-naturpur-100g/p/592816
+Spar,meso mesni izdelki ribe,ribe,564759,Spread 450g,"4,99 €",,https://www.spar.si/online/omaka-morski-sadezi-despar-era-ora-450g/p/564759
+Spar,meso mesni izdelki ribe,ribe,596511,Couscous 1000g,"23,39 €",,https://www.spar.si/online/pacifiski-losos-file-s-kozo-1kg/p/596511
+Spar,meso mesni izdelki ribe,ribe,554341,Tuna 1000g,"9,90 €",,https://www.spar.si/online/tun-rumenoplavuti-file-1kg/p/554341
+Spar,meso mesni izdelki ribe,ribe,430397,Walnuts 1000g,"19,99 €",,https://www.spar.si/online/atlantski-losos-file-oluskan-1kg/p/430397
+Spar,meso mesni izdelki ribe,ribe,413612,Walnuts 1000g,"5,00 €",,https://www.spar.si/online/atlantski-losos-kosi-sveze-1kg/p/413612
+Spar,meso mesni izdelki ribe,ribe,635292,Rice 240g,"5,99 €",,https://www.spar.si/online/kozice-v-hrustljavem-pikantnem-testu-hot-spicy-spar-240g/p/635292
+Spar,meso mesni izdelki ribe,ribe,570568,Rice 180g,"2,99 €",,https://www.spar.si/online/ociscene-kozice-predkuhane-v-slanici-spar-180g/p/570568
+Spar,meso mesni izdelki ribe,ribe,564759,Spread 450g,"4,99 €",,https://www.spar.si/online/omaka-morski-sadezi-despar-era-ora-450g/p/564759
+Spar,meso mesni izdelki ribe,ribe,455613,Salami 156g,"5,39 €",,https://www.spar.si/online/slani-fileti-incunov-delamaris-156g/p/455613
+Spar,meso mesni izdelki ribe,ribe,412895,Rice 200g,"4,29 €",,https://www.spar.si/online/kozice-v-slanici-premius-vici-200g/p/412895
+Spar,meso mesni izdelki ribe,ribe,596805,Walnuts 100g,"3,39 €",,https://www.spar.si/online/atlantski-losos-dimljen-v-rezinah-spar-100g/p/596805
+Spar,meso mesni izdelki ribe,ribe,592816,Walnuts 100g,"3,79 €",,https://www.spar.si/online/bio-atlantski-losos-rezine-spar-naturpur-100g/p/592816
+Spar,meso mesni izdelki ribe,ribe,589422,Nori 200g,"4,78 €",,https://www.spar.si/online/norveski-dimljeni-losos-v-rezinah-s-budget-200g/p/589422
+Spar,meso mesni izdelki ribe,ribe,503057,Lentils 140g,"2,79 €",,https://www.spar.si/online/fileti-sardonov-incunov-v-soncnicnem-olju-s-budget-140g/p/503057
+Spar,meso mesni izdelki ribe,ribe,634932,Green peas 50g,"2,69 €",,https://www.spar.si/online/kaviar-crni-royal-greenland-50g/p/634932
+Spar,vse za zajtrk malico ali kosilo,kosmici in msliji,298126,Garlic 30g,"0,35 €",,https://www.spar.si/online/msli-ploscica-marelica-spar-30g/p/298126
+Spar,vse za zajtrk malico ali kosilo,kosmici in msliji,298129,Pear 30g,"0,35 €",,https://www.spar.si/online/msli-ploscica-jabolko-spar-30g/p/298129
+Spar,vse za zajtrk malico ali kosilo,kosmici in msliji,505511,Pear 500g,"3,09 €",,https://www.spar.si/online/msli-tri-vrste-cokolade-knusper-spar-500g/p/505511
+Spar,vse za zajtrk malico ali kosilo,kosmici in msliji,236866,Honey 500g,"1,89 €",,https://www.spar.si/online/kosmici-z-medom-honey-pops-spar-500g/p/236866
+Spar,vse za zajtrk malico ali kosilo,kosmici in msliji,236863,Chocolate 500g,"2,19 €",,https://www.spar.si/online/kosmici-cokolada-choco-flakes-spar-500g/p/236863
+Spar,vse za zajtrk malico ali kosilo,kosmici in msliji,236866,Honey 500g,"1,89 €",,https://www.spar.si/online/kosmici-z-medom-honey-pops-spar-500g/p/236866
+Spar,vse za zajtrk malico ali kosilo,kosmici in msliji,236863,Chocolate 500g,"2,19 €",,https://www.spar.si/online/kosmici-cokolada-choco-flakes-spar-500g/p/236863
+Spar,vse za zajtrk malico ali kosilo,kosmici in msliji,390013,Oats 500g,"2,52 €",,https://www.spar.si/online/lesnikove-blazinice-nougat-bites-spar-500g/p/390013
+Spar,vse za zajtrk malico ali kosilo,kosmici in msliji,538638,Pear 500g,"2,99 €",,https://www.spar.si/online/musli-s-suhim-sadjem-in-orescki-spar-500g/p/538638
+Spar,vse za zajtrk malico ali kosilo,kosmici in msliji,227027,Pear 500g,"2,18 €",,https://www.spar.si/online/koruzni-kosmici-spar-500g/p/227027
+Spar,vse za zajtrk malico ali kosilo,kosmici in msliji,505511,Pear 500g,"3,09 €",,https://www.spar.si/online/msli-tri-vrste-cokolade-knusper-spar-500g/p/505511
+Spar,vse za zajtrk malico ali kosilo,kosmici in msliji,505495,Salami 400g,"3,39 €",,https://www.spar.si/online/msli-z-belo-cokolado-in-malinami-knusper-spar-400g/p/505495
+Spar,vse za zajtrk malico ali kosilo,kosmici in msliji,505517,Pear 500g,"3,09 €",,https://www.spar.si/online/msli-s-sadjem-knusper-spar-500g/p/505517
+Spar,vse za zajtrk malico ali kosilo,kosmici in msliji,541015,Quinoa 375g,"2,79 €",,https://www.spar.si/online/bio-msli-kokos-in-kvinoja-spar-naturpur-375g/p/541015
+Spar,vse za zajtrk malico ali kosilo,kosmici in msliji,519790,Pear 300g,"3,99 €",,https://www.spar.si/online/msli-z-jagodami-spar-premium-300g/p/519790
+Spar,vse za zajtrk malico ali kosilo,kosmici in msliji,298126,Garlic 30g,"0,35 €",,https://www.spar.si/online/msli-ploscica-marelica-spar-30g/p/298126
+Spar,vse za zajtrk malico ali kosilo,kosmici in msliji,298129,Pear 30g,"0,35 €",,https://www.spar.si/online/msli-ploscica-jabolko-spar-30g/p/298129
+Spar,vse za zajtrk malico ali kosilo,kosmici in msliji,443301,Pear 150g,"1,39 €",,https://www.spar.si/online/msli-ploscica-kokos-spar-61-150g/p/443301
+Spar,vse za zajtrk malico ali kosilo,kosmici in msliji,298117,Pear 30g,"0,35 €",,https://www.spar.si/online/msli-ploscica-lesniki-spar-30g/p/298117
+Spar,vse za zajtrk malico ali kosilo,kosmici in msliji,298130,Semolina 30g,"0,35 €",,https://www.spar.si/online/msli-ploscica-malina-spar-30g/p/298130
+Spar,vse za zajtrk malico ali kosilo,namazi,655772,Pear 350g,"1,89 €",,https://www.spar.si/online/arasidov-namaz-s-koscki-arasidov-spar-350g/p/655772
+Spar,vse za zajtrk malico ali kosilo,namazi,399113,Pear 900g,"9,79 €",,https://www.spar.si/online/toceni-cvetlicni-med-spar-900g/p/399113
+Spar,vse za zajtrk malico ali kosilo,namazi,633687,Tuna 95g,"1,09 €",,https://www.spar.si/online/tunina-pasteta-spar-95g/p/633687
+Spar,vse za zajtrk malico ali kosilo,namazi,168249,Pear 280g,"1,49 €",,https://www.spar.si/online/nepekoc-ajvar-spar-280g/p/168249
+Spar,vse za zajtrk malico ali kosilo,namazi,215919,Pear 145g,"0,96 €",,https://www.spar.si/online/puranji-narezek-spar-145g/p/215919
+Spar,vse za zajtrk malico ali kosilo,namazi,619607,Pear 400g,"1,59 €",,https://www.spar.si/online/kakavov-in-beli-namaz-spar-400g/p/619607
+Spar,vse za zajtrk malico ali kosilo,namazi,631639,Pear 400g,"2,59 €",,https://www.spar.si/online/lesnikov-kakavov-namaz-spar-400g/p/631639
+Spar,vse za zajtrk malico ali kosilo,namazi,413867,Nuts 400g,"3,29 €",,https://www.spar.si/online/bio-lesnikov-nugat-namaz-spar-naturpur-400g/p/413867
+Spar,vse za zajtrk malico ali kosilo,namazi,553699,Pear 350g,"5,19 €",,https://www.spar.si/online/lesnikov-namaz-spar-premium-350g/p/553699
+Spar,vse za zajtrk malico ali kosilo,namazi,556208,Duck 250g,"2,99 €",,https://www.spar.si/online/dulce-de-leche-namaz-spar-premium-250g/p/556208
+Spar,vse za zajtrk malico ali kosilo,namazi,655772,Pear 350g,"1,89 €",,https://www.spar.si/online/arasidov-namaz-s-koscki-arasidov-spar-350g/p/655772
+Spar,vse za zajtrk malico ali kosilo,namazi,655773,Pear 350g,"1,89 €",,https://www.spar.si/online/arasidov-namaz-kremni-spar-350g/p/655773
+Spar,vse za zajtrk malico ali kosilo,namazi,636367,Pear 400g,"2,99 €",,https://www.spar.si/online/namaz-iz-piskotov-spar-400g/p/636367
+Spar,vse za zajtrk malico ali kosilo,namazi,565300,Pasta 250g,"3,79 €",,https://www.spar.si/online/bio-pasta-iz-prazenih-arasidov-spar-naturpur-250g/p/565300
+Spar,vse za zajtrk malico ali kosilo,namazi,659546,Bread 200g,"7,29 €",,https://www.spar.si/online/keto-namaz-kokos-gluteno-200g/p/659546
+Spar,vse za zajtrk malico ali kosilo,namazi,628773,Pear 340g,"1,65 €",,https://www.spar.si/online/jagodni-ekstra-dzem-despar-340g/p/628773
+Spar,vse za zajtrk malico ali kosilo,namazi,551872,Garlic 25g,"1,15 €",,https://www.spar.si/online/dzem-marelica-despar-4x25g/p/551872
+Spar,vse za zajtrk malico ali kosilo,namazi,629805,Pear 340g,"2,09 €",,https://www.spar.si/online/ekstra-dzem-iz-gozdnih-sadezev-despar-340g/p/629805
+Spar,vse za zajtrk malico ali kosilo,namazi,551876,Pear 25g,"1,15 €",,https://www.spar.si/online/dzem-jagoda-despar-4x25g/p/551876
+Spar,vse za zajtrk malico ali kosilo,namazi,487876,Pear 220g,"2,59 €",,https://www.spar.si/online/ekstra-dzem-figa-spar-premium-220g/p/487876
+Spar,vse za zajtrk malico ali kosilo,namazi,399113,Pear 900g,"9,79 €",,https://www.spar.si/online/toceni-cvetlicni-med-spar-900g/p/399113
+Spar,vse za zajtrk malico ali kosilo,namazi,216601,Parsley 900g,"11,99 €",,https://www.spar.si/online/gozdni-med-spar-900g/p/216601
+Spar,vse za zajtrk malico ali kosilo,namazi,653048,Pear 350g,"3,07 €",,https://www.spar.si/online/bio-cvetlicni-med-spar-naturpur-350g/p/653048
+Spar,vse za zajtrk malico ali kosilo,namazi,591700,Pear 900g,"12,59 €",,https://www.spar.si/online/cvetlicni-med-spar-premium-900g/p/591700
+Spar,vse za zajtrk malico ali kosilo,namazi,650564,Nori 500g,"3,99 €",,https://www.spar.si/online/cvetlicni-kremni-med-s-budget-05kg/p/650564
+Spar,vse za zajtrk malico ali kosilo,namazi,427214,Tuna 100g,"0,79 €",,https://www.spar.si/online/jetrna-pasteta-spar-100g/p/427214
+Spar,vse za zajtrk malico ali kosilo,namazi,556184,Pasta 50g,"0,25 €",,https://www.spar.si/online/cajna-pasteta-s-budget-50g/p/556184
+Spar,vse za zajtrk malico ali kosilo,namazi,556139,Pasta 50g,"0,29 €",,https://www.spar.si/online/piscancja-pasteta-s-budget-50g/p/556139
+Spar,vse za zajtrk malico ali kosilo,namazi,556138,Tuna 50g,"0,29 €",,https://www.spar.si/online/jetrna-pasteta-s-budget-50g/p/556138
+Spar,vse za zajtrk malico ali kosilo,namazi,556134,Pasta 50g,"0,29 €",,https://www.spar.si/online/domaca-pasteta-s-budget-50g/p/556134
+Spar,vse za zajtrk malico ali kosilo,namazi,633687,Tuna 95g,"1,09 €",,https://www.spar.si/online/tunina-pasteta-spar-95g/p/633687
+Spar,vse za zajtrk malico ali kosilo,namazi,534263,Pasta 165g,"3,19 €",,https://www.spar.si/online/ribja-pasteta-z-jadranskimi-kozicami-spar-premium-165g/p/534263
+Spar,vse za zajtrk malico ali kosilo,namazi,76883,Tuna 100g,"3,09 €",,https://www.spar.si/online/tunin-namaz-rio-mare-pate-100g/p/76883
+Spar,vse za zajtrk malico ali kosilo,namazi,373902,Pasta 95g,"1,40 €","REDNA CENA 1,65 €",https://www.spar.si/online/pasteta-tunina-siciliana-argeta-95g/p/373902
+Spar,vse za zajtrk malico ali kosilo,namazi,391566,Tuna 95g,"1,67 €",,https://www.spar.si/online/tunina-pasteta-super-tuna-argeta-junior-95g/p/391566
+Spar,vse za zajtrk malico ali kosilo,namazi,215919,Pear 145g,"0,96 €",,https://www.spar.si/online/puranji-narezek-spar-145g/p/215919
+Spar,vse za zajtrk malico ali kosilo,namazi,215918,Pear 145g,"0,99 €",,https://www.spar.si/online/kmecki-narezek-spar-145g/p/215918
+Spar,vse za zajtrk malico ali kosilo,namazi,215808,Pear 145g,"1,14 €",,https://www.spar.si/online/mesni-narezek-spar-145g/p/215808
+Spar,vse za zajtrk malico ali kosilo,namazi,168249,Pear 280g,"1,49 €",,https://www.spar.si/online/nepekoc-ajvar-spar-280g/p/168249
+Spar,vse za zajtrk malico ali kosilo,namazi,253534,Paprika 330g,"1,69 €",,https://www.spar.si/online/namaz-s-papriko-spar-330g/p/253534
+Spar,vse za zajtrk malico ali kosilo,namazi,594679,Tea 150g,"2,99 €",,https://www.spar.si/online/bakala-namaz-iz-polenovke-spar-150g/p/594679
+Spar,vse za zajtrk malico ali kosilo,namazi,343921,Pear 360g,"1,53 €",,https://www.spar.si/online/polpekoc-ajvar-spar-360g/p/343921
+Spar,vse za zajtrk malico ali kosilo,namazi,288152,Pear 350g,"1,84 €",,https://www.spar.si/online/ljutenica-spar-350g/p/288152
+Spar,vse za zajtrk malico ali kosilo,sendvici narezki in solate,303417,Cabbage 175g,"1,19 €",,https://www.spar.si/online/bageta-s-cesnom-in-maslom-spar-175g/p/303417
+Spar,vse za zajtrk malico ali kosilo,sendvici narezki in solate,303418,Cabbage 175g,"1,19 €",,https://www.spar.si/online/bageta-z-zelisci-spar-175g/p/303418
+Spar,vse za zajtrk malico ali kosilo,sendvici narezki in solate,449013,Oats 1000g,"3,00 €",,https://www.spar.si/online/solata-s-piscancjimi-fingersi-spar-to-go-1kg/p/449013
+Spar,vse za zajtrk malico ali kosilo,sendvici narezki in solate,305807,Potato 1000g,"3,00 €",,https://www.spar.si/online/fitnes-solata-spar-to-go-1kg/p/305807
+Spar,vse za zajtrk malico ali kosilo,sendvici narezki in solate,317843,Potato 1000g,"2,85 €",,https://www.spar.si/online/rezan-ananas-spar-to-go-1kg/p/317843
+Spar,vse za zajtrk malico ali kosilo,sendvici narezki in solate,303417,Cabbage 175g,"1,19 €",,https://www.spar.si/online/bageta-s-cesnom-in-maslom-spar-175g/p/303417
+Spar,vse za zajtrk malico ali kosilo,sendvici narezki in solate,303418,Cabbage 175g,"1,19 €",,https://www.spar.si/online/bageta-z-zelisci-spar-175g/p/303418
+Spar,vse za zajtrk malico ali kosilo,sendvici narezki in solate,301019,Potato 600g,"12,99 €",,https://www.spar.si/online/sirni-narezek-spar-to-go-600g-za-4-osebe/p/301019
+Spar,vse za zajtrk malico ali kosilo,sendvici narezki in solate,301018,Potato 1200g,"21,99 €",,https://www.spar.si/online/mesni-narezek-spar-to-go-1200g-za-8-oseb/p/301018
+Spar,vse za zajtrk malico ali kosilo,sendvici narezki in solate,301016,Potato 600g,"12,99 €",,https://www.spar.si/online/mesni-narezek-spar-to-go-600g-za-4-osebe/p/301016
+Spar,vse za zajtrk malico ali kosilo,sendvici narezki in solate,301020,Potato 1200g,"21,99 €",,https://www.spar.si/online/sirni-narezek-spar-to-go-1200g-za-8-oseb/p/301020
+Spar,vse za zajtrk malico ali kosilo,sendvici narezki in solate,449013,Oats 1000g,"3,00 €",,https://www.spar.si/online/solata-s-piscancjimi-fingersi-spar-to-go-1kg/p/449013
+Spar,vse za zajtrk malico ali kosilo,sendvici narezki in solate,305807,Potato 1000g,"3,00 €",,https://www.spar.si/online/fitnes-solata-spar-to-go-1kg/p/305807
+Spar,vse za zajtrk malico ali kosilo,sendvici narezki in solate,649454,Potato 400g,"4,99 €",,https://www.spar.si/online/nikina-bovla-nika-krmec-spar-to-go-400g/p/649454
+Spar,vse za zajtrk malico ali kosilo,sendvici narezki in solate,622363,Bun 280g,"6,28 €",,https://www.spar.si/online/zvitki-iz-buck-na-zaru-v-olju-coolhouse-280g/p/622363
+Spar,vse za zajtrk malico ali kosilo,sendvici narezki in solate,651231,Potato 400g,"4,10 €",,https://www.spar.si/online/nikini-arancini-nika-krmec-spar-to-go-400g/p/651231
+Spar,vse za zajtrk malico ali kosilo,sendvici narezki in solate,317843,Potato 1000g,"2,85 €",,https://www.spar.si/online/rezan-ananas-spar-to-go-1kg/p/317843
+Spar,vse za zajtrk malico ali kosilo,sendvici narezki in solate,317847,Potato 1000g,"1,80 €",,https://www.spar.si/online/sadna-kupa-spar-to-go-1kg/p/317847
+Spar,vse za zajtrk malico ali kosilo,sendvici narezki in solate,342481,Semolina 1000g,"2,40 €",,https://www.spar.si/online/sadna-solata-pina-colada-spar-to-go-1kg/p/342481
+Spar,vse za zajtrk malico ali kosilo,sendvici narezki in solate,394291,Potato 1000g,"2,25 €",,https://www.spar.si/online/rezano-sadje-ananas-kivi-in-melona-spar-to-go-1kg/p/394291
+Spar,vse za zajtrk malico ali kosilo,sendvici narezki in solate,317851,Potato 1000g,"2,85 €",,https://www.spar.si/online/rezana-melona-spar-to-go-1kg/p/317851
+Spar,vse za zajtrk malico ali kosilo,pripravljene jedi,407211,Orange 200g,"1,24 €",,https://www.spar.si/online/mesni-ragu-alla-bolognese-spar-200g/p/407211
+Spar,vse za zajtrk malico ali kosilo,pripravljene jedi,463632,Oats 840g,"3,19 €",,https://www.spar.si/online/jota-s-kislim-zeljem-spar-840g/p/463632
+Spar,vse za zajtrk malico ali kosilo,pripravljene jedi,633374,Mango 375g,"4,99 €",,https://www.spar.si/online/curry-kokos-mango-spar-375g/p/633374
+Spar,vse za zajtrk malico ali kosilo,pripravljene jedi,609292,Rye bread 350g,"3,29 €",,https://www.spar.si/online/bio-paradiznikova-omaka-z-govejim-mesom-bolognese-spar-naturpur-350g/p/609292
+Spar,vse za zajtrk malico ali kosilo,pripravljene jedi,609290,Rye bread 350g,"2,49 €",,https://www.spar.si/online/bio-paradiznikova-omaka-z-baziliko-spar-naturpur-350g/p/609290
+Spar,vse za zajtrk malico ali kosilo,pripravljene jedi,407211,Orange 200g,"1,24 €",,https://www.spar.si/online/mesni-ragu-alla-bolognese-spar-200g/p/407211
+Spar,vse za zajtrk malico ali kosilo,pripravljene jedi,463632,Oats 840g,"3,19 €",,https://www.spar.si/online/jota-s-kislim-zeljem-spar-840g/p/463632
+Spar,vse za zajtrk malico ali kosilo,pripravljene jedi,609292,Rye bread 350g,"3,29 €",,https://www.spar.si/online/bio-paradiznikova-omaka-z-govejim-mesom-bolognese-spar-naturpur-350g/p/609292
+Spar,vse za zajtrk malico ali kosilo,pripravljene jedi,609290,Rye bread 350g,"2,49 €",,https://www.spar.si/online/bio-paradiznikova-omaka-z-baziliko-spar-naturpur-350g/p/609290
+Spar,vse za zajtrk malico ali kosilo,pripravljene jedi,619511,Paprika 325g,"4,54 €",,https://www.spar.si/online/zelenjavna-omaka-za-testenine-uros-fakuc-spar-premium-325g/p/619511
+Spar,vse za zajtrk malico ali kosilo,pripravljene jedi,633374,Mango 375g,"4,99 €",,https://www.spar.si/online/curry-kokos-mango-spar-375g/p/633374
+Spar,vse za zajtrk malico ali kosilo,pripravljene jedi,652357,Tomato 450g,"9,99 €",,https://www.spar.si/online/goveji-zrezek-v-cebulni-omaki-to-go-spar-premium-450g/p/652357
+Spar,vse za zajtrk malico ali kosilo,pripravljene jedi,610807,Pear 300g,"3,49 €",,https://www.spar.si/online/spar-premium-skutni-struklji-s-skuto-lesniki-in-domacimi-suhimi-hruskami-300g/p/610807
+Spar,vse za zajtrk malico ali kosilo,pripravljene jedi,610800,Salami 300g,"3,19 €",,https://www.spar.si/online/domaci-skutni-struklji-s-suhimi-slivami-uros-stefelin-spar-premium-300g/p/610800
+Spar,vse za zajtrk malico ali kosilo,pripravljene jedi,638831,Pear 320g,"2,99 €",,https://www.spar.si/online/jesprenova-juha-z-zelenjavo-uros-stefelin-spar-premium-320g/p/638831
+Spar,vse za zajtrk malico ali kosilo,kava,455397,Pear 180g,"1,19 €","REDNA CENA 1,49 €",https://www.spar.si/online/instant-kava-3v1-spar-101-180g/p/455397
+Spar,vse za zajtrk malico ali kosilo,kava,591922,Mango 250g,"7,19 €",,https://www.spar.si/online/brezkofeinska-mleta-prazena-kava-spar-250g/p/591922
+Spar,vse za zajtrk malico ali kosilo,kava,292990,Pear 100g,"1,03 €",,https://www.spar.si/online/cappuccino-original-spar-100g/p/292990
+Spar,vse za zajtrk malico ali kosilo,kava,509483,Pear 100g,"3,77 €",,https://www.spar.si/online/dekofeinizirana-instant-kava-gold-spar-100g/p/509483
+Spar,vse za zajtrk malico ali kosilo,kava,455404,Pear 140g,"1,29 €",,https://www.spar.si/online/instant-kava-2v1-spar-101-140g/p/455404
+Spar,vse za zajtrk malico ali kosilo,kava,591922,Mango 250g,"7,19 €",,https://www.spar.si/online/brezkofeinska-mleta-prazena-kava-spar-250g/p/591922
+Spar,vse za zajtrk malico ali kosilo,kava,546797,Spread 500g,"10,55 €",,https://www.spar.si/online/bio-prazena-kava-v-zrnu-spar-naturpur-500g/p/546797
+Spar,vse za zajtrk malico ali kosilo,kava,342890,Pear 500g,"9,30 €",,https://www.spar.si/online/bio-mleta-kava-spar-naturpur-500g/p/342890
+Spar,vse za zajtrk malico ali kosilo,kava,545115,Spread 1000g,"19,28 €",,https://www.spar.si/online/bio-prazena-kava-v-zrnu-spar-naturpur-1kg/p/545115
+Spar,vse za zajtrk malico ali kosilo,kava,501970,Spread 1000g,"22,24 €",,https://www.spar.si/online/prazena-kava-v-zrnu-spar-premium-1kg/p/501970
+Spar,vse za zajtrk malico ali kosilo,kava,455397,Pear 180g,"1,19 €","REDNA CENA 1,49 €",https://www.spar.si/online/instant-kava-3v1-spar-101-180g/p/455397
+Spar,vse za zajtrk malico ali kosilo,kava,292990,Pear 100g,"1,03 €",,https://www.spar.si/online/cappuccino-original-spar-100g/p/292990
+Spar,vse za zajtrk malico ali kosilo,kava,509483,Pear 100g,"3,77 €",,https://www.spar.si/online/dekofeinizirana-instant-kava-gold-spar-100g/p/509483
+Spar,vse za zajtrk malico ali kosilo,kava,455404,Pear 140g,"1,29 €",,https://www.spar.si/online/instant-kava-2v1-spar-101-140g/p/455404
+Spar,vse za zajtrk malico ali kosilo,kava,516485,Tea 100g,"2,15 €",,https://www.spar.si/online/instant-zitna-kava-sparcaffe-spar-100g/p/516485
+Spar,vse za zajtrk malico ali kosilo,kava,601244,Barley 112g,"2,87 €","REDNA CENA 3,19 €",https://www.spar.si/online/kava-v-kapsulah-extra-bar-despar-161-112g/p/601244
+Spar,vse za zajtrk malico ali kosilo,kava,593810,Mango 159g,"4,99 €",,https://www.spar.si/online/kava-v-kapsulah-lungo-s-budget-301-159g/p/593810
+Spar,vse za zajtrk malico ali kosilo,kava,636118,Apple 1g,"4,99 €",,https://www.spar.si/online/kavne-kapsule-lungo-forte-s-budget-301156g/p/636118
+Spar,vse za zajtrk malico ali kosilo,kava,618842,Apple 156g,"4,99 €",,https://www.spar.si/online/kavne-kapsule-brezkofeinski-espresso-s-budget-301-156g/p/618842
+Spar,vse za zajtrk malico ali kosilo,kava,618296,Spread 50g,"1,75 €",,https://www.spar.si/online/kavne-kapsule-z-okusom-karamele-s-budget-101-50g/p/618296
+Spar,vse za zajtrk malico ali kosilo,caj,168254,Pear 80g,"1,55 €",,https://www.spar.si/online/caj-hibiskus-spar-401-80g/p/168254
+Spar,vse za zajtrk malico ali kosilo,caj,442454,Pear 44g,"1,03 €",,https://www.spar.si/online/caj-gozdni-sadezi-spar-201-44g/p/442454
+Spar,vse za zajtrk malico ali kosilo,caj,460213,Pear 116g,"5,29 €",,https://www.spar.si/online/sadni-cajni-mix-spar-116g/p/460213
+Spar,vse za zajtrk malico ali kosilo,caj,436962,Lentils 34g,"0,85 €",,https://www.spar.si/online/zeleni-caj-spar-201-34g/p/436962
+Spar,vse za zajtrk malico ali kosilo,caj,471956,Pear 44g,"1,19 €",,https://www.spar.si/online/aromatizirani-sadni-caj-brusnica-spar-201-44g/p/471956
+Spar,vse za zajtrk malico ali kosilo,caj,168254,Pear 80g,"1,55 €",,https://www.spar.si/online/caj-hibiskus-spar-401-80g/p/168254
+Spar,vse za zajtrk malico ali kosilo,caj,168251,Pear 20g,"0,69 €",,https://www.spar.si/online/caj-kamilica-spar-201-20g/p/168251
+Spar,vse za zajtrk malico ali kosilo,caj,168252,Pork 44g,"1,03 €",,https://www.spar.si/online/gorski-caj-zeliscni-spar-201-44g/p/168252
+Spar,vse za zajtrk malico ali kosilo,caj,637396,Pear 40g,"3,25 €",,https://www.spar.si/online/bio-zeliscni-caj-spar-naturpur-201-40g/p/637396
+Spar,vse za zajtrk malico ali kosilo,caj,604440,Pear 40g,"2,79 €",,https://www.spar.si/online/bio-zeliscni-caj-spar-naturpur-251-40g/p/604440
+Spar,vse za zajtrk malico ali kosilo,caj,442454,Pear 44g,"1,03 €",,https://www.spar.si/online/caj-gozdni-sadezi-spar-201-44g/p/442454
+Spar,vse za zajtrk malico ali kosilo,caj,460213,Pear 116g,"5,29 €",,https://www.spar.si/online/sadni-cajni-mix-spar-116g/p/460213
+Spar,vse za zajtrk malico ali kosilo,caj,471956,Pear 44g,"1,19 €",,https://www.spar.si/online/aromatizirani-sadni-caj-brusnica-spar-201-44g/p/471956
+Spar,vse za zajtrk malico ali kosilo,caj,656221,Pear 60g,"0,99 €",,https://www.spar.si/online/caj-zimski-izlet-spar-201-60g/p/656221
+Spar,vse za zajtrk malico ali kosilo,caj,481572,Pear 60g,"0,99 €",,https://www.spar.si/online/caj-zimska-pravljica-spar-60g/p/481572
+Spar,vse za zajtrk malico ali kosilo,caj,436962,Lentils 34g,"0,85 €",,https://www.spar.si/online/zeleni-caj-spar-201-34g/p/436962
+Spar,vse za zajtrk malico ali kosilo,caj,637408,Lentils 40g,"3,22 €",,https://www.spar.si/online/bio-zeleni-caj-spar-naturpur-201-40g/p/637408
+Spar,vse za zajtrk malico ali kosilo,caj,376844,Cream 33g,"2,19 €",,https://www.spar.si/online/crni-caj-irish-cream-teekanne-201-33g/p/376844
+Spar,vse za zajtrk malico ali kosilo,caj,522222,Green peas 35g,"1,96 €","REDNA CENA 2,45 €",https://www.spar.si/online/zeleni-caj-superior-green-tea-sir-winston-tea-201-35g/p/522222
+Spar,vse za zajtrk malico ali kosilo,caj,540807,Lentils 35g,"2,88 €",,https://www.spar.si/online/bio-zeleni-caj-z-ingverjem-herba-medica-251-35g/p/540807
+Spar,vse za zajtrk malico ali kosilo,caj,526987,Miso 200g,"3,79 €",,https://www.spar.si/online/instant-caj-jabolko-in-melisa-bebivita-200g/p/526987
+Spar,vse za zajtrk malico ali kosilo,caj,619109,Bread 30g,"2,39 €",,https://www.spar.si/online/bio-caj-za-cas-dojenja-breast-feeding-teekanne-201-30g/p/619109
+Spar,vse za zajtrk malico ali kosilo,caj,384580,Turkey 30g,"1,15 €",,https://www.spar.si/online/mesanica-zeliscnega-caja-za-otroke-krtek-201-30g/p/384580
+Spar,vse za zajtrk malico ali kosilo,kakav in drugi napitki,649248,Mango 350g,"3,39 €",,https://www.spar.si/online/cokoladni-napitek-z-manj-sladkorja-spar-350g/p/649248
+Spar,vse za zajtrk malico ali kosilo,kakav in drugi napitki,455413,Pasta 800g,"3,39 €",,https://www.spar.si/online/kakav-instant-s-budget-800-g/p/455413
+Spar,vse za zajtrk malico ali kosilo,kakav in drugi napitki,643022,Green peas 220g,"5,34 €","REDNA CENA 6,68 €",https://www.spar.si/online/extra-temna-vroca-cokolada-v-prahu-bam-220g/p/643022
+Spar,vse za zajtrk malico ali kosilo,kakav in drugi napitki,606316,Paprika 256g,"6,49 €",,https://www.spar.si/online/kapsule-nesquik-nescaf-dolce-gusto-161-256g/p/606316
+Spar,vse za zajtrk malico ali kosilo,kakav in drugi napitki,438094,Salami 30g,"0,76 €","REDNA CENA 0,95 €",https://www.spar.si/online/zrnca-z-okusom-vanilije-v-slamici-quick-milk-30g/p/438094
+Spar,vse za zajtrk malico ali kosilo,kakav in drugi napitki,649248,Mango 350g,"3,39 €",,https://www.spar.si/online/cokoladni-napitek-z-manj-sladkorja-spar-350g/p/649248
+Spar,vse za zajtrk malico ali kosilo,kakav in drugi napitki,455413,Pasta 800g,"3,39 €",,https://www.spar.si/online/kakav-instant-s-budget-800-g/p/455413
+Spar,vse za zajtrk malico ali kosilo,kakav in drugi napitki,643022,Green peas 220g,"5,34 €","REDNA CENA 6,68 €",https://www.spar.si/online/extra-temna-vroca-cokolada-v-prahu-bam-220g/p/643022
+Spar,vse za zajtrk malico ali kosilo,kakav in drugi napitki,606316,Paprika 256g,"6,49 €",,https://www.spar.si/online/kapsule-nesquik-nescaf-dolce-gusto-161-256g/p/606316
+Spar,vse za zajtrk malico ali kosilo,kakav in drugi napitki,438094,Salami 30g,"0,76 €","REDNA CENA 0,95 €",https://www.spar.si/online/zrnca-z-okusom-vanilije-v-slamici-quick-milk-30g/p/438094
+Spar,pijace,brezalkoholne pijace,652962,Mango 100g,"0,59 €",,https://www.spar.si/online/sadna-kasa-jabolko-in-mango-spar-100g/p/652962
+Spar,pijace,vino,339151,Quinoa 20g,"9,85 €",,https://www.spar.si/online/penece-vino-capris-cuvee-vinakoper-075l/p/339151
+Spar,pijace,kava,455397,Pear 180g,"1,19 €","REDNA CENA 1,49 €",https://www.spar.si/online/instant-kava-3v1-spar-101-180g/p/455397
+Spar,pijace,kava,292990,Pear 100g,"1,03 €",,https://www.spar.si/online/cappuccino-original-spar-100g/p/292990
+Spar,pijace,kava,509483,Pear 100g,"3,77 €",,https://www.spar.si/online/dekofeinizirana-instant-kava-gold-spar-100g/p/509483
+Spar,pijace,kava,455404,Pear 140g,"1,29 €",,https://www.spar.si/online/instant-kava-2v1-spar-101-140g/p/455404
+Spar,pijace,kava,516485,Tea 100g,"2,15 €",,https://www.spar.si/online/instant-zitna-kava-sparcaffe-spar-100g/p/516485
+Spar,pijace,kava,546797,Spread 500g,"10,55 €",,https://www.spar.si/online/bio-prazena-kava-v-zrnu-spar-naturpur-500g/p/546797
+Spar,pijace,kava,342890,Pear 500g,"9,30 €",,https://www.spar.si/online/bio-mleta-kava-spar-naturpur-500g/p/342890
+Spar,pijace,kava,545115,Spread 1000g,"19,28 €",,https://www.spar.si/online/bio-prazena-kava-v-zrnu-spar-naturpur-1kg/p/545115
+Spar,pijace,kava,501970,Spread 1000g,"22,24 €",,https://www.spar.si/online/prazena-kava-v-zrnu-spar-premium-1kg/p/501970
+Spar,pijace,kava,566246,Spread 500g,"7,68 €",,https://www.spar.si/online/prazena-kava-v-zrnu-spar-premium-500g/p/566246
+Spar,pijace,kava,455397,Pear 180g,"1,19 €","REDNA CENA 1,49 €",https://www.spar.si/online/instant-kava-3v1-spar-101-180g/p/455397
+Spar,pijace,kava,292990,Pear 100g,"1,03 €",,https://www.spar.si/online/cappuccino-original-spar-100g/p/292990
+Spar,pijace,kava,509483,Pear 100g,"3,77 €",,https://www.spar.si/online/dekofeinizirana-instant-kava-gold-spar-100g/p/509483
+Spar,pijace,kava,455404,Pear 140g,"1,29 €",,https://www.spar.si/online/instant-kava-2v1-spar-101-140g/p/455404
+Spar,pijace,kava,516485,Tea 100g,"2,15 €",,https://www.spar.si/online/instant-zitna-kava-sparcaffe-spar-100g/p/516485
+Spar,pijace,kava,601244,Barley 112g,"2,87 €","REDNA CENA 3,19 €",https://www.spar.si/online/kava-v-kapsulah-extra-bar-despar-161-112g/p/601244
+Spar,pijace,kava,593810,Mango 159g,"4,99 €",,https://www.spar.si/online/kava-v-kapsulah-lungo-s-budget-301-159g/p/593810
+Spar,pijace,kava,636118,Apple 1g,"4,99 €",,https://www.spar.si/online/kavne-kapsule-lungo-forte-s-budget-301156g/p/636118
+Spar,pijace,kava,618842,Apple 156g,"4,99 €",,https://www.spar.si/online/kavne-kapsule-brezkofeinski-espresso-s-budget-301-156g/p/618842
+Spar,pijace,kava,618296,Spread 50g,"1,75 €",,https://www.spar.si/online/kavne-kapsule-z-okusom-karamele-s-budget-101-50g/p/618296
+Spar,pijace,caj,168254,Pear 80g,"1,55 €",,https://www.spar.si/online/caj-hibiskus-spar-401-80g/p/168254
+Spar,pijace,caj,442454,Pear 44g,"1,03 €",,https://www.spar.si/online/caj-gozdni-sadezi-spar-201-44g/p/442454
+Spar,pijace,caj,460213,Pear 116g,"5,29 €",,https://www.spar.si/online/sadni-cajni-mix-spar-116g/p/460213
+Spar,pijace,caj,436962,Lentils 34g,"0,85 €",,https://www.spar.si/online/zeleni-caj-spar-201-34g/p/436962
+Spar,pijace,caj,471956,Pear 44g,"1,19 €",,https://www.spar.si/online/aromatizirani-sadni-caj-brusnica-spar-201-44g/p/471956
+Spar,pijace,caj,442454,Pear 44g,"1,03 €",,https://www.spar.si/online/caj-gozdni-sadezi-spar-201-44g/p/442454
+Spar,pijace,caj,460213,Pear 116g,"5,29 €",,https://www.spar.si/online/sadni-cajni-mix-spar-116g/p/460213
+Spar,pijace,caj,471956,Pear 44g,"1,19 €",,https://www.spar.si/online/aromatizirani-sadni-caj-brusnica-spar-201-44g/p/471956
+Spar,pijace,caj,656221,Pear 60g,"0,99 €",,https://www.spar.si/online/caj-zimski-izlet-spar-201-60g/p/656221
+Spar,pijace,caj,481572,Pear 60g,"0,99 €",,https://www.spar.si/online/caj-zimska-pravljica-spar-60g/p/481572
+Spar,pijace,caj,436962,Lentils 34g,"0,85 €",,https://www.spar.si/online/zeleni-caj-spar-201-34g/p/436962
+Spar,pijace,caj,637408,Lentils 40g,"3,22 €",,https://www.spar.si/online/bio-zeleni-caj-spar-naturpur-201-40g/p/637408
+Spar,pijace,caj,376844,Cream 33g,"2,19 €",,https://www.spar.si/online/crni-caj-irish-cream-teekanne-201-33g/p/376844
+Spar,pijace,caj,522222,Green peas 35g,"1,96 €","REDNA CENA 2,45 €",https://www.spar.si/online/zeleni-caj-superior-green-tea-sir-winston-tea-201-35g/p/522222
+Spar,pijace,caj,540807,Lentils 35g,"2,88 €",,https://www.spar.si/online/bio-zeleni-caj-z-ingverjem-herba-medica-251-35g/p/540807
+Spar,pijace,caj,168254,Pear 80g,"1,55 €",,https://www.spar.si/online/caj-hibiskus-spar-401-80g/p/168254
+Spar,pijace,caj,168251,Pear 20g,"0,69 €",,https://www.spar.si/online/caj-kamilica-spar-201-20g/p/168251
+Spar,pijace,caj,168252,Pork 44g,"1,03 €",,https://www.spar.si/online/gorski-caj-zeliscni-spar-201-44g/p/168252
+Spar,pijace,caj,637396,Pear 40g,"3,25 €",,https://www.spar.si/online/bio-zeliscni-caj-spar-naturpur-201-40g/p/637396
+Spar,pijace,caj,604440,Pear 40g,"2,79 €",,https://www.spar.si/online/bio-zeliscni-caj-spar-naturpur-251-40g/p/604440
+Spar,pijace,caj,526987,Miso 200g,"3,79 €",,https://www.spar.si/online/instant-caj-jabolko-in-melisa-bebivita-200g/p/526987
+Spar,pijace,caj,619109,Bread 30g,"2,39 €",,https://www.spar.si/online/bio-caj-za-cas-dojenja-breast-feeding-teekanne-201-30g/p/619109
+Spar,pijace,caj,384580,Turkey 30g,"1,15 €",,https://www.spar.si/online/mesanica-zeliscnega-caja-za-otroke-krtek-201-30g/p/384580
+Spar,pijace,kakav in vroca cokolada,649248,Mango 350g,"3,39 €",,https://www.spar.si/online/cokoladni-napitek-z-manj-sladkorja-spar-350g/p/649248
+Spar,pijace,kakav in vroca cokolada,455413,Pasta 800g,"3,39 €",,https://www.spar.si/online/kakav-instant-s-budget-800-g/p/455413
+Spar,pijace,kakav in vroca cokolada,643022,Green peas 220g,"5,34 €","REDNA CENA 6,68 €",https://www.spar.si/online/extra-temna-vroca-cokolada-v-prahu-bam-220g/p/643022
+Spar,pijace,kakav in vroca cokolada,606316,Paprika 256g,"6,49 €",,https://www.spar.si/online/kapsule-nesquik-nescaf-dolce-gusto-161-256g/p/606316
+Spar,pijace,kakav in vroca cokolada,438094,Salami 30g,"0,76 €","REDNA CENA 0,95 €",https://www.spar.si/online/zrnca-z-okusom-vanilije-v-slamici-quick-milk-30g/p/438094
+Spar,pijace,kakav in vroca cokolada,649248,Mango 350g,"3,39 €",,https://www.spar.si/online/cokoladni-napitek-z-manj-sladkorja-spar-350g/p/649248
+Spar,pijace,kakav in vroca cokolada,455413,Pasta 800g,"3,39 €",,https://www.spar.si/online/kakav-instant-s-budget-800-g/p/455413
+Spar,pijace,kakav in vroca cokolada,643022,Green peas 220g,"5,34 €","REDNA CENA 6,68 €",https://www.spar.si/online/extra-temna-vroca-cokolada-v-prahu-bam-220g/p/643022
+Spar,pijace,kakav in vroca cokolada,606316,Paprika 256g,"6,49 €",,https://www.spar.si/online/kapsule-nesquik-nescaf-dolce-gusto-161-256g/p/606316
+Spar,pijace,kakav in vroca cokolada,438094,Salami 30g,"0,76 €","REDNA CENA 0,95 €",https://www.spar.si/online/zrnca-z-okusom-vanilije-v-slamici-quick-milk-30g/p/438094
+Spar,kruh pecivo in slascice,kruh,270481,Green peas 1000g,"1,89 €",,https://www.spar.si/online/psenicni-polbeli-kruh-rezan-spar-1kg/p/270481
+Spar,kruh pecivo in slascice,kruh,589717,Tomato 375g,"1,85 €",,https://www.spar.si/online/psenicni-toast-extra-soft-spar-375g/p/589717
+Spar,kruh pecivo in slascice,kruh,605416,Bell pepper 250g,"0,44 €",,https://www.spar.si/online/baguetta-bela-spar-250g/p/605416
+Spar,kruh pecivo in slascice,kruh,574431,Pear 500g,"1,79 €",,https://www.spar.si/online/bio-rzeni-polnozrnati-kruh-z-lanenimi-semeni-spar-naturpur-500g/p/574431
+Spar,kruh pecivo in slascice,kruh,481365,Grains 170g,"1,08 €",,https://www.spar.si/online/grisini-s-sezamom-spar-170g/p/481365
+Spar,kruh pecivo in slascice,kruh,270481,Green peas 1000g,"1,89 €",,https://www.spar.si/online/psenicni-polbeli-kruh-rezan-spar-1kg/p/270481
+Spar,kruh pecivo in slascice,kruh,605416,Bell pepper 250g,"0,44 €",,https://www.spar.si/online/baguetta-bela-spar-250g/p/605416
+Spar,kruh pecivo in slascice,kruh,574431,Pear 500g,"1,79 €",,https://www.spar.si/online/bio-rzeni-polnozrnati-kruh-z-lanenimi-semeni-spar-naturpur-500g/p/574431
+Spar,kruh pecivo in slascice,kruh,574427,Pear 500g,"1,69 €",,https://www.spar.si/online/bio-polnozrnati-rzeni-kruh-spar-naturpur-500g/p/574427
+Spar,kruh pecivo in slascice,kruh,624485,Pear 76g,"0,59 €",,https://www.spar.si/online/bio-kornstrucka-psenicno-pekovsko-pecivo-spar-naturpur-76g/p/624485
+Spar,kruh pecivo in slascice,kruh,589717,Tomato 375g,"1,85 €",,https://www.spar.si/online/psenicni-toast-extra-soft-spar-375g/p/589717
+Spar,kruh pecivo in slascice,kruh,481365,Grains 170g,"1,08 €",,https://www.spar.si/online/grisini-s-sezamom-spar-170g/p/481365
+Spar,kruh pecivo in slascice,kruh,476160,Tomato 750g,"1,99 €",,https://www.spar.si/online/toast-kruh-american-style-spar-750g/p/476160
+Spar,kruh pecivo in slascice,kruh,147680,Tomato 500g,"1,39 €",,https://www.spar.si/online/toast-kruh-spar-500g/p/147680
+Spar,kruh pecivo in slascice,kruh,625374,Tomato 500g,"2,85 €",,https://www.spar.si/online/pirin-toast-spar-500g/p/625374
+Spar,kruh pecivo in slascice,pekovsko pecivo,548781,Cream 80g,"1,46 €",,https://www.spar.si/online/rzena-mesana-strucka-spar-4x80g/p/548781
+Spar,kruh pecivo in slascice,pekovsko pecivo,613616,Pizza dough 560g,"1,99 €",,https://www.spar.si/online/pizza-testo-z-drozmi-pekarna-spar-560g/p/613616
+Spar,kruh pecivo in slascice,pekovsko pecivo,303417,Cabbage 175g,"1,19 €",,https://www.spar.si/online/bageta-s-cesnom-in-maslom-spar-175g/p/303417
+Spar,kruh pecivo in slascice,pekovsko pecivo,583973,Pear 325g,"1,69 €",,https://www.spar.si/online/kajzerice-spar-51-325g/p/583973
+Spar,kruh pecivo in slascice,pekovsko pecivo,642528,Pear 300g,"2,99 €",,https://www.spar.si/online/psenicno-pekovsko-pecivo-iz-luzenega-testa-strucke-bavarske-za-dopeko-spar-41-300g/p/642528
+Spar,kruh pecivo in slascice,pekovsko pecivo,335473,Pear 70g,"0,60 €",,https://www.spar.si/online/sirova-strucka-pekarna-spar-70g/p/335473
+Spar,kruh pecivo in slascice,pekovsko pecivo,248852,Onion 240g,"2,09 €",,https://www.spar.si/online/bela-zemlja-don-don-240-g-4-x-60-g/p/248852
+Spar,kruh pecivo in slascice,pekovsko pecivo,434603,Hot dog 280g,"1,98 €",,https://www.spar.si/online/hot-dog-strucka-don-don-280-g-2-x-140-g/p/434603
+Spar,kruh pecivo in slascice,pekovsko pecivo,426659,Bread 200g,"3,59 €",,https://www.spar.si/online/ciabattia-brez-glutena-schr-200g/p/426659
+Spar,kruh pecivo in slascice,pekovsko pecivo,335487,Pear 100g,"0,54 €",,https://www.spar.si/online/koruzna-zemlja-pekarna-spar-100g/p/335487
+Spar,kruh pecivo in slascice,pekovsko pecivo,345880,Pear 60g,"0,54 €",,https://www.spar.si/online/sitarjevo-pecivo-pekarna-spar-60g/p/345880
+Spar,kruh pecivo in slascice,pekovsko pecivo,482181,Salmon 300g,"3,05 €",,https://www.spar.si/online/bombeta-za-hamburger-s-sezamom-mega-burger-quickbury-41-300g/p/482181
+Spar,kruh pecivo in slascice,pekovsko pecivo,552892,Spinach 70g,"0,49 €",,https://www.spar.si/online/pirina-zemlja-pekarna-spar-70-g/p/552892
+Spar,kruh pecivo in slascice,pekovsko pecivo,548781,Cream 80g,"1,46 €",,https://www.spar.si/online/rzena-mesana-strucka-spar-4x80g/p/548781
+Spar,kruh pecivo in slascice,pekovsko pecivo,613616,Pizza dough 560g,"1,99 €",,https://www.spar.si/online/pizza-testo-z-drozmi-pekarna-spar-560g/p/613616
+Spar,kruh pecivo in slascice,pekovsko pecivo,303417,Cabbage 175g,"1,19 €",,https://www.spar.si/online/bageta-s-cesnom-in-maslom-spar-175g/p/303417
+Spar,kruh pecivo in slascice,pekovsko pecivo,583973,Pear 325g,"1,69 €",,https://www.spar.si/online/kajzerice-spar-51-325g/p/583973
+Spar,kruh pecivo in slascice,pekovsko pecivo,642528,Pear 300g,"2,99 €",,https://www.spar.si/online/psenicno-pekovsko-pecivo-iz-luzenega-testa-strucke-bavarske-za-dopeko-spar-41-300g/p/642528
+Spar,kruh pecivo in slascice,slascice sladice in potice,568483,Roll 280g,"2,45 €",,https://www.spar.si/online/mini-rolade-lesnik-spar-280g/p/568483
+Spar,kruh pecivo in slascice,slascice sladice in potice,568484,Roll 280g,"2,45 €",,https://www.spar.si/online/mini-rolade-vanilija-spar-280g/p/568484
+Spar,kruh pecivo in slascice,slascice sladice in potice,551438,Pear 400g,"3,29 €",,https://www.spar.si/online/kolac-cokolada-spar-400g/p/551438
+Spar,kruh pecivo in slascice,slascice sladice in potice,641243,Roll 305g,"1,79 €",,https://www.spar.si/online/biskvitna-rolada-polnjena-z-lesnikovo-kremo-s-budget-305g/p/641243
+Spar,kruh pecivo in slascice,slascice sladice in potice,581625,Pear 450g,"5,43 €",,https://www.spar.si/online/francosko-pecivo-z-marelicnim-nadevom-spar-450g/p/581625
+Spar,kruh pecivo in slascice,slascice sladice in potice,568483,Roll 280g,"2,45 €",,https://www.spar.si/online/mini-rolade-lesnik-spar-280g/p/568483
+Spar,kruh pecivo in slascice,slascice sladice in potice,568484,Roll 280g,"2,45 €",,https://www.spar.si/online/mini-rolade-vanilija-spar-280g/p/568484
+Spar,kruh pecivo in slascice,slascice sladice in potice,551438,Pear 400g,"3,29 €",,https://www.spar.si/online/kolac-cokolada-spar-400g/p/551438
+Spar,kruh pecivo in slascice,slascice sladice in potice,641243,Roll 305g,"1,79 €",,https://www.spar.si/online/biskvitna-rolada-polnjena-z-lesnikovo-kremo-s-budget-305g/p/641243
+Spar,kruh pecivo in slascice,slascice sladice in potice,581625,Pear 450g,"5,43 €",,https://www.spar.si/online/francosko-pecivo-z-marelicnim-nadevom-spar-450g/p/581625
+Spar,kruh pecivo in slascice,slascice sladice in potice,533260,Tortilla 500g,"7,19 €",,https://www.spar.si/online/sacher-torta-s-budget-500g/p/533260
+Spar,kruh pecivo in slascice,slascice sladice in potice,609751,Cottage cheese 300g,"7,63 €","REDNA CENA 8,98 €",https://www.spar.si/online/veganska-torta-cheesecake-mlinotest-300g/p/609751
+Spar,kruh pecivo in slascice,slascice sladice in potice,334666,Tortilla 750g,"10,99 €",,https://www.spar.si/online/cokoladna-torta-pekarna-spar-750g/p/334666
+Spar,kruh pecivo in slascice,slascice sladice in potice,583742,Tortilla 1000g,"27,98 €",,https://www.spar.si/online/torta-jafa-stamevski-prestige-1kg/p/583742
+Spar,kruh pecivo in slascice,slascice sladice in potice,583734,Tortilla 1000g,"27,98 €",,https://www.spar.si/online/torta-dobos-stamevski-prestige-1kg/p/583734
+Spar,kruh pecivo in slascice,drobtine mlinci in cmoki,639762,Pear 500g,"1,23 €",,https://www.spar.si/online/polbele-krusne-drobtine-spar-500g/p/639762
+Spar,kruh pecivo in slascice,drobtine mlinci in cmoki,627266,Pear 400g,"1,39 €",,https://www.spar.si/online/bio-polnozrnate-drobtine-spar-naturpur-400g/p/627266
+Spar,kruh pecivo in slascice,drobtine mlinci in cmoki,506096,Pear 250g,"3,39 €",,https://www.spar.si/online/drobtine-spar-free-from-250g/p/506096
+Spar,kruh pecivo in slascice,drobtine mlinci in cmoki,324022,Rye bread 500g,"2,29 €",,https://www.spar.si/online/drobtine-bele-zito-500g/p/324022
+Spar,kruh pecivo in slascice,drobtine mlinci in cmoki,554629,Beef 400g,"2,09 €",,https://www.spar.si/online/bele-drobtine-pangratta-barattolo-gecchele-400g/p/554629
+Spar,kruh pecivo in slascice,drobtine mlinci in cmoki,639762,Pear 500g,"1,23 €",,https://www.spar.si/online/polbele-krusne-drobtine-spar-500g/p/639762
+Spar,kruh pecivo in slascice,drobtine mlinci in cmoki,627266,Pear 400g,"1,39 €",,https://www.spar.si/online/bio-polnozrnate-drobtine-spar-naturpur-400g/p/627266
+Spar,kruh pecivo in slascice,drobtine mlinci in cmoki,506096,Pear 250g,"3,39 €",,https://www.spar.si/online/drobtine-spar-free-from-250g/p/506096
+Spar,kruh pecivo in slascice,drobtine mlinci in cmoki,324022,Rye bread 500g,"2,29 €",,https://www.spar.si/online/drobtine-bele-zito-500g/p/324022
+Spar,kruh pecivo in slascice,drobtine mlinci in cmoki,554629,Beef 400g,"2,09 €",,https://www.spar.si/online/bele-drobtine-pangratta-barattolo-gecchele-400g/p/554629
+Spar,shramba,moka in mlevski izdelki,434972,Pear 1000g,"1,10 €",,https://www.spar.si/online/jesprenj-spar-1kg/p/434972
+Spar,shramba,moka in mlevski izdelki,596280,Pear 500g,"1,19 €",,https://www.spar.si/online/kuskus-spar-500g/p/596280
+Spar,shramba,moka in mlevski izdelki,554859,Bread 1000g,"0,78 €",,https://www.spar.si/online/psenicna-bela-moka-t400-spar-1kg/p/554859
+Spar,shramba,moka in mlevski izdelki,540899,Spread 1000g,"0,99 €",,https://www.spar.si/online/rzena-moka-spar-1kg/p/540899
+Spar,shramba,moka in mlevski izdelki,437728,Tea 1000g,"2,79 €",,https://www.spar.si/online/ajdova-kasa-spar-1kg/p/437728
+Spar,shramba,moka in mlevski izdelki,554859,Bread 1000g,"0,78 €",,https://www.spar.si/online/psenicna-bela-moka-t400-spar-1kg/p/554859
+Spar,shramba,moka in mlevski izdelki,540899,Spread 1000g,"0,99 €",,https://www.spar.si/online/rzena-moka-spar-1kg/p/540899
+Spar,shramba,moka in mlevski izdelki,173873,Bread 1000g,"0,78 €",,https://www.spar.si/online/psenicna-bela-moka-t500-spar-1kg/p/173873
+Spar,shramba,moka in mlevski izdelki,502236,Pear 1000g,"1,99 €",,https://www.spar.si/online/ajdova-moka-spar-1kg/p/502236
+Spar,shramba,moka in mlevski izdelki,650975,Spinach 1000g,"1,39 €",,https://www.spar.si/online/pirina-moka-spar-1kg/p/650975
+Spar,shramba,moka in mlevski izdelki,434972,Pear 1000g,"1,10 €",,https://www.spar.si/online/jesprenj-spar-1kg/p/434972
+Spar,shramba,moka in mlevski izdelki,596280,Pear 500g,"1,19 €",,https://www.spar.si/online/kuskus-spar-500g/p/596280
+Spar,shramba,moka in mlevski izdelki,437728,Tea 1000g,"2,79 €",,https://www.spar.si/online/ajdova-kasa-spar-1kg/p/437728
+Spar,shramba,moka in mlevski izdelki,500581,Tea 500g,"0,94 €",,https://www.spar.si/online/prosena-kasa-spar-500g/p/500581
+Spar,shramba,moka in mlevski izdelki,486496,Spread 1000g,"3,69 €",,https://www.spar.si/online/bio-prosena-kasa-spar-naturpur-1kg/p/486496
+Spar,shramba,moka in mlevski izdelki,566946,Hot dog 1000g,"2,79 €",,https://www.spar.si/online/bio-pirin-zdrob-spar-naturpur-1kg/p/566946
+Spar,shramba,moka in mlevski izdelki,609012,Hot dog 500g,"2,79 €",,https://www.spar.si/online/bio-pirin-zdrob-kot-doma-500g/p/609012
+Spar,shramba,moka in mlevski izdelki,609013,Hot dog 500g,"2,11 €","REDNA CENA 2,49 €",https://www.spar.si/online/bio-ajdov-zdrob-kot-doma-500g/p/609013
+Spar,shramba,moka in mlevski izdelki,42718,Apple 250g,"2,18 €",,https://www.spar.si/online/ajdovi-zganci-hitra-priprava-zlato-polje-250g/p/42718
+Spar,shramba,moka in mlevski izdelki,481218,Apple 250g,"1,68 €","REDNA CENA 1,98 €",https://www.spar.si/online/bio-pirin-zdrob-hitra-priprava-zlato-polje-250g/p/481218
+Spar,shramba,konzervirane jedi,305895,Olive oil 710g,"4,69 €",,https://www.spar.si/online/polnjene-zelene-olive-s-pasto-iz-paprike-spar-710g/p/305895
+Spar,shramba,konzervirane jedi,305896,Olive oil 370g,"2,28 €",,https://www.spar.si/online/crne-olive-s-koscico-spar-370g/p/305896
+Spar,shramba,konzervirane jedi,128255,Pear 800g,"1,99 €",,https://www.spar.si/online/strocji-fizol-narezan-spar-800g/p/128255
+Spar,shramba,konzervirane jedi,399603,Salt 620g,"1,48 €",,https://www.spar.si/online/mesana-solata-v-kisu-spar-620g/p/399603
+Spar,shramba,konzervirane jedi,454234,Cereal 280g,"1,49 €",,https://www.spar.si/online/sampinjoni-v-kisu-celi-spar-280g/p/454234
+Spar,shramba,konzervirane jedi,193386,Tuna 80g,"3,49 €",,https://www.spar.si/online/tuna-v-oljcnem-olju-spar-3x80g/p/193386
+Spar,shramba,konzervirane jedi,471548,Lemon 105g,"1,09 €",,https://www.spar.si/online/jadranske-sardele-v-rastlinskem-olju-z-limono-spar-105g/p/471548
+Spar,shramba,konzervirane jedi,358349,Oats 280g,"2,66 €",,https://www.spar.si/online/tunina-solata-s-teksasko-zelenjavo-spar-280g/p/358349
+Spar,shramba,konzervirane jedi,471551,Barley 105g,"1,09 €",,https://www.spar.si/online/jadranske-sardele-z-zelenjavo-v-omaki-spar-105g/p/471551
+Spar,shramba,konzervirane jedi,633634,Oats 160g,"1,99 €",,https://www.spar.si/online/tunina-solata-s-kuskusom-spar-160g/p/633634
+Spar,shramba,konzervirane jedi,305895,Olive oil 710g,"4,69 €",,https://www.spar.si/online/polnjene-zelene-olive-s-pasto-iz-paprike-spar-710g/p/305895
+Spar,shramba,konzervirane jedi,305896,Olive oil 370g,"2,28 €",,https://www.spar.si/online/crne-olive-s-koscico-spar-370g/p/305896
+Spar,shramba,konzervirane jedi,128255,Pear 800g,"1,99 €",,https://www.spar.si/online/strocji-fizol-narezan-spar-800g/p/128255
+Spar,shramba,konzervirane jedi,399603,Salt 620g,"1,48 €",,https://www.spar.si/online/mesana-solata-v-kisu-spar-620g/p/399603
+Spar,shramba,konzervirane jedi,454234,Cereal 280g,"1,49 €",,https://www.spar.si/online/sampinjoni-v-kisu-celi-spar-280g/p/454234
+Spar,shramba,konzervirane jedi,413850,Kombu 312g,"1,59 €",,https://www.spar.si/online/mandarine-v-kompotu-spar-312g/p/413850
+Spar,shramba,konzervirane jedi,423104,Kombu 420g,"1,79 €",,https://www.spar.si/online/sadje-v-kompotu-sadni-coctail-spar-420g/p/423104
+Spar,shramba,konzervirane jedi,567810,Salami 350g,"1,49 €",,https://www.spar.si/online/bio-jabolcna-cezana-z-marelicami-spar-naturpur-350g/p/567810
+Spar,shramba,konzervirane jedi,413909,Pear 350g,"1,29 €",,https://www.spar.si/online/bio-jabolcna-kasa-iz-jabolk-sorte-delises-spar-naturpur-350g/p/413909
+Spar,shramba,konzervirane jedi,606835,Pear 190g,"1,09 €",,https://www.spar.si/online/bio-kasica-jabolko-hruska-in-pirin-psenicni-zdrob-spar-naturpur-190g/p/606835
+Spar,shramba,konzervirane jedi,463632,Oats 840g,"3,19 €",,https://www.spar.si/online/jota-s-kislim-zeljem-spar-840g/p/463632
+Spar,shramba,konzervirane jedi,617969,Rye bread 400g,"1,29 €",,https://www.spar.si/online/golazeva-juha-s-budget-400g/p/617969
+Spar,shramba,konzervirane jedi,571864,Paprika 400g,"1,99 €",,https://www.spar.si/online/polnjene-paprike-v-paradiznikovi-omaki-s-budget-400g/p/571864
+Spar,shramba,konzervirane jedi,305895,Olive oil 710g,"4,69 €",,https://www.spar.si/online/polnjene-zelene-olive-s-pasto-iz-paprike-spar-710g/p/305895
+Spar,shramba,konzervirane jedi,305896,Olive oil 370g,"2,28 €",,https://www.spar.si/online/crne-olive-s-koscico-spar-370g/p/305896
+Spar,shramba,konzervirane jedi,297033,Olive oil 500g,"4,19 €",,https://www.spar.si/online/grske-olive-v-slanici-kalamata-zop-spar-500g/p/297033
+Spar,shramba,konzervirane jedi,517280,Olive oil 350g,"1,79 €",,https://www.spar.si/online/zelene-olive-s-koscico-spar-350g/p/517280
+Spar,shramba,konzervirane jedi,293250,Olive oil 710g,"3,39 €",,https://www.spar.si/online/zelene-olive-s-koscico-v-slanem-nalivu-spar-710g/p/293250
+Spar,shramba,pastete narezki in namazi,633687,Tuna 95g,"1,09 €",,https://www.spar.si/online/tunina-pasteta-spar-95g/p/633687
+Spar,shramba,pastete narezki in namazi,215919,Pear 145g,"0,96 €",,https://www.spar.si/online/puranji-narezek-spar-145g/p/215919
+Spar,shramba,pastete narezki in namazi,253534,Paprika 330g,"1,69 €",,https://www.spar.si/online/namaz-s-papriko-spar-330g/p/253534
+Spar,shramba,pastete narezki in namazi,215918,Pear 145g,"0,99 €",,https://www.spar.si/online/kmecki-narezek-spar-145g/p/215918
+Spar,shramba,pastete narezki in namazi,215808,Pear 145g,"1,14 €",,https://www.spar.si/online/mesni-narezek-spar-145g/p/215808
+Spar,shramba,pastete narezki in namazi,427214,Tuna 100g,"0,79 €",,https://www.spar.si/online/jetrna-pasteta-spar-100g/p/427214
+Spar,shramba,pastete narezki in namazi,556184,Pasta 50g,"0,25 €",,https://www.spar.si/online/cajna-pasteta-s-budget-50g/p/556184
+Spar,shramba,pastete narezki in namazi,556139,Pasta 50g,"0,29 €",,https://www.spar.si/online/piscancja-pasteta-s-budget-50g/p/556139
+Spar,shramba,pastete narezki in namazi,556138,Tuna 50g,"0,29 €",,https://www.spar.si/online/jetrna-pasteta-s-budget-50g/p/556138
+Spar,shramba,pastete narezki in namazi,556134,Pasta 50g,"0,29 €",,https://www.spar.si/online/domaca-pasteta-s-budget-50g/p/556134
+Spar,shramba,pastete narezki in namazi,633687,Tuna 95g,"1,09 €",,https://www.spar.si/online/tunina-pasteta-spar-95g/p/633687
+Spar,shramba,pastete narezki in namazi,534263,Pasta 165g,"3,19 €",,https://www.spar.si/online/ribja-pasteta-z-jadranskimi-kozicami-spar-premium-165g/p/534263
+Spar,shramba,pastete narezki in namazi,76883,Tuna 100g,"3,09 €",,https://www.spar.si/online/tunin-namaz-rio-mare-pate-100g/p/76883
+Spar,shramba,pastete narezki in namazi,373902,Pasta 95g,"1,40 €","REDNA CENA 1,65 €",https://www.spar.si/online/pasteta-tunina-siciliana-argeta-95g/p/373902
+Spar,shramba,pastete narezki in namazi,391566,Tuna 95g,"1,67 €",,https://www.spar.si/online/tunina-pasteta-super-tuna-argeta-junior-95g/p/391566
+Spar,shramba,pastete narezki in namazi,215919,Pear 145g,"0,96 €",,https://www.spar.si/online/puranji-narezek-spar-145g/p/215919
+Spar,shramba,pastete narezki in namazi,215918,Pear 145g,"0,99 €",,https://www.spar.si/online/kmecki-narezek-spar-145g/p/215918
+Spar,shramba,pastete narezki in namazi,215808,Pear 145g,"1,14 €",,https://www.spar.si/online/mesni-narezek-spar-145g/p/215808
+Spar,shramba,pastete narezki in namazi,253534,Paprika 330g,"1,69 €",,https://www.spar.si/online/namaz-s-papriko-spar-330g/p/253534
+Spar,shramba,pastete narezki in namazi,636367,Pear 400g,"2,99 €",,https://www.spar.si/online/namaz-iz-piskotov-spar-400g/p/636367
+Spar,shramba,pastete narezki in namazi,645092,Pear 220g,"9,49 €",,https://www.spar.si/online/tatarski-biftek-uros-stefelin-spar-premium-220g/p/645092
+Spar,shramba,pastete narezki in namazi,491592,Olive oil 190g,"2,19 €",,https://www.spar.si/online/namaz-iz-crnih-oliv-despar-190g/p/491592
+Spar,shramba,pastete narezki in namazi,328087,Pasta 95g,"5,27 €",,https://www.spar.si/online/kokosja-pasteta-argeta-junior-4x95g/p/328087
+Spar,shramba,pastete narezki in namazi,396052,Pasta 27g,"0,63 €",,https://www.spar.si/online/kokosja-pasteta-argeta-27g/p/396052
+Spar,shramba,pastete narezki in namazi,373902,Pasta 95g,"1,40 €","REDNA CENA 1,65 €",https://www.spar.si/online/pasteta-tunina-siciliana-argeta-95g/p/373902
+Spar,shramba,pastete narezki in namazi,391566,Tuna 95g,"1,67 €",,https://www.spar.si/online/tunina-pasteta-super-tuna-argeta-junior-95g/p/391566
+Spar,shramba,pastete narezki in namazi,626911,Orange 95g,"1,35 €","REDNA CENA 1,59 €",https://www.spar.si/online/zelenjavni-namaz-crne-olive-argeta-95g/p/626911
+Spar,shramba,sladkor in sladila,634069,Tea 250g,"1,49 €",,https://www.spar.si/online/sladkor-porcijski-spar-501-250g/p/634069
+Spar,shramba,sladkor in sladila,296157,Pear 500g,"1,49 €",,https://www.spar.si/online/nerafinirani-trsni-rjavi-sladkor-spar-500g/p/296157
+Spar,shramba,sladkor in sladila,474394,Tea 1000g,"2,79 €",,https://www.spar.si/online/sladkor-rjavi-spar-1kg/p/474394
+Spar,shramba,sladkor in sladila,534587,Grains 1000g,"7,29 €",,https://www.spar.si/online/bio-agavin-sirup-spar-naturpur-1kg/p/534587
+Spar,shramba,sladkor in sladila,320115,Pear 500g,"1,59 €",,https://www.spar.si/online/bio-trsni-sladkor-spar-naturpur-500g/p/320115
+Spar,shramba,sladkor in sladila,634069,Tea 250g,"1,49 €",,https://www.spar.si/online/sladkor-porcijski-spar-501-250g/p/634069
+Spar,shramba,sladkor in sladila,649663,Potato 1000g,"1,25 €",,https://www.spar.si/online/kristalni-beli-sladkor-s-budget-1kg/p/649663
+Spar,shramba,sladkor in sladila,608107,Pork 200g,"2,39 €",,https://www.spar.si/online/porcijski-sladkor-wiener-zucker-501-200g/p/608107
+Spar,shramba,sladkor in sladila,299157,Potato 1000g,"0,95 €","REDNA CENA 1,59 €",https://www.spar.si/online/beli-kristalni-sladkor-agragold-1kg/p/299157
+Spar,shramba,sladkor in sladila,296157,Pear 500g,"1,49 €",,https://www.spar.si/online/nerafinirani-trsni-rjavi-sladkor-spar-500g/p/296157
+Spar,shramba,sladkor in sladila,474394,Tea 1000g,"2,79 €",,https://www.spar.si/online/sladkor-rjavi-spar-1kg/p/474394
+Spar,shramba,sladkor in sladila,320115,Pear 500g,"1,59 €",,https://www.spar.si/online/bio-trsni-sladkor-spar-naturpur-500g/p/320115
+Spar,shramba,sladkor in sladila,439782,Tea 1000g,"2,35 €",,https://www.spar.si/online/rjavi-sladkor-s-budget-1kg/p/439782
+Spar,shramba,sladkor in sladila,500919,Lentils 500g,"0,99 €",,https://www.spar.si/online/mleti-sladkor-diamant-500g/p/500919
+Spar,shramba,sladkor in sladila,502107,Peach 250g,"2,39 €",,https://www.spar.si/online/sladkor-v-prahu-wiener-zucker-250g-mlincek/p/502107
+Spar,shramba,sladkor in sladila,42084,Spread 500g,"2,22 €","REDNA CENA 2,78 €",https://www.spar.si/online/mleti-sladkor-sladki-prah-dr-oetker-500g/p/42084
+Spar,shramba,sladkor in sladila,38380,Lentils 100g,"1,23 €",,https://www.spar.si/online/mleti-sladkor-sladki-prah-z-vanilinom-dr-oetker-100g/p/38380
+Spar,shramba,sladkor in sladila,414351,Lentils 500g,"0,99 €","REDNA CENA 1,49 €",https://www.spar.si/online/mleti-sladkor-agragold-500g/p/414351
+Spar,shramba,sladkor in sladila,534587,Grains 1000g,"7,29 €",,https://www.spar.si/online/bio-agavin-sirup-spar-naturpur-1kg/p/534587
+Spar,shramba,sladkor in sladila,217518,Vinegar 500g,"1,68 €","REDNA CENA 1,98 €",https://www.spar.si/online/zelirni-sladkor-2-1-wiener-zucker-500g/p/217518
+Spar,shramba,sladkor in sladila,518013,Salmon 500g,"13,49 €",,https://www.spar.si/online/naravno-sladilo-eritritol-medex-500g/p/518013
+Spar,shramba,sladkor in sladila,622944,Salmon 400g,"7,49 €",,https://www.spar.si/online/sladilo-eritritol-easis-400g/p/622944
+Spar,shramba,sladkor in sladila,469732,Mozzarella 350g,"4,08 €",,https://www.spar.si/online/zelirni-sladkor-s-sladilom-iz-stevie-dr-oetker-350g/p/469732
+Spar,shramba,sladkor in sladila,361773,Salmon 72g,"1,69 €",,https://www.spar.si/online/umetno-sladilo-s-budget-72g/p/361773
+Spar,shramba,sladkor in sladila,159199,Salmon 39g,"2,98 €",,https://www.spar.si/online/sladilo-huxol-6501-39g/p/159199
+Spar,shramba,sladkor in sladila,635174,Tea 300g,"7,64 €","REDNA CENA 8,99 €",https://www.spar.si/online/stevia-delizeus-300-g/p/635174
+Spar,shramba,sol zacimbe in dodatki,656782,Lamb 45g,"0,95 €",,https://www.spar.si/online/curry-mesanica-zacimb-spar-45g/p/656782
+Spar,shramba,sol zacimbe in dodatki,474436,Tea 12g,"0,83 €",,https://www.spar.si/online/origano-drobljen-spar-12g/p/474436
+Spar,shramba,sol zacimbe in dodatki,474439,Tea 10g,"1,09 €",,https://www.spar.si/online/majaron-drobljeni-spar-10g/p/474439
+Spar,shramba,sol zacimbe in dodatki,526281,Tomato 38g,"0,89 €",,https://www.spar.si/online/mesanica-za-omako-carbonara-spar-38g/p/526281
+Spar,shramba,sol zacimbe in dodatki,474433,Green peas 70g,"1,00 €",,https://www.spar.si/online/cesen-spar-70g/p/474433
+Spar,shramba,sol zacimbe in dodatki,474419,Pork 50g,"1,29 €",,https://www.spar.si/online/crni-poper-mleti-spar-50g/p/474419
+Spar,shramba,sol zacimbe in dodatki,623042,Pork 125g,"0,72 €",,https://www.spar.si/online/jodirana-morska-sol-rafinirana-zelo-fino-mleta-despar-125g/p/623042
+Spar,shramba,sol zacimbe in dodatki,623038,Pork 1000g,"0,55 €",,https://www.spar.si/online/jodirana-morska-sol-rafinirana-fino-mleta-despar-1kg/p/623038
+Spar,shramba,sol zacimbe in dodatki,598129,Tea 65g,"3,65 €",,https://www.spar.si/online/bio-zacimbna-sol-spar-premium-65g/p/598129
+Spar,shramba,sol zacimbe in dodatki,426243,Pear 1000g,"0,55 €",,https://www.spar.si/online/groba-sol-despar-1kg/p/426243
+Spar,shramba,sol zacimbe in dodatki,656782,Lamb 45g,"0,95 €",,https://www.spar.si/online/curry-mesanica-zacimb-spar-45g/p/656782
+Spar,shramba,sol zacimbe in dodatki,474436,Tea 12g,"0,83 €",,https://www.spar.si/online/origano-drobljen-spar-12g/p/474436
+Spar,shramba,sol zacimbe in dodatki,474439,Tea 10g,"1,09 €",,https://www.spar.si/online/majaron-drobljeni-spar-10g/p/474439
+Spar,shramba,sol zacimbe in dodatki,526281,Tomato 38g,"0,89 €",,https://www.spar.si/online/mesanica-za-omako-carbonara-spar-38g/p/526281
+Spar,shramba,sol zacimbe in dodatki,474433,Green peas 70g,"1,00 €",,https://www.spar.si/online/cesen-spar-70g/p/474433
+Spar,shramba,sol zacimbe in dodatki,583667,Olive oil 360g,"0,99 €",,https://www.spar.si/online/gorcica-spar-360g/p/583667
+Spar,shramba,sol zacimbe in dodatki,626391,Garlic 680g,"1,29 €",,https://www.spar.si/online/delikatesna-gorcica-s-budget-680g/p/626391
+Spar,shramba,sol zacimbe in dodatki,649045,Green peas 200g,"0,99 €",,https://www.spar.si/online/hren-s-budget-200g/p/649045
+Spar,shramba,sol zacimbe in dodatki,135204,Garlic 700g,"1,82 €",,https://www.spar.si/online/gorcica-tina-700g/p/135204
+Spar,shramba,sol zacimbe in dodatki,563271,Tea 90g,"2,59 €",,https://www.spar.si/online/svezi-ribani-stajerski-hren-moj-vrt-90g/p/563271
+Spar,shramba,kis in olje,630864,Grains 100g,"1,59 €",,https://www.spar.si/online/preliv-na-francoski-nacin-s-budget-500ml/p/630864
+Spar,shramba,testenine,201460,Apple 250g,"1,34 €",,https://www.spar.si/online/testenine-kapeleti-s-sirom-spar-250g/p/201460
+Spar,shramba,testenine,295988,Nori 500g,"1,23 €",,https://www.spar.si/online/krompirjevi-njoki-spar-500g/p/295988
+Spar,shramba,testenine,345845,Pear 500g,"1,49 €",,https://www.spar.si/online/jajcne-testenine-tagliatelle-spar-500g/p/345845
+Spar,shramba,testenine,482348,Pear 500g,"0,77 €",,https://www.spar.si/online/testenine-polnozrnati-peresniki-spar-500g/p/482348
+Spar,shramba,testenine,237445,Pork 500g,"0,82 €",,https://www.spar.si/online/polzki-amorosi-spar-500g/p/237445
+Spar,shramba,testenine,201460,Apple 250g,"1,34 €",,https://www.spar.si/online/testenine-kapeleti-s-sirom-spar-250g/p/201460
+Spar,shramba,testenine,345845,Pear 500g,"1,49 €",,https://www.spar.si/online/jajcne-testenine-tagliatelle-spar-500g/p/345845
+Spar,shramba,testenine,482348,Pear 500g,"0,77 €",,https://www.spar.si/online/testenine-polnozrnati-peresniki-spar-500g/p/482348
+Spar,shramba,testenine,237445,Pork 500g,"0,82 €",,https://www.spar.si/online/polzki-amorosi-spar-500g/p/237445
+Spar,shramba,testenine,498446,Spaghetti 500g,"0,83 €",,https://www.spar.si/online/spageti-n5-spar-500g/p/498446
+Spar,shramba,testenine,201460,Apple 250g,"1,34 €",,https://www.spar.si/online/testenine-kapeleti-s-sirom-spar-250g/p/201460
+Spar,shramba,testenine,654797,Pear 250g,"1,99 €",,https://www.spar.si/online/ravioli-z-jurcki-in-sampinjoni-despar-250g/p/654797
+Spar,shramba,testenine,641107,Pear 250g,"1,64 €",,https://www.spar.si/online/testenine-listi-za-lazanjo-despar-91-250g/p/641107
+Spar,shramba,testenine,610777,Pork 250g,"3,39 €",,https://www.spar.si/online/pirini-ravioli-s-tartufi-siri-in-staranim-sirom-tolminc-uros-fakuc-spar-premium-250g/p/610777
+Spar,shramba,testenine,451958,Pear 250g,"1,59 €",,https://www.spar.si/online/sveze-jajcne-testenine-siroki-rezanci-despar-250g/p/451958
+Spar,shramba,testenine,384268,Pear 75g,"1,29 €",,https://www.spar.si/online/bio-pirini-hrustavci-spar-naturpur-75g/p/384268
+Spar,shramba,testenine,366919,Rice 220g,"0,82 €",,https://www.spar.si/online/jusne-kroglice-s-budget-220g/p/366919
+Spar,shramba,testenine,452494,Banana 1000g,"2,54 €",,https://www.spar.si/online/ribana-kasa-s-budget-1kg/p/452494
+Spar,shramba,testenine,41211,Rice 90g,"0,84 €",,https://www.spar.si/online/zlate-kroglice-intes-90g/p/41211
+Spar,shramba,testenine,119286,Leek 75g,"0,97 €",,https://www.spar.si/online/jusne-kocke-s-cesnom-land-leben-75g/p/119286
+Spar,shramba,testenine,295988,Nori 500g,"1,23 €",,https://www.spar.si/online/krompirjevi-njoki-spar-500g/p/295988
+Spar,shramba,testenine,367052,Nori 1000g,"1,39 €",,https://www.spar.si/online/krompirjevi-njoki-s-budget-1kg/p/367052
+Spar,shramba,testenine,597284,Tomato 170g,"0,96 €",,https://www.spar.si/online/instant-testenine-z-gobovo-omako-s-budget-170g/p/597284
+Spar,shramba,testenine,597315,Tomato 170g,"1,39 €",,https://www.spar.si/online/svedri-s-sirovo-omako-s-budget-170g/p/597315
+Spar,shramba,riz polenta ostalo,370251,Parsley 1000g,"2,09 €",,https://www.spar.si/online/dolgozrnati-beli-riz-parboiled-spar-1kg/p/370251
+Spar,shramba,riz polenta ostalo,492426,Pear 750g,"1,99 €",,https://www.spar.si/online/krompirjevi-krhlji-zacinjeni-spar-750g/p/492426
+Spar,shramba,riz polenta ostalo,370253,Pear 1000g,"2,17 €",,https://www.spar.si/online/okroglozrnat-beli-riz-spar-1kg/p/370253
+Spar,shramba,riz polenta ostalo,533344,Parsley 1000g,"2,98 €",,https://www.spar.si/online/mesanica-3-vrst-zit-spar-1kg/p/533344
+Spar,shramba,riz polenta ostalo,589367,Salami 750g,"3,89 €",,https://www.spar.si/online/krompirjevi-svaljki-s-skuto-spar-750g/p/589367
+Spar,shramba,riz polenta ostalo,370251,Parsley 1000g,"2,09 €",,https://www.spar.si/online/dolgozrnati-beli-riz-parboiled-spar-1kg/p/370251
+Spar,shramba,riz polenta ostalo,370253,Pear 1000g,"2,17 €",,https://www.spar.si/online/okroglozrnat-beli-riz-spar-1kg/p/370253
+Spar,shramba,riz polenta ostalo,533344,Parsley 1000g,"2,98 €",,https://www.spar.si/online/mesanica-3-vrst-zit-spar-1kg/p/533344
+Spar,shramba,riz polenta ostalo,370247,Rice 1000g,"1,79 €",,https://www.spar.si/online/dolgozrnati-beli-riz-spar-1kg/p/370247
+Spar,shramba,riz polenta ostalo,550819,Rice 500g,"1,69 €",,https://www.spar.si/online/jasminov-dolgozrnati-beli-riz-spar-500g/p/550819
+Spar,shramba,riz polenta ostalo,501231,Tea 500g,"0,88 €",,https://www.spar.si/online/instant-polenta-spar-500g/p/501231
+Spar,shramba,riz polenta ostalo,608789,Tea 500g,"1,29 €",,https://www.spar.si/online/bio-koruzni-zdrob-spar-naturpur-500g/p/608789
+Spar,shramba,riz polenta ostalo,473575,Lentils 1000g,"1,70 €",,https://www.spar.si/online/instant-polenta-s-budget-1kg/p/473575
+Spar,shramba,riz polenta ostalo,41797,Potato 250g,"0,88 €",,https://www.spar.si/online/instant-polenta-zlato-polje-250g/p/41797
+Spar,shramba,riz polenta ostalo,564472,Tea 500g,"1,03 €",,https://www.spar.si/online/koruzni-zdrob-mlinotest-500g/p/564472
+Spar,shramba,riz polenta ostalo,492426,Pear 750g,"1,99 €",,https://www.spar.si/online/krompirjevi-krhlji-zacinjeni-spar-750g/p/492426
+Spar,shramba,riz polenta ostalo,589367,Salami 750g,"3,89 €",,https://www.spar.si/online/krompirjevi-svaljki-s-skuto-spar-750g/p/589367
+Spar,shramba,riz polenta ostalo,555010,Pear 600g,"2,29 €",,https://www.spar.si/online/ocvrt-krompir-dippers-spar-600g/p/555010
+Spar,shramba,riz polenta ostalo,567983,Salami 450g,"3,75 €",,https://www.spar.si/online/krompir-sladki-spar-bbq-450g/p/567983
+Spar,shramba,riz polenta ostalo,362398,Salami 1500g,"4,09 €",,https://www.spar.si/online/krompirjevi-svaljki-s-budget-15kg/p/362398
+Spar,shramba,sestavine in mesanice za peko,544292,Kidney beans 80g,"1,99 €",,https://www.spar.si/online/dekor-srcki-temna-in-bela-cokolada-spar-80g/p/544292
+Spar,shramba,sestavine in mesanice za peko,501225,Pear 250g,"1,99 €",,https://www.spar.si/online/kakavov-desertni-preliv-spar-250g/p/501225
+Spar,shramba,sestavine in mesanice za peko,654959,Pear 250g,"1,49 €",,https://www.spar.si/online/mesanica-za-peko-peciva-spar-250g/p/654959
+Spar,shramba,sestavine in mesanice za peko,340799,Lentils 200g,"1,79 €","REDNA CENA 1,99 €",https://www.spar.si/online/mleti-orehi-spar-200g/p/340799
+Spar,shramba,sestavine in mesanice za peko,655770,Bread 195g,"1,79 €",,https://www.spar.si/online/mesanica-za-pripravo-cararskega-prazenca-brez-rozin-spar-195g/p/655770
+Spar,shramba,sestavine in mesanice za peko,471513,Peach 200g,"1,69 €",,https://www.spar.si/online/cokolada-v-prahu-spar-200g/p/471513
+Spar,shramba,sestavine in mesanice za peko,491754,Tea 200g,"1,19 €","REDNA CENA 1,59 €",https://www.spar.si/online/bio-kokos-spar-naturpur-200g/p/491754
+Spar,shramba,sestavine in mesanice za peko,639830,Trout 5g,"3,49 €",,https://www.spar.si/online/bio-burbonska-vanilija-strok-narezan-in-posusen-spar-naturpur-5g-mlincek/p/639830
+Spar,shramba,sestavine in mesanice za peko,581283,Peach 125g,"2,99 €",,https://www.spar.si/online/bio-kakav-v-prahu-spar-naturpur-125g/p/581283
+Spar,shramba,sestavine in mesanice za peko,603604,Wakame 21g,"0,69 €",,https://www.spar.si/online/bio-vinski-kamen-spar-naturpur-3x21g/p/603604
+Spar,shramba,sestavine in mesanice za peko,597489,Tea 7g,"0,45 €",,https://www.spar.si/online/suhi-kvas-s-budget-5x7g/p/597489
+Spar,shramba,sestavine in mesanice za peko,41237,Pork 7g,"0,34 €",,https://www.spar.si/online/suhi-pekovksi-kvas-dolcela-podravka-7g/p/41237
+Spar,shramba,sestavine in mesanice za peko,79540,Salami 42g,"0,52 €",,https://www.spar.si/online/svezi-kvas-fala-42g/p/79540
+Spar,shramba,sestavine in mesanice za peko,337364,Salami 500g,"3,43 €",,https://www.spar.si/online/svezi-kvas-fala-500g/p/337364
+Spar,shramba,sestavine in mesanice za peko,654959,Pear 250g,"1,49 €",,https://www.spar.si/online/mesanica-za-peko-peciva-spar-250g/p/654959
+Spar,shramba,sestavine in mesanice za peko,655770,Bread 195g,"1,79 €",,https://www.spar.si/online/mesanica-za-pripravo-cararskega-prazenca-brez-rozin-spar-195g/p/655770
+Spar,shramba,sestavine in mesanice za peko,654958,Pear 500g,"2,99 €",,https://www.spar.si/online/mesanica-za-peko-cokoladnega-biskvita-spar-500g/p/654958
+Spar,shramba,sestavine in mesanice za peko,400170,Pear 300g,"1,99 €",,https://www.spar.si/online/zmes-za-cokoladne-muffine-spar-300g/p/400170
+Spar,shramba,sestavine in mesanice za peko,436058,Pear 300g,"1,99 €",,https://www.spar.si/online/zmes-za-muffine-s-koscki-cokolade-spar-300g/p/436058
+Spar,shramba,sestavine in mesanice za peko,340799,Lentils 200g,"1,79 €","REDNA CENA 1,99 €",https://www.spar.si/online/mleti-orehi-spar-200g/p/340799
+Spar,shramba,sestavine in mesanice za peko,274032,Tea 200g,"2,39 €",,https://www.spar.si/online/nastrgani-mandlji-spar-200g/p/274032
+Spar,shramba,sestavine in mesanice za peko,576404,Pear 300g,"3,88 €",,https://www.spar.si/online/indijski-orescki-nesoljeni-in-neprazeni-spar-300g/p/576404
+Spar,shramba,sestavine in mesanice za peko,525606,Pork 175g,"2,62 €",,https://www.spar.si/online/mesani-oreski-spar-175g/p/525606
+Spar,shramba,sestavine in mesanice za peko,579963,Onion 700g,"8,19 €",,https://www.spar.si/online/studentska-hrana-spar-700g/p/579963
+Spar,shramba,sestavine in mesanice za peko,496144,Quinoa 10g,"0,95 €",,https://www.spar.si/online/bio-pomarancna-lupina-spar-naturpur-10g/p/496144
+Spar,shramba,sestavine in mesanice za peko,445647,Garlic 10g,"0,99 €",,https://www.spar.si/online/bio-naribana-limonina-lupica-spar-naturpur-10g/p/445647
+Spar,shramba,sestavine in mesanice za peko,408089,Pear 4g,"2,99 €",,https://www.spar.si/online/bourbonska-vanilija-spar-naturpur-21-4g/p/408089
+Spar,shramba,sestavine in mesanice za peko,589517,Pasta 50g,"2,15 €","REDNA CENA 2,69 €",https://www.spar.si/online/bio-vanilijeva-pasta-bourbon-spar-naturpur-50g/p/589517
+Spar,shramba,sestavine in mesanice za peko,544292,Kidney beans 80g,"1,99 €",,https://www.spar.si/online/dekor-srcki-temna-in-bela-cokolada-spar-80g/p/544292
+Spar,shramba,sestavine in mesanice za peko,443428,Apple 100g,"1,99 €",,https://www.spar.si/online/cokoladne-kapljice-spar-100g/p/443428
+Spar,shramba,sestavine in mesanice za peko,655676,Pear 125g,"2,49 €",,https://www.spar.si/online/cokoladni-kosmici-spar-125g/p/655676
+Spar,shramba,sestavine in mesanice za peko,437736,Pasta 200g,"1,99 €",,https://www.spar.si/online/marcipanova-masa-spar-200g/p/437736
+Spar,shramba,sestavine in mesanice za peko,437748,Pear 125g,"1,99 €",,https://www.spar.si/online/nastrgana-cokolada-spar-125g/p/437748
+Spar,shramba,sestavine in mesanice za peko,631275,Tomato 400g,"5,25 €",,https://www.spar.si/online/oblati-za-torto-3-plasti-kuchenmeister-400g/p/631275
+Spar,shramba,sestavine in mesanice za peko,648167,Orange 60g,"1,79 €",,https://www.spar.si/online/okrasni-holipi-manner-60g/p/648167
+Spar,shramba,sestavine in mesanice za peko,648168,Coriander 125g,"1,79 €",,https://www.spar.si/online/korneti-manner-101-125g/p/648168
+Spar,shramba,sestavine in mesanice za peko,578872,Rice 150g,"1,49 €",,https://www.spar.si/online/rolice-z-vanilijevo-kremo-tago-150g/p/578872
+Spar,shramba,sestavine in mesanice za peko,543534,Oats 200g,"1,48 €",,https://www.spar.si/online/oblati-vafelj-listi-voar-200g/p/543534
+Spar,shramba,sestavine in mesanice za peko,501225,Pear 250g,"1,99 €",,https://www.spar.si/online/kakavov-desertni-preliv-spar-250g/p/501225
+Spar,shramba,sestavine in mesanice za peko,640078,Barley 10g,"2,19 €",,https://www.spar.si/online/jedilne-barve-v-tubi-spar-4x10g/p/640078
+Spar,shramba,sestavine in mesanice za peko,654818,Salami 175g,"1,89 €",,https://www.spar.si/online/mesanica-za-pripravo-skutine-ali-jogurtove-kreme-za-torte-spar-175g/p/654818
+Spar,shramba,sestavine in mesanice za peko,640077,Pear 16g,"4,15 €",,https://www.spar.si/online/pisala-za-okrasevanje-zivil-8-barv-spar-81-16g/p/640077
+Spar,shramba,sestavine in mesanice za peko,655677,Pear 250g,"1,99 €",,https://www.spar.si/online/jagodni-desertni-preliv-spar-250g/p/655677
+Spar,shramba,sestavine in mesanice za peko,21730,Pear 250g,"3,59 €",,https://www.spar.si/online/jedilna-cokolada-spar-250g/p/21730
+Spar,shramba,sestavine in mesanice za peko,381327,Tea 200g,"1,99 €",,https://www.spar.si/online/temna-cokolada-kuvertura-spar-200g/p/381327
+Spar,shramba,sestavine in mesanice za peko,381326,Pear 200g,"1,99 €",,https://www.spar.si/online/mlecna-cokolada-kuvertura-spar-200g/p/381326
+Spar,shramba,sestavine in mesanice za peko,381325,Bread 200g,"1,99 €",,https://www.spar.si/online/bela-cokolada-kuvertura-spar-200g/p/381325
+Spar,shramba,sestavine in mesanice za peko,622671,Pear 250g,"3,59 €","REDNA CENA 4,49 €",https://www.spar.si/online/bio-cokolada-za-peko-in-kuhanje-spar-naturpur-250g/p/622671
+Spar,shramba,omake prelivi in priloge jedem,655769,Tomato 250g,"1,79 €",,https://www.spar.si/online/pripravek-za-zgostitev-juh-omak-in-zelenjave-fixina-spar-250g/p/655769
+Spar,shramba,omake prelivi in priloge jedem,276026,Salami 300g,"2,99 €",,https://www.spar.si/online/omaka-salsa-guacamole-spar-300g/p/276026
+Spar,shramba,omake prelivi in priloge jedem,368718,Salami 300g,"1,89 €",,https://www.spar.si/online/omaka-salsa-s-kislo-smetano-spar-300g/p/368718
+Spar,shramba,omake prelivi in priloge jedem,285444,Basil 900g,"1,79 €",,https://www.spar.si/online/blagi-ketchup-spar-900g/p/285444
+Spar,shramba,omake prelivi in priloge jedem,503993,Spread 75g,"0,89 €",,https://www.spar.si/online/mesanica-za-pripravo-lazanje-spar-75g/p/503993
+Spar,shramba,omake prelivi in priloge jedem,655769,Tomato 250g,"1,79 €",,https://www.spar.si/online/pripravek-za-zgostitev-juh-omak-in-zelenjave-fixina-spar-250g/p/655769
+Spar,shramba,omake prelivi in priloge jedem,503993,Spread 75g,"0,89 €",,https://www.spar.si/online/mesanica-za-pripravo-lazanje-spar-75g/p/503993
+Spar,shramba,omake prelivi in priloge jedem,260497,Pear 250g,"0,89 €",,https://www.spar.si/online/dodatek-jedem-mix-spar-250g/p/260497
+Spar,shramba,omake prelivi in priloge jedem,610564,Rye bread 320g,"2,99 €",,https://www.spar.si/online/ribji-fond-uros-fakuc-spar-premium-320g/p/610564
+Spar,shramba,omake prelivi in priloge jedem,610984,Pear 130g,"2,29 €","REDNA CENA 2,89 €",https://www.spar.si/online/telecji-fond-uros-stefelin-spar-premium-130g/p/610984
+Spar,shramba,omake prelivi in priloge jedem,450707,Pasta 50g,"1,89 €",,https://www.spar.si/online/rdeca-curry-pasta-lobo-50-g/p/450707
+Spar,shramba,omake prelivi in priloge jedem,285444,Basil 900g,"1,79 €",,https://www.spar.si/online/blagi-ketchup-spar-900g/p/285444
+Spar,shramba,omake prelivi in priloge jedem,285446,Pear 900g,"1,79 €",,https://www.spar.si/online/pekoci-ketchup-spar-900g/p/285446
+Spar,shramba,omake prelivi in priloge jedem,21272,Pear 500g,"1,07 €",,https://www.spar.si/online/pekoci-paradiznikov-ketchup-s-cilijem-spar-500g/p/21272
+Spar,shramba,omake prelivi in priloge jedem,285835,Basil 500g,"1,07 €",,https://www.spar.si/online/blagi-ketchup-spar-500g/p/285835
+Spar,shramba,omake prelivi in priloge jedem,482694,Pear 550g,"2,15 €",,https://www.spar.si/online/bio-ketchup-spar-naturpur-550g/p/482694
+Spar,shramba,omake prelivi in priloge jedem,270988,Garlic 200g,"2,18 €",,https://www.spar.si/online/gorcica-dijon-spar-200g/p/270988
+Spar,shramba,omake prelivi in priloge jedem,517286,Garlic 200g,"1,25 €",,https://www.spar.si/online/gorcica-kremser-spar-200g/p/517286
+Spar,shramba,omake prelivi in priloge jedem,583667,Olive oil 360g,"0,99 €",,https://www.spar.si/online/gorcica-spar-360g/p/583667
+Spar,shramba,omake prelivi in priloge jedem,517284,Garlic 200g,"1,25 €",,https://www.spar.si/online/gorcica-estragon-spar-200g/p/517284
+Spar,shramba,omake prelivi in priloge jedem,581985,Garlic 200g,"3,79 €",,https://www.spar.si/online/bio-estragonska-gorcica-z-medom-spar-premium-200g/p/581985
+Spar,shramba,omake prelivi in priloge jedem,276026,Salami 300g,"2,99 €",,https://www.spar.si/online/omaka-salsa-guacamole-spar-300g/p/276026
+Spar,shramba,omake prelivi in priloge jedem,368718,Salami 300g,"1,89 €",,https://www.spar.si/online/omaka-salsa-s-kislo-smetano-spar-300g/p/368718
+Spar,shramba,omake prelivi in priloge jedem,412778,Pear 175g,"1,49 €",,https://www.spar.si/online/delikatesna-majoneza-spar-175g/p/412778
+Spar,shramba,omake prelivi in priloge jedem,368717,Salami 330g,"1,89 €",,https://www.spar.si/online/omaka-salsa-barbecue-spar-330g/p/368717
+Spar,shramba,omake prelivi in priloge jedem,557233,Tea 500g,"2,95 €",,https://www.spar.si/online/francoska-solata-spar-500g/p/557233
+Spar,shramba,omake prelivi in priloge jedem,557247,Tea 250g,"1,79 €",,https://www.spar.si/online/francoska-solata-lahka-spar-250g/p/557247
+Spar,shramba,omake prelivi in priloge jedem,557238,Tea 250g,"1,79 €",,https://www.spar.si/online/francoska-solata-spar-250g/p/557238
+Spar,shramba,omake prelivi in priloge jedem,557244,Tea 500g,"2,99 €",,https://www.spar.si/online/francoska-solata-lahka-spar-500g/p/557244
+Spar,shramba,omake prelivi in priloge jedem,644894,Salt 400g,"2,99 €","REDNA CENA 3,59 €",https://www.spar.si/online/francoska-solata-uros-stefelin-spar-premium-400g/p/644894
+Spar,shramba,omake prelivi in priloge jedem,514148,Spinach 435g,"1,89 €",,https://www.spar.si/online/pikantna-omaka-s-sirom-nacho-spar-435g/p/514148
+Spar,shramba,omake prelivi in priloge jedem,253805,Salami 315g,"1,29 €",,https://www.spar.si/online/omaka-salsa-medium-spar-315g/p/253805
+Spar,shramba,omake prelivi in priloge jedem,410155,Pasta 190g,"1,89 €",,https://www.spar.si/online/pesto-s-paradiznikom-spar-190g/p/410155
+Spar,shramba,omake prelivi in priloge jedem,407211,Orange 200g,"1,24 €",,https://www.spar.si/online/mesni-ragu-alla-bolognese-spar-200g/p/407211
+Spar,shramba,omake prelivi in priloge jedem,410156,Pasta 190g,"1,79 €",,https://www.spar.si/online/omaka-pesto-bazilika-spar-190g/p/410156
+Spar,shramba,juhe in jusni dodatki,605566,Pear 59g,"0,89 €",,https://www.spar.si/online/juha-z-jajcnimi-testeninami-spar-feine-59g/p/605566
+Spar,shramba,juhe in jusni dodatki,605499,Pear 64g,"0,60 €",,https://www.spar.si/online/gobova-kremna-juha-spar-feine-64g/p/605499
+Spar,shramba,juhe in jusni dodatki,605571,Bun 72g,"0,79 €",,https://www.spar.si/online/bucna-kremna-juha-spar-feine-72g/p/605571
+Spar,shramba,juhe in jusni dodatki,605565,Pear 62g,"0,73 €",,https://www.spar.si/online/juha-z-zelenjavo-spar-feine-62g/p/605565
+Spar,shramba,juhe in jusni dodatki,605567,Spread 68g,"0,75 €",,https://www.spar.si/online/zelenjavna-kremna-juha-spar-68g/p/605567
+Spar,shramba,juhe in jusni dodatki,605566,Pear 59g,"0,89 €",,https://www.spar.si/online/juha-z-jajcnimi-testeninami-spar-feine-59g/p/605566
+Spar,shramba,juhe in jusni dodatki,605499,Pear 64g,"0,60 €",,https://www.spar.si/online/gobova-kremna-juha-spar-feine-64g/p/605499
+Spar,shramba,juhe in jusni dodatki,605571,Bun 72g,"0,79 €",,https://www.spar.si/online/bucna-kremna-juha-spar-feine-72g/p/605571
+Spar,shramba,juhe in jusni dodatki,605565,Pear 62g,"0,73 €",,https://www.spar.si/online/juha-z-zelenjavo-spar-feine-62g/p/605565
+Spar,shramba,juhe in jusni dodatki,605567,Spread 68g,"0,75 €",,https://www.spar.si/online/zelenjavna-kremna-juha-spar-68g/p/605567
+Spar,shramba,juhe in jusni dodatki,445668,Pear 66g,"1,15 €",,https://www.spar.si/online/bio-zelenjavne-jusne-kocke-spar-naturpur-61-66g/p/445668
+Spar,shramba,juhe in jusni dodatki,610561,Rye bread 320g,"2,99 €",,https://www.spar.si/online/piscancji-fond-gregor-vracko-spar-premium-320g/p/610561
+Spar,shramba,juhe in jusni dodatki,366705,Tuna 110g,"0,49 €",,https://www.spar.si/online/zelenjavna-jusna-kocka-s-budget-101-110g/p/366705
+Spar,shramba,juhe in jusni dodatki,366703,Tuna 110g,"0,49 €",,https://www.spar.si/online/kokosja-jusna-kocka-s-budget-101-110g/p/366703
+Spar,shramba,juhe in jusni dodatki,366701,Tuna 110g,"0,49 €",,https://www.spar.si/online/goveja-jusna-kocka-s-budget-101-110g/p/366701
+Spar,bio in druga posebna hrana,specialitete,496435,Tempeh 230g,"1,45 €",,https://www.spar.si/online/paradiznikova-omaka-tex-mex-srednje-pekoca-spar-230g/p/496435
+Spar,bio in druga posebna hrana,specialitete,605305,Barley 400g,"1,39 €",,https://www.spar.si/online/baby-korenje-zelo-fino-spar-400g/p/605305
+Spar,bio in druga posebna hrana,specialitete,570568,Rice 180g,"2,99 €",,https://www.spar.si/online/ociscene-kozice-predkuhane-v-slanici-spar-180g/p/570568
+Spar,bio in druga posebna hrana,specialitete,631786,Wakame 200g,"1,49 €",,https://www.spar.si/online/bio-zelena-soja-edamame-v-strokih-spar-naturpur-200g/p/631786
+Spar,bio in druga posebna hrana,specialitete,483376,Pear 185g,"3,69 €",,https://www.spar.si/online/bio-suseni-paradizniki-v-soncnicnem-olju-spar-naturpur-185g/p/483376
+Spar,bio in druga posebna hrana,specialitete,645092,Pear 220g,"9,49 €",,https://www.spar.si/online/tatarski-biftek-uros-stefelin-spar-premium-220g/p/645092
+Spar,bio in druga posebna hrana,specialitete,496435,Tempeh 230g,"1,45 €",,https://www.spar.si/online/paradiznikova-omaka-tex-mex-srednje-pekoca-spar-230g/p/496435
+Spar,bio in druga posebna hrana,specialitete,605305,Barley 400g,"1,39 €",,https://www.spar.si/online/baby-korenje-zelo-fino-spar-400g/p/605305
+Spar,bio in druga posebna hrana,specialitete,631786,Wakame 200g,"1,49 €",,https://www.spar.si/online/bio-zelena-soja-edamame-v-strokih-spar-naturpur-200g/p/631786
+Spar,bio in druga posebna hrana,specialitete,483376,Pear 185g,"3,69 €",,https://www.spar.si/online/bio-suseni-paradizniki-v-soncnicnem-olju-spar-naturpur-185g/p/483376
+Spar,bio in druga posebna hrana,specialitete,604966,Spread 140g,"2,69 €",,https://www.spar.si/online/pira-despar-3x140g/p/604966
+Spar,bio in druga posebna hrana,specialitete,570568,Rice 180g,"2,99 €",,https://www.spar.si/online/ociscene-kozice-predkuhane-v-slanici-spar-180g/p/570568
+Spar,bio in druga posebna hrana,specialitete,641071,Mushroom 100g,"4,79 €","REDNA CENA 5,99 €",https://www.spar.si/online/lososov-karpaco-s-prelivom-in-naribanim-sirom-parmigano-reggiano-zop-spar-premium-100g/p/641071
+Spar,bio in druga posebna hrana,specialitete,482796,Salami 125g,"2,75 €",,https://www.spar.si/online/aljaski-polak-koscki-fjordgold-125g/p/482796
+Spar,bio in druga posebna hrana,specialitete,633438,Spinach 8g,"2,37 €",,https://www.spar.si/online/sipino-crnilo-riunione-8g/p/633438
+Spar,bio in druga posebna hrana,specialitete,620992,Grains 175g,"2,89 €",,https://www.spar.si/online/surimi-raki-s-cesnom-vici-175g/p/620992
+Spar,bio in druga posebna hrana,specialitete,644785,Herbs 390g,"5,99 €",,https://www.spar.si/online/hiter-obrok-jabolcna-pita-njamito-390g/p/644785
+Spar,bio in druga posebna hrana,specialitete,656919,Vinegar 40g,"14,49 €",,https://www.spar.si/online/crni-poletni-tartufi-sesekljani-v-oljcnem-olju-zigante-40g/p/656919
+Spar,bio in druga posebna hrana,specialitete,638159,Salami 210g,"2,59 €",,https://www.spar.si/online/slanik-koscki-fileja-s-cebulo-v-olju-vici-210g/p/638159
+Spar,bio in druga posebna hrana,specialitete,656929,Turmeric 40g,"26,79 €",,https://www.spar.si/online/crni-rezani-tartufi-v-oljcnem-olju-zigante-tartufi-40g/p/656929
+Spar,bio in druga posebna hrana,vegetarijanski izdelki,646677,Grains 150g,"2,79 €",,https://www.spar.si/online/rastlinski-pripravek-nadomestek-sira-v-kosu-spar-veggie-150g/p/646677
+Spar,bio in druga posebna hrana,vegetarijanski izdelki,646683,Grains 150g,"2,79 €",,https://www.spar.si/online/rastlinski-pripravek-nadomestek-sira-ribani-spar-veggie-150g/p/646683
+Spar,bio in druga posebna hrana,vegetarijanski izdelki,407541,Tofu 250g,"1,09 €",,https://www.spar.si/online/bio-sojin-tofu-spar-naturpur-250g/p/407541
+Spar,bio in druga posebna hrana,vegetarijanski izdelki,584261,Grains 115g,"3,99 €",,https://www.spar.si/online/rastlinski-burger-okus-piscanec-spar-bbq-2x115g/p/584261
+Spar,bio in druga posebna hrana,vegetarijanski izdelki,646677,Grains 150g,"2,79 €",,https://www.spar.si/online/rastlinski-pripravek-nadomestek-sira-v-kosu-spar-veggie-150g/p/646677
+Spar,bio in druga posebna hrana,vegetarijanski izdelki,646683,Grains 150g,"2,79 €",,https://www.spar.si/online/rastlinski-pripravek-nadomestek-sira-ribani-spar-veggie-150g/p/646683
+Spar,bio in druga posebna hrana,vegetarijanski izdelki,407541,Tofu 250g,"1,09 €",,https://www.spar.si/online/bio-sojin-tofu-spar-naturpur-250g/p/407541
+Spar,bio in druga posebna hrana,vegetarijanski izdelki,584261,Grains 115g,"3,99 €",,https://www.spar.si/online/rastlinski-burger-okus-piscanec-spar-bbq-2x115g/p/584261
+Spar,bio in druga posebna hrana,vegetarijanski izdelki,600499,Grains 130g,"3,99 €",,https://www.spar.si/online/rastlinski-burger-okus-dimljen-sir-in-govedina-spar-bbq-2x130g/p/600499
+Spar,bio in druga posebna hrana,vegetarijanski izdelki,608845,Sausage 150g,"2,49 €",,https://www.spar.si/online/omaka-guacamole-spar-veggie-150g/p/608845
+Spar,bio in druga posebna hrana,vegetarijanski izdelki,436145,Pear 170g,"1,79 €",,https://www.spar.si/online/bio-namaz-s-soncnicnimi-semeni-spar-veggie-170g/p/436145
+Spar,bio in druga posebna hrana,vegetarijanski izdelki,436148,Pear 170g,"1,79 €",,https://www.spar.si/online/bio-namaz-s-cemazem-spar-veggie-170g/p/436148
+Spar,bio in druga posebna hrana,vegetarijanski izdelki,612572,Peanuts 125g,"2,59 €",,https://www.spar.si/online/namaz-humus-pikant-spar-veggie-by-neni-125g/p/612572
+Spar,bio in druga posebna hrana,vegetarijanski izdelki,637711,Salt 250g,"2,49 €",,https://www.spar.si/online/veganska-francoska-solata-spar-veggie-250g/p/637711
+Spar,bio in druga posebna hrana,vegetarijanski izdelki,639864,Semolina 150g,"2,99 €",,https://www.spar.si/online/veganski-sojin-pripravek-na-nacin-tunine-z-deviskim-oljcnim-oljem-10-spar-veggie-150g/p/639864
+Spar,bio in druga posebna hrana,vegetarijanski izdelki,639856,Pasta 160g,"2,99 €",,https://www.spar.si/online/pikantna-zelenjavna-solata-z-veganskim-sojinim-pripravkom-na-nacin-tunine-spar-veggie160g/p/639856
+Spar,bio in druga posebna hrana,vegetarijanski izdelki,619350,Bread 150g,"1,79 €",,https://www.spar.si/online/bio-veganski-sojini-koscki-spar-veggie-150g/p/619350
+Spar,bio in druga posebna hrana,vegetarijanski izdelki,436145,Pear 170g,"1,79 €",,https://www.spar.si/online/bio-namaz-s-soncnicnimi-semeni-spar-veggie-170g/p/436145
+Spar,bio in druga posebna hrana,vegetarijanski izdelki,436115,Tofu 250g,"1,56 €",,https://www.spar.si/online/sojin-tofu-spar-veggie-250g/p/436115
+Spar,bio in druga posebna hrana,vegetarijanski izdelki,502305,Pear 100g,"2,59 €",,https://www.spar.si/online/falafel-spar-veggie-by-neni-100g/p/502305
+Spar,bio in druga posebna hrana,vegetarijanski izdelki,436118,Pear 250g,"2,19 €",,https://www.spar.si/online/seitan-spar-veggie-250g-31/p/436118
+Spar,bio in druga posebna hrana,diabeticni in dieteticni izdelki,534587,Grains 1000g,"7,29 €",,https://www.spar.si/online/bio-agavin-sirup-spar-naturpur-1kg/p/534587
+Spar,bio in druga posebna hrana,diabeticni in dieteticni izdelki,649021,Peach 500g,"1,79 €",,https://www.spar.si/online/bio-sladkor-v-prahu-spar-naturpur-500g/p/649021
+Spar,bio in druga posebna hrana,diabeticni in dieteticni izdelki,413831,Grains 350g,"2,69 €",,https://www.spar.si/online/bio-zgosceni-agavin-sok-spar-naturpur-350g/p/413831
+Spar,bio in druga posebna hrana,diabeticni in dieteticni izdelki,361773,Salmon 72g,"1,69 €",,https://www.spar.si/online/umetno-sladilo-s-budget-72g/p/361773
+Spar,bio in druga posebna hrana,diabeticni in dieteticni izdelki,579826,Brown rice 300g,"3,83 €",,https://www.spar.si/online/ekstra-dzem-crni-ribez-brez-dodanih-sladkorjev-solbaer-easis-300g/p/579826
+Spar,bio in druga posebna hrana,diabeticni in dieteticni izdelki,478298,Bread 200g,"4,99 €",,https://www.spar.si/online/bio-ekstra-dzem-aronija-mediterra-200g/p/478298
+Spar,bio in druga posebna hrana,diabeticni in dieteticni izdelki,578678,Tea 300g,"3,83 €",,https://www.spar.si/online/ekstra-dzem-iz-jagod-brez-dodanih-sladkorjev-jordbaer-easis-300g/p/578678
+Spar,bio in druga posebna hrana,diabeticni in dieteticni izdelki,559560,Olive oil 400g,"1,79 €",,https://www.spar.si/online/kokosova-krema-spar-naturpur-400g/p/559560
+Spar,bio in druga posebna hrana,diabeticni in dieteticni izdelki,594196,Cream 400g,"1,79 €",,https://www.spar.si/online/bio-ovsena-krema-spar-naturpur-400g/p/594196
+Spar,bio in druga posebna hrana,diabeticni in dieteticni izdelki,580595,Semolina 85g,"1,59 €",,https://www.spar.si/online/hrustljav-prigrizek-sezamova-in-lanena-semena-spar-premium-85g/p/580595
+Spar,bio in druga posebna hrana,diabeticni in dieteticni izdelki,580593,Pork 110g,"1,59 €",,https://www.spar.si/online/hrustljavi-prigrizek-rozmarin-in-morska-sol-spar-premium-110g/p/580593
+Spar,bio in druga posebna hrana,diabeticni in dieteticni izdelki,633065,Pear 360g,"2,99 €",,https://www.spar.si/online/veganski-kolacki-muffins-cokolada-in-stracciatella-spar-veggie-41-360g/p/633065
+Spar,bio in druga posebna hrana,prehranska dopolnila,619938,Miso 40g,"1,58 €",,https://www.spar.si/online/beljakovinska-rezina-protein-slana-karamela-sport-frutabela-40g/p/619938
+Spar,bio in druga posebna hrana,prehranska dopolnila,461208,Parsley 36g,"8,49 €",,https://www.spar.si/online/prehransko-dopolnilo-propolis-forte-medex-181-36g-pastile/p/461208
+Spar,bio in druga posebna hrana,prehranska dopolnila,576226,Brown rice 55g,"1,49 €",,https://www.spar.si/online/proteinska-ploscica-crni-ribez-in-brusnica-protein-bar-proteinisi-55g/p/576226
+Spar,bio in druga posebna hrana,prehranska dopolnila,461208,Parsley 36g,"8,49 €",,https://www.spar.si/online/prehransko-dopolnilo-propolis-forte-medex-181-36g-pastile/p/461208
+Spar,bio in druga posebna hrana,prehranska dopolnila,612060,Orange 150g,"15,59 €",,https://www.spar.si/online/kolagen-s-hialuronom-in-vitaminom-c-beauty-kolagen-natures-finest-150g/p/612060
+Spar,bio in druga posebna hrana,prehranska dopolnila,464641,Trout 100g,"4,29 €",,https://www.spar.si/online/indijski-trpotec-luscine-naturganik-100g/p/464641
+Spar,bio in druga posebna hrana,prehranska dopolnila,644612,Butter 108g,"10,99 €",,https://www.spar.si/online/prehransko-dopolnilo-vitaminski-bomboni-za-otroke-orsovit-601-108g/p/644612
+Spar,bio in druga posebna hrana,prehranska dopolnila,639251,Salt 43g,"9,99 €",,https://www.spar.si/online/magnezij-za-noc-500-depo-doppelherz-aktiv-30-tablet-438g/p/639251
+Spar,bio in druga posebna hrana,prehranska dopolnila,619938,Miso 40g,"1,58 €",,https://www.spar.si/online/beljakovinska-rezina-protein-slana-karamela-sport-frutabela-40g/p/619938
+Spar,bio in druga posebna hrana,prehranska dopolnila,576226,Brown rice 55g,"1,49 €",,https://www.spar.si/online/proteinska-ploscica-crni-ribez-in-brusnica-protein-bar-proteinisi-55g/p/576226
+Spar,bio in druga posebna hrana,prehranska dopolnila,588923,Mango 55g,"1,49 €",,https://www.spar.si/online/proteinska-ploscica-mango-in-jogurt-protein-bar-proteinisi-55g/p/588923
+Spar,bio in druga posebna hrana,prehranska dopolnila,644495,Coconut oil 50g,"1,49 €",,https://www.spar.si/online/proteinisi-protein-bar-special-edition-50g-banana-coconut/p/644495
+Spar,bio in druga posebna hrana,prehranska dopolnila,464641,Trout 100g,"4,29 €",,https://www.spar.si/online/indijski-trpotec-luscine-naturganik-100g/p/464641
+Spar,bio in druga posebna hrana,prehranska dopolnila,544894,Lime 125g,"12,69 €",,https://www.spar.si/online/mesanica-superzivil-liver-cleanse-natures-finest-nutrisslim-125g/p/544894
+Spar,bio in druga posebna hrana,prehranska dopolnila,534590,Trout 150g,"3,89 €",,https://www.spar.si/online/bio-psilij-indijski-trpotec-spar-vital-150g/p/534590
+Spar,bio in druga posebna hrana,prehranska dopolnila,518568,Banana 300g,"9,49 €",,https://www.spar.si/online/enemon-slimfit-banana-s-koscki-cokolade-jata-emona-101-300g/p/518568
+Spar,bio in druga posebna hrana,prehranska dopolnila,535922,Salami 550g,"10,49 €",,https://www.spar.si/online/preciscena-glina-v-prahu-bolus-550g/p/535922
+Spar,bio in druga posebna hrana,kuhinje sveta,368723,Tortilla 125g,"0,99 €",,https://www.spar.si/online/koruzni-tortilja-cips-sir-spar-125g/p/368723
+Spar,bio in druga posebna hrana,kuhinje sveta,534512,Berries 180g,"1,56 €","REDNA CENA 1,75 €",https://www.spar.si/online/francoski-sir-brie-spar-180g/p/534512
+Spar,bio in druga posebna hrana,kuhinje sveta,503052,Pear 2500g,"3,49 €",,https://www.spar.si/online/krompir-za-pecenje-spar-25kg/p/503052
+Spar,bio in druga posebna hrana,kuhinje sveta,297033,Olive oil 500g,"4,19 €",,https://www.spar.si/online/grske-olive-v-slanici-kalamata-zop-spar-500g/p/297033
+Spar,bio in druga posebna hrana,kuhinje sveta,522393,Spread 400g,"3,59 €","REDNA CENA 4,79 €",https://www.spar.si/online/pripravek-iz-topljenega-sira-fondue-classic-spar-400g/p/522393
+Spar,bio in druga posebna hrana,kuhinje sveta,534512,Berries 180g,"1,56 €","REDNA CENA 1,75 €",https://www.spar.si/online/francoski-sir-brie-spar-180g/p/534512
+Spar,bio in druga posebna hrana,kuhinje sveta,522393,Spread 400g,"3,59 €","REDNA CENA 4,79 €",https://www.spar.si/online/pripravek-iz-topljenega-sira-fondue-classic-spar-400g/p/522393
+Spar,bio in druga posebna hrana,kuhinje sveta,518621,Lentils 570g,"3,79 €",,https://www.spar.si/online/mini-francoski-rogljicki-cokolada-in-lesnik-spar-570g/p/518621
+Spar,bio in druga posebna hrana,kuhinje sveta,518619,Garlic 570g,"3,51 €",,https://www.spar.si/online/mini-francoski-rogljicki-marelica-spar-570g/p/518619
+Spar,bio in druga posebna hrana,kuhinje sveta,449116,Pear 360g,"3,19 €","REDNA CENA 4,29 €",https://www.spar.si/online/francoski-masleni-rogljicki-spar-premium-360g/p/449116
+Spar,bio in druga posebna hrana,kuhinje sveta,503052,Pear 2500g,"3,49 €",,https://www.spar.si/online/krompir-za-pecenje-spar-25kg/p/503052
+Spar,bio in druga posebna hrana,kuhinje sveta,543001,Miso 500g,"1,49 €",,https://www.spar.si/online/kislo-zelje-spar-500g/p/543001
+Spar,bio in druga posebna hrana,kuhinje sveta,543016,Cream 500g,"1,69 €",,https://www.spar.si/online/kisla-repa-spar-500g/p/543016
+Spar,bio in druga posebna hrana,kuhinje sveta,453842,Pear 500g,"2,69 €",,https://www.spar.si/online/cmoki-s-slivovim-nadevom-spar-500g/p/453842
+Spar,bio in druga posebna hrana,kuhinje sveta,339633,Miso 1000g,"1,89 €",,https://www.spar.si/online/kislo-zelje-spar-1kg/p/339633
+Spar,bio in druga posebna hrana,kuhinje sveta,285444,Basil 900g,"1,79 €",,https://www.spar.si/online/blagi-ketchup-spar-900g/p/285444
+Spar,bio in druga posebna hrana,kuhinje sveta,236276,Pear 750g,"1,49 €",,https://www.spar.si/online/pomfrit-za-pripravo-v-pecici-spar-750g/p/236276
+Spar,bio in druga posebna hrana,kuhinje sveta,246413,Pear 210g,"1,55 €",,https://www.spar.si/online/piscancje-hrenovke-spar-210g/p/246413
+Spar,bio in druga posebna hrana,kuhinje sveta,253755,Pear 270g,"1,04 €",,https://www.spar.si/online/pokovka-lahka-spar-270g/p/253755
+Spar,bio in druga posebna hrana,kuhinje sveta,536489,Pear 200g,"2,39 €",,https://www.spar.si/online/sir-cheddar-spar-200g/p/536489
+Spar,bio in druga posebna hrana,kuhinje sveta,368723,Tortilla 125g,"0,99 €",,https://www.spar.si/online/koruzni-tortilja-cips-sir-spar-125g/p/368723
+Spar,bio in druga posebna hrana,kuhinje sveta,276026,Salami 300g,"2,99 €",,https://www.spar.si/online/omaka-salsa-guacamole-spar-300g/p/276026
+Spar,bio in druga posebna hrana,kuhinje sveta,500941,Tortilla 320g,"1,15 €",,https://www.spar.si/online/tortilje-iz-psenicne-in-koruzne-moke-spar-81-320g/p/500941
+Spar,bio in druga posebna hrana,kuhinje sveta,368718,Salami 300g,"1,89 €",,https://www.spar.si/online/omaka-salsa-s-kislo-smetano-spar-300g/p/368718
+Spar,bio in druga posebna hrana,kuhinje sveta,514148,Spinach 435g,"1,89 €",,https://www.spar.si/online/pikantna-omaka-s-sirom-nacho-spar-435g/p/514148
+Spar,bio in druga posebna hrana,kuhinje sveta,297033,Olive oil 500g,"4,19 €",,https://www.spar.si/online/grske-olive-v-slanici-kalamata-zop-spar-500g/p/297033
+Spar,bio in druga posebna hrana,kuhinje sveta,297034,Olive oil 460g,"6,89 €",,https://www.spar.si/online/grske-olive-kalamata-zop-v-ekstra-deviskem-oljcnem-spar-460g/p/297034
+Spar,bio in druga posebna hrana,kuhinje sveta,525042,Greek yogurt 1000g,"2,89 €",,https://www.spar.si/online/grski-tip-jogurta-10-spar-1kg/p/525042
+Spar,bio in druga posebna hrana,kuhinje sveta,384269,Pear 500g,"1,26 €",,https://www.spar.si/online/bio-bulgur-spar-naturpur-500g/p/384269
+Spar,bio in druga posebna hrana,kuhinje sveta,472312,Pear 150g,"2,49 €",,https://www.spar.si/online/bio-sir-feta-spar-naturpur-150g/p/472312
+Spar,bio in druga posebna hrana,kuhinje sveta,285444,Basil 900g,"1,79 €",,https://www.spar.si/online/blagi-ketchup-spar-900g/p/285444
+Spar,bio in druga posebna hrana,kuhinje sveta,503993,Spread 75g,"0,89 €",,https://www.spar.si/online/mesanica-za-pripravo-lazanje-spar-75g/p/503993
+Spar,bio in druga posebna hrana,kuhinje sveta,474436,Tea 12g,"0,83 €",,https://www.spar.si/online/origano-drobljen-spar-12g/p/474436
+Spar,bio in druga posebna hrana,kuhinje sveta,438811,Spread 100g,"1,19 €",,https://www.spar.si/online/rukola-spar-100g/p/438811
+Spar,bio in druga posebna hrana,kuhinje sveta,419460,Mozzarella 330g,"1,86 €",,https://www.spar.si/online/pizza-z-mozzarello-paolos-spar-330g/p/419460
+Spar,bio in druga posebna hrana,kuhinje sveta,463987,Broccoli 750g,"3,09 €",,https://www.spar.si/online/zelenjavna-mesanica-za-vok-spar-750g/p/463987
+Spar,bio in druga posebna hrana,kuhinje sveta,308711,Basil 500g,"2,68 €",,https://www.spar.si/online/bio-riz-basmati-spar-naturpur-500g/p/308711
+Spar,bio in druga posebna hrana,kuhinje sveta,483823,Pear 250g,"1,99 €",,https://www.spar.si/online/bio-cesnjev-paradiznik-spar-naturpur-250g/p/483823
+Spar,bio in druga posebna hrana,kuhinje sveta,423155,Pear 1000g,"2,60 €",,https://www.spar.si/online/castellano-spar-premium-1kg-v-kosu/p/423155
+Spar,bio in druga posebna hrana,kuhinje sveta,419271,Lime 225g,"4,99 €",,https://www.spar.si/online/velike-kozice-s-budget-225g/p/419271
+Spar,zamrznjeni izdelki,sadje in zelenjava,385870,Pasta 350g,"0,55 €",,https://www.spar.si/online/pasirana-spinaca-spar-350g/p/385870
+Spar,zamrznjeni izdelki,sadje in zelenjava,559369,Pear 125g,"2,99 €",,https://www.spar.si/online/kostanjeva-kasa-nesladkana-spar-125g/p/559369
+Spar,zamrznjeni izdelki,sadje in zelenjava,639625,Pear 250g,"1,55 €",,https://www.spar.si/online/gozdni-sadezi-spar-250g/p/639625
+Spar,zamrznjeni izdelki,sadje in zelenjava,413884,Brown rice 200g,"2,25 €",,https://www.spar.si/online/gozdne-borovnice-spar-200g/p/413884
+Spar,zamrznjeni izdelki,sadje in zelenjava,624853,Mango 500g,"3,79 €",,https://www.spar.si/online/mesanica-manga-in-jagod-spar-500g/p/624853
+Spar,zamrznjeni izdelki,sadje in zelenjava,559369,Pear 125g,"2,99 €",,https://www.spar.si/online/kostanjeva-kasa-nesladkana-spar-125g/p/559369
+Spar,zamrznjeni izdelki,sadje in zelenjava,639625,Pear 250g,"1,55 €",,https://www.spar.si/online/gozdni-sadezi-spar-250g/p/639625
+Spar,zamrznjeni izdelki,sadje in zelenjava,413884,Brown rice 200g,"2,25 €",,https://www.spar.si/online/gozdne-borovnice-spar-200g/p/413884
+Spar,zamrznjeni izdelki,sadje in zelenjava,624853,Mango 500g,"3,79 €",,https://www.spar.si/online/mesanica-manga-in-jagod-spar-500g/p/624853
+Spar,zamrznjeni izdelki,sadje in zelenjava,619538,Vinegar 450g,"2,49 €",,https://www.spar.si/online/visnje-brez-koscic-spar-450g/p/619538
+Spar,zamrznjeni izdelki,sadje in zelenjava,385870,Pasta 350g,"0,55 €",,https://www.spar.si/online/pasirana-spinaca-spar-350g/p/385870
+Spar,zamrznjeni izdelki,sadje in zelenjava,544480,Red onion 250g,"2,99 €",,https://www.spar.si/online/kostanjev-pire-maroni-spar-250g/p/544480
+Spar,zamrznjeni izdelki,sadje in zelenjava,385869,Pear 600g,"0,99 €",,https://www.spar.si/online/kremna-spinaca-spar-600g/p/385869
+Spar,zamrznjeni izdelki,sadje in zelenjava,596596,Pear 1000g,"2,29 €",,https://www.spar.si/online/mesanica-zelenjave-spar-1kg/p/596596
+Spar,zamrznjeni izdelki,sadje in zelenjava,654214,Pear 450g,"3,49 €","REDNA CENA 4,99 €",https://www.spar.si/online/gobe-mesane-spar-450-g/p/654214
+Spar,zamrznjeni izdelki,mesni in morski izdelki,573771,Pear 360g,"5,99 €","REDNA CENA 7,79 €",https://www.spar.si/online/patagonski-lignji-spar-360g/p/573771
+Spar,zamrznjeni izdelki,mesni in morski izdelki,573773,Pear 1000g,"5,25 €",,https://www.spar.si/online/jadranske-sardele-brez-glave-spar-1kg/p/573773
+Spar,zamrznjeni izdelki,mesni in morski izdelki,608728,Parsley 250g,"3,49 €",,https://www.spar.si/online/piscancje-palcke-s-koruznimi-kosmici-spar-250g/p/608728
+Spar,zamrznjeni izdelki,mesni in morski izdelki,478096,Olive oil 900g,"9,69 €",,https://www.spar.si/online/argentinski-oslic-file-spar-900g/p/478096
+Spar,zamrznjeni izdelki,mesni in morski izdelki,474376,Pear 250g,"5,99 €",,https://www.spar.si/online/sarenka-ociscena-spar-2x250g/p/474376
+Spar,zamrznjeni izdelki,mesni in morski izdelki,608728,Parsley 250g,"3,49 €",,https://www.spar.si/online/piscancje-palcke-s-koruznimi-kosmici-spar-250g/p/608728
+Spar,zamrznjeni izdelki,mesni in morski izdelki,478606,Leek 600g,"4,79 €",,https://www.spar.si/online/dunajski-zrezek-s-budget-600g/p/478606
+Spar,zamrznjeni izdelki,mesni in morski izdelki,644517,Leek 500g,"6,49 €",,https://www.spar.si/online/pecen-piscancji-zrezek-slimfit-perutnina-ptuj-500g/p/644517
+Spar,zamrznjeni izdelki,mesni in morski izdelki,643316,Banana 730g,"13,99 €",,https://www.spar.si/online/cevapcici-banja-luka-mezza-halal-730g/p/643316
+Spar,zamrznjeni izdelki,mesni in morski izdelki,573773,Pear 1000g,"5,25 €",,https://www.spar.si/online/jadranske-sardele-brez-glave-spar-1kg/p/573773
+Spar,zamrznjeni izdelki,mesni in morski izdelki,478096,Olive oil 900g,"9,69 €",,https://www.spar.si/online/argentinski-oslic-file-spar-900g/p/478096
+Spar,zamrznjeni izdelki,mesni in morski izdelki,474376,Pear 250g,"5,99 €",,https://www.spar.si/online/sarenka-ociscena-spar-2x250g/p/474376
+Spar,zamrznjeni izdelki,mesni in morski izdelki,653242,Tuna 250g,"6,99 €",,https://www.spar.si/online/fileji-rdecega-okuna-s-kozo-in-brez-kosti-spar-premium-250g/p/653242
+Spar,zamrznjeni izdelki,mesni in morski izdelki,641671,Lime 450g,"6,26 €",,https://www.spar.si/online/patagonski-lignji-s-budget-450g/p/641671
+Spar,zamrznjeni izdelki,mesni in morski izdelki,573771,Pear 360g,"5,99 €","REDNA CENA 7,79 €",https://www.spar.si/online/patagonski-lignji-spar-360g/p/573771
+Spar,zamrznjeni izdelki,mesni in morski izdelki,485698,Rice 500g,"12,99 €",,https://www.spar.si/online/kozice-spar-premium-500g/p/485698
+Spar,zamrznjeni izdelki,mesni in morski izdelki,646287,Pork 250g,"2,49 €",,https://www.spar.si/online/mesanica-morskih-sadezev-in-surimija-za-rizoto-s-budget-250g/p/646287
+Spar,zamrznjeni izdelki,mesni in morski izdelki,419271,Lime 225g,"4,99 €",,https://www.spar.si/online/velike-kozice-s-budget-225g/p/419271
+Spar,zamrznjeni izdelki,mesni in morski izdelki,535027,Garlic 1000g,"16,79 €","REDNA CENA 18,69 €",https://www.spar.si/online/gamberi-kozice-dobrote-morja-kvibo-1kg/p/535027
+Spar,zamrznjeni izdelki,mesni in morski izdelki,636601,Nori 450g,"4,19 €",,https://www.spar.si/online/panirani-ocvrti-sir-trapist-s-budget-450g/p/636601
+Spar,zamrznjeni izdelki,mesni in morski izdelki,610425,Rice 750g,"5,29 €",,https://www.spar.si/online/panirana-piscancja-krilca-polovicke-s-kozo-in-kostmi-s-budget-750g/p/610425
+Spar,zamrznjeni izdelki,mesni in morski izdelki,655042,Butter 280g,"3,49 €",,https://www.spar.si/online/piscancji-burger-paniran-amadori-280-g/p/655042
+Spar,zamrznjeni izdelki,sladoledi in sorbeti,632323,Pear 100g,"3,69 €",,https://www.spar.si/online/sladoled-z-okusom-jagode-in-vanilije-spar-1l/p/632323
+Spar,zamrznjeni izdelki,sladoledi in sorbeti,632324,Bread 0g,"3,69 €",,https://www.spar.si/online/sladoled-z-okusom-cokolade-brez-laktoze-spar-1l/p/632324
+Spar,zamrznjeni izdelki,sladoledi in sorbeti,632323,Pear 100g,"3,69 €",,https://www.spar.si/online/sladoled-z-okusom-jagode-in-vanilije-spar-1l/p/632323
+Spar,zamrznjeni izdelki,sladoledi in sorbeti,632324,Bread 0g,"3,69 €",,https://www.spar.si/online/sladoled-z-okusom-cokolade-brez-laktoze-spar-1l/p/632324
+Spar,zamrznjeni izdelki,testo torte in pecivo,518621,Lentils 570g,"3,79 €",,https://www.spar.si/online/mini-francoski-rogljicki-cokolada-in-lesnik-spar-570g/p/518621
+Spar,zamrznjeni izdelki,testo torte in pecivo,518619,Garlic 570g,"3,51 €",,https://www.spar.si/online/mini-francoski-rogljicki-marelica-spar-570g/p/518619
+Spar,zamrznjeni izdelki,testo torte in pecivo,437831,Pear 500g,"2,09 €",,https://www.spar.si/online/listnato-testo-spar-500g/p/437831
+Spar,zamrznjeni izdelki,testo torte in pecivo,561523,Tea 750g,"4,09 €",,https://www.spar.si/online/skutni-struklji-spar-750g/p/561523
+Spar,zamrznjeni izdelki,testo torte in pecivo,589368,Pear 570g,"5,49 €",,https://www.spar.si/online/mini-francoski-rogljicki-dvobarvni-spar-570g/p/589368
+Spar,zamrznjeni izdelki,testo torte in pecivo,437831,Pear 500g,"2,09 €",,https://www.spar.si/online/listnato-testo-spar-500g/p/437831
+Spar,zamrznjeni izdelki,testo torte in pecivo,455818,Lemon 500g,"3,39 €",,https://www.spar.si/online/listnato-testo-ledo-500-g/p/455818
+Spar,zamrznjeni izdelki,testo torte in pecivo,394950,Bread 250g,"5,39 €",,https://www.spar.si/online/listnato-testo-brez-glutena-schr-250g/p/394950
+Spar,zamrznjeni izdelki,testo torte in pecivo,638125,Tea 500g,"3,98 €",,https://www.spar.si/online/jabolcni-strudelj-pekarna-pecjak-500g/p/638125
+Spar,zamrznjeni izdelki,testo torte in pecivo,654275,Cod 500g,"7,99 €",,https://www.spar.si/online/tiramisu-con-savoiardi-spar-premium-500g/p/654275
+Spar,zamrznjeni izdelki,testo torte in pecivo,615338,Mango 400g,"13,98 €",,https://www.spar.si/online/torta-mango-in-pasijonka-premium-gourmet-karim-merdjadi-in-mlinotest-400g/p/615338
+Spar,zamrznjeni izdelki,testo torte in pecivo,615340,Tortilla 400g,"14,99 €",,https://www.spar.si/online/torta-cokolada-premium-gourmet-karim-merdjadi-in-mlinotest-400g/p/615340
+Spar,zamrznjeni izdelki,testo torte in pecivo,653573,Pear 400g,"4,49 €","REDNA CENA 5,99 €",https://www.spar.si/online/profiterole-despar-premium-400g/p/653573
+Spar,zamrznjeni izdelki,testo torte in pecivo,595565,Lentils 200g,"5,55 €",,https://www.spar.si/online/cokoladni-narastek-lesnik-soulfl-21-200g/p/595565
+Spar,zamrznjeni izdelki,testo torte in pecivo,518621,Lentils 570g,"3,79 €",,https://www.spar.si/online/mini-francoski-rogljicki-cokolada-in-lesnik-spar-570g/p/518621
+Spar,zamrznjeni izdelki,testo torte in pecivo,518619,Garlic 570g,"3,51 €",,https://www.spar.si/online/mini-francoski-rogljicki-marelica-spar-570g/p/518619
+Spar,zamrznjeni izdelki,testo torte in pecivo,589368,Pear 570g,"5,49 €",,https://www.spar.si/online/mini-francoski-rogljicki-dvobarvni-spar-570g/p/589368
+Spar,zamrznjeni izdelki,testo torte in pecivo,531676,Pear 50g,"0,52 €","REDNA CENA 0,65 €",https://www.spar.si/online/spar-premium-rogljic-50g/p/531676
+Spar,zamrznjeni izdelki,testo torte in pecivo,449116,Pear 360g,"3,19 €","REDNA CENA 4,29 €",https://www.spar.si/online/francoski-masleni-rogljicki-spar-premium-360g/p/449116
+Spar,zamrznjeni izdelki,testo torte in pecivo,561523,Tea 750g,"4,09 €",,https://www.spar.si/online/skutni-struklji-spar-750g/p/561523
+Spar,zamrznjeni izdelki,testo torte in pecivo,133760,Lemon 600g,"5,78 €",,https://www.spar.si/online/zagorski-struklji-ledo-600g/p/133760
+Spar,zamrznjeni izdelki,testo torte in pecivo,639617,Olive oil 400g,"4,65 €","REDNA CENA 5,48 €",https://www.spar.si/online/skutni-domaci-struklji-zlato-polje-400g/p/639617
+Spar,zamrznjeni izdelki,pizze baguette krompircek,648323,Peanuts 600g,"2,89 €",,https://www.spar.si/online/krompir-resetkasti-pikant-za-pecico-spar-600g/p/648323
+Spar,zamrznjeni izdelki,pizze baguette krompircek,492426,Pear 750g,"1,99 €",,https://www.spar.si/online/krompirjevi-krhlji-zacinjeni-spar-750g/p/492426
+Spar,zamrznjeni izdelki,pizze baguette krompircek,419458,Mozzarella 320g,"1,68 €",,https://www.spar.si/online/pizza-s-salamo-paolos-spar-320g/p/419458
+Spar,zamrznjeni izdelki,pizze baguette krompircek,236276,Pear 750g,"1,49 €",,https://www.spar.si/online/pomfrit-za-pripravo-v-pecici-spar-750g/p/236276
+Spar,zamrznjeni izdelki,pizze baguette krompircek,419464,Mozzarella 330g,"1,99 €",,https://www.spar.si/online/pizza-s-kuhano-sunko-paolos-spar-330g/p/419464
+Spar,zamrznjeni izdelki,pizze baguette krompircek,419458,Mozzarella 320g,"1,68 €",,https://www.spar.si/online/pizza-s-salamo-paolos-spar-320g/p/419458
+Spar,zamrznjeni izdelki,pizze baguette krompircek,419464,Mozzarella 330g,"1,99 €",,https://www.spar.si/online/pizza-s-kuhano-sunko-paolos-spar-330g/p/419464
+Spar,zamrznjeni izdelki,pizze baguette krompircek,419460,Mozzarella 330g,"1,86 €",,https://www.spar.si/online/pizza-z-mozzarello-paolos-spar-330g/p/419460
+Spar,zamrznjeni izdelki,pizze baguette krompircek,640658,Mozzarella 325g,"4,19 €",,https://www.spar.si/online/bio-pizza-s-paradiznikovo-omako-mozzarello-in-baziliko-spar-naturpur-325g/p/640658
+Spar,zamrznjeni izdelki,pizze baguette krompircek,524120,Pizza dough 30g,"2,24 €",,https://www.spar.si/online/mini-pizza-salama-despar-9x30g/p/524120
+Spar,zamrznjeni izdelki,pizze baguette krompircek,648323,Peanuts 600g,"2,89 €",,https://www.spar.si/online/krompir-resetkasti-pikant-za-pecico-spar-600g/p/648323
+Spar,zamrznjeni izdelki,pizze baguette krompircek,492426,Pear 750g,"1,99 €",,https://www.spar.si/online/krompirjevi-krhlji-zacinjeni-spar-750g/p/492426
+Spar,zamrznjeni izdelki,pizze baguette krompircek,236276,Pear 750g,"1,49 €",,https://www.spar.si/online/pomfrit-za-pripravo-v-pecici-spar-750g/p/236276
+Spar,zamrznjeni izdelki,pizze baguette krompircek,589367,Salami 750g,"3,89 €",,https://www.spar.si/online/krompirjevi-svaljki-s-skuto-spar-750g/p/589367
+Spar,zamrznjeni izdelki,pripravljene jedi,453841,Pear 500g,"1,94 €",,https://www.spar.si/online/cmoki-z-jagodnim-nadevom-spar-500g/p/453841
+Spar,zamrznjeni izdelki,pripravljene jedi,492426,Pear 750g,"1,99 €",,https://www.spar.si/online/krompirjevi-krhlji-zacinjeni-spar-750g/p/492426
+Spar,zamrznjeni izdelki,pripravljene jedi,529243,Pear 350g,"3,75 €",,https://www.spar.si/online/panirani-sir-camembert-spar-350g/p/529243
+Spar,zamrznjeni izdelki,pripravljene jedi,534284,Banana 1000g,"7,98 €",,https://www.spar.si/online/argentinski-oslic-paniran-file-spar-1kg/p/534284
+Spar,zamrznjeni izdelki,pripravljene jedi,589367,Salami 750g,"3,89 €",,https://www.spar.si/online/krompirjevi-svaljki-s-skuto-spar-750g/p/589367
+Spar,zamrznjeni izdelki,pripravljene jedi,657471,Tomato 550g,"3,99 €",,https://www.spar.si/online/delno-kuhane-testenine-z-omako-z-lososom-in-gamberi-despar-550g/p/657471
+Spar,zamrznjeni izdelki,pripravljene jedi,657469,Tomato 550g,"3,99 €",,https://www.spar.si/online/sveze-jajcne-testenine-z-omako-iz-morskih-sadezev-despar-550g/p/657469
+Spar,zamrznjeni izdelki,pripravljene jedi,657470,Pear 550g,"3,99 €",,https://www.spar.si/online/jajcne-testenine-s-sampinjoni-in-jurcki-despar-550g/p/657470
+Spar,zamrznjeni izdelki,pripravljene jedi,657467,Broccoli 500g,"3,99 €",,https://www.spar.si/online/kaneloni-z-nadevom-iz-rikote-in-spinace-despar-500g/p/657467
+Spar,zamrznjeni izdelki,pripravljene jedi,657466,Mozzarella 550g,"3,99 €",,https://www.spar.si/online/njoki-sorrentina-despar-550g/p/657466
+Spar,zamrznjeni izdelki,pripravljene jedi,529243,Pear 350g,"3,75 €",,https://www.spar.si/online/panirani-sir-camembert-spar-350g/p/529243
+Spar,zamrznjeni izdelki,pripravljene jedi,499002,Bread 940g,"6,59 €",,https://www.spar.si/online/burek-s-sirom-spar-940g/p/499002
+Spar,zamrznjeni izdelki,pripravljene jedi,591258,Berries 250g,"3,75 €",,https://www.spar.si/online/panirani-sir-brie-z-brusnicno-omako-spar-250g/p/591258
+Spar,zamrznjeni izdelki,pripravljene jedi,591555,Spinach 560g,"4,49 €",,https://www.spar.si/online/burek-s-spinaco-in-sirom-spar-41-560g/p/591555
+Spar,zamrznjeni izdelki,pripravljene jedi,589369,Bread 780g,"4,67 €",,https://www.spar.si/online/burek-s-skuto-spar-780g/p/589369
+Spar,zamrznjeni izdelki,pripravljene jedi,534284,Banana 1000g,"7,98 €",,https://www.spar.si/online/argentinski-oslic-paniran-file-spar-1kg/p/534284
+Spar,zamrznjeni izdelki,pripravljene jedi,236288,Rice 450g,"3,59 €",,https://www.spar.si/online/ribje-palcke-spar-151-450g/p/236288
+Spar,zamrznjeni izdelki,pripravljene jedi,656422,Rice 450g,"2,29 €",,https://www.spar.si/online/ribje-palcke-s-budget-151-450g/p/656422
+Spar,zamrznjeni izdelki,pripravljene jedi,610231,Rice 300g,"9,48 €",,https://www.spar.si/online/ribje-palcke-fish-fingers-brez-glutena-schr-300g/p/610231
+Spar,zamrznjeni izdelki,pripravljene jedi,617874,Olive oil 500g,"9,88 €",,https://www.spar.si/online/oslic-file-perla-500g/p/617874
+Spar,zamrznjeni izdelki,pripravljene jedi,453841,Pear 500g,"1,94 €",,https://www.spar.si/online/cmoki-z-jagodnim-nadevom-spar-500g/p/453841
+Spar,zamrznjeni izdelki,pripravljene jedi,492426,Pear 750g,"1,99 €",,https://www.spar.si/online/krompirjevi-krhlji-zacinjeni-spar-750g/p/492426
+Spar,zamrznjeni izdelki,pripravljene jedi,529243,Pear 350g,"3,75 €",,https://www.spar.si/online/panirani-sir-camembert-spar-350g/p/529243
+Spar,zamrznjeni izdelki,pripravljene jedi,589367,Salami 750g,"3,89 €",,https://www.spar.si/online/krompirjevi-svaljki-s-skuto-spar-750g/p/589367
+Spar,zamrznjeni izdelki,pripravljene jedi,499002,Bread 940g,"6,59 €",,https://www.spar.si/online/burek-s-sirom-spar-940g/p/499002
+Spar,sladki in slani prigrizki,cokolada in bonboni,377898,Rice 200g,"2,65 €",,https://www.spar.si/online/cokoladne-lesnikove-kroglice-magnifico-spar-161-200g/p/377898
+Spar,sladki in slani prigrizki,cokolada in bonboni,115187,Pear 200g,"0,99 €",,https://www.spar.si/online/bonboni-medvedki-spar-200g/p/115187
+Spar,sladki in slani prigrizki,cokolada in bonboni,334450,Pear 500g,"2,09 €",,https://www.spar.si/online/sadni-bonboni-spar-500g/p/334450
+Spar,sladki in slani prigrizki,cokolada in bonboni,128275,Parsley 200g,"0,99 €",,https://www.spar.si/online/kisli-gumijevi-bonboni-palcke-spar-200g/p/128275
+Spar,sladki in slani prigrizki,cokolada in bonboni,518151,Pasta 150g,"1,05 €",,https://www.spar.si/online/mehki-penasti-bonboni-marshmallows-spar-150g/p/518151
+Spar,sladki in slani prigrizki,cokolada in bonboni,484439,Rice 200g,"2,89 €",,https://www.spar.si/online/mlecna-cokolada-z-rizem-spar-200g/p/484439
+Spar,sladki in slani prigrizki,cokolada in bonboni,628945,Tea 60g,"3,19 €",,https://www.spar.si/online/temna-cokolada-s-stevio-in-brusnicami-spar-premium-60g/p/628945
+Spar,sladki in slani prigrizki,cokolada in bonboni,583939,Cereal 180g,"3,49 €",,https://www.spar.si/online/cokolada-celi-lesniki-in-krokant-spar-premium-180g/p/583939
+Spar,sladki in slani prigrizki,cokolada in bonboni,482890,Lime 180g,"3,49 €",,https://www.spar.si/online/mlecna-cokolada-s-celimi-lesniki-spar-premium-180g/p/482890
+Spar,sladki in slani prigrizki,cokolada in bonboni,628944,Tea 60g,"3,19 €",,https://www.spar.si/online/temna-cokolada-s-stevio-in-malinami-spar-premium-60g/p/628944
+Spar,sladki in slani prigrizki,cokolada in bonboni,377898,Rice 200g,"2,65 €",,https://www.spar.si/online/cokoladne-lesnikove-kroglice-magnifico-spar-161-200g/p/377898
+Spar,sladki in slani prigrizki,cokolada in bonboni,549071,Orange 250g,"4,29 €",,https://www.spar.si/online/bonboniera-cokoladne-praline-morski-sadezi-spar-premium-250g/p/549071
+Spar,sladki in slani prigrizki,cokolada in bonboni,571752,Olive oil 110g,"3,99 €",,https://www.spar.si/online/bonboniera-praline-lesnik-i-love-milka-110g/p/571752
+Spar,sladki in slani prigrizki,cokolada in bonboni,171390,Leek 200g,"5,94 €","REDNA CENA 8,49 €",https://www.spar.si/online/bonboniera-cokoladne-mlecne-kroglice-lindor-lindt-200g/p/171390
+Spar,sladki in slani prigrizki,cokolada in bonboni,115187,Pear 200g,"0,99 €",,https://www.spar.si/online/bonboni-medvedki-spar-200g/p/115187
+Spar,sladki in slani prigrizki,cokolada in bonboni,334450,Pear 500g,"2,09 €",,https://www.spar.si/online/sadni-bonboni-spar-500g/p/334450
+Spar,sladki in slani prigrizki,cokolada in bonboni,128275,Parsley 200g,"0,99 €",,https://www.spar.si/online/kisli-gumijevi-bonboni-palcke-spar-200g/p/128275
+Spar,sladki in slani prigrizki,cokolada in bonboni,518151,Pasta 150g,"1,05 €",,https://www.spar.si/online/mehki-penasti-bonboni-marshmallows-spar-150g/p/518151
+Spar,sladki in slani prigrizki,cokolada in bonboni,556431,Spread 400g,"1,99 €",,https://www.spar.si/online/sadni-zele-bonboni-spar-400g/p/556431
+Spar,sladki in slani prigrizki,cokolada in bonboni,380934,Pasta 12g,"0,16 €",,https://www.spar.si/online/lizika-srcek-love-astra-12g/p/380934
+Spar,sladki in slani prigrizki,cokolada in bonboni,464759,Pasta 26g,"0,45 €",,https://www.spar.si/online/sadna-lizika-velika-astra-26g/p/464759
+Spar,sladki in slani prigrizki,cokolada in bonboni,587078,Lime 30g,"1,29 €",,https://www.spar.si/online/lizika-z-okusom-maline-foltin-30g/p/587078
+Spar,sladki in slani prigrizki,keksi in napolitanke,608332,Onion 400g,"2,57 €",,https://www.spar.si/online/vaflji-s-karamelnim-polnilom-stroop-wafels-spar-400g/p/608332
+Spar,sladki in slani prigrizki,keksi in napolitanke,249944,Barley 200g,"1,35 €",,https://www.spar.si/online/baby-piskoti-spar-200g/p/249944
+Spar,sladki in slani prigrizki,keksi in napolitanke,624920,Semolina 800g,"2,89 €",,https://www.spar.si/online/napolitanke-s-kakavovo-kremo-in-kremo-z-okusom-mleka-spar-800g/p/624920
+Spar,sladki in slani prigrizki,keksi in napolitanke,227049,Kefir 125g,"1,85 €",,https://www.spar.si/online/masleni-keksi-z-mlecno-cokolado-spar-125g/p/227049
+Spar,sladki in slani prigrizki,keksi in napolitanke,291636,Pear 125g,"1,39 €",,https://www.spar.si/online/vaflji-obliti-z-mlecno-cokolado-spar-125g/p/291636
+Spar,sladki in slani prigrizki,keksi in napolitanke,581625,Pear 450g,"5,43 €",,https://www.spar.si/online/francosko-pecivo-z-marelicnim-nadevom-spar-450g/p/581625
+Spar,sladki in slani prigrizki,keksi in napolitanke,474396,Onion 400g,"5,41 €",,https://www.spar.si/online/pekovski-izdelek-s-kremnim-polnilom-islerji-spar-400g/p/474396
+Spar,sladki in slani prigrizki,keksi in napolitanke,474384,Onion 450g,"5,49 €",,https://www.spar.si/online/fini-pekovski-izdelek-z-marelicnim-polnilom-sacher-kocke-spar-450g/p/474384
+Spar,sladki in slani prigrizki,keksi in napolitanke,613857,Olive oil 400g,"2,19 €",,https://www.spar.si/online/piskoti-linske-oci-z-marelicnim-polnilom-s-budget-400g/p/613857
+Spar,sladki in slani prigrizki,keksi in napolitanke,493947,Pear 200g,"1,76 €",,https://www.spar.si/online/pecivo-z-glazuro-in-marelicnim-okrasom-despar-200g/p/493947
+Spar,sladki in slani prigrizki,keksi in napolitanke,627382,Onion 300g,"1,78 €",,https://www.spar.si/online/pecivo-z-jagodnim-polnilom-soft-cakes-s-budget-300g/p/627382
+Spar,sladki in slani prigrizki,keksi in napolitanke,634955,Mango 250g,"2,49 €",,https://www.spar.si/online/cajno-pecivo-s-polnjenjem-iz-fige-strudla-lasta-250g/p/634955
+Spar,sladki in slani prigrizki,keksi in napolitanke,504596,Vinegar 155g,"1,39 €",,https://www.spar.si/online/cokoladni-biskvit-s-sadnim-zelejem-visnja-oblit-s-cokolado-jaffa-cakes-crvenka-155g/p/504596
+Spar,sladki in slani prigrizki,keksi in napolitanke,576854,Kefir 135g,"2,79 €",,https://www.spar.si/online/keksi-plazma-kocka-bambi-135g/p/576854
+Spar,sladki in slani prigrizki,keksi in napolitanke,227049,Kefir 125g,"1,85 €",,https://www.spar.si/online/masleni-keksi-z-mlecno-cokolado-spar-125g/p/227049
+Spar,sladki in slani prigrizki,keksi in napolitanke,230730,Parsley 125g,"1,19 €",,https://www.spar.si/online/masleni-piskoti-s-cokolado-spar-125g/p/230730
+Spar,sladki in slani prigrizki,keksi in napolitanke,275985,Pear 175g,"1,16 €",,https://www.spar.si/online/brizgano-pecivo-oblito-s-cokolado-spar-175g/p/275985
+Spar,sladki in slani prigrizki,keksi in napolitanke,574732,Kefir 200g,"2,39 €",,https://www.spar.si/online/bio-ovseni-keksi-z-mlecno-cokolado-spar-naturpur-200g/p/574732
+Spar,sladki in slani prigrizki,keksi in napolitanke,608332,Onion 400g,"2,57 €",,https://www.spar.si/online/vaflji-s-karamelnim-polnilom-stroop-wafels-spar-400g/p/608332
+Spar,sladki in slani prigrizki,keksi in napolitanke,624920,Semolina 800g,"2,89 €",,https://www.spar.si/online/napolitanke-s-kakavovo-kremo-in-kremo-z-okusom-mleka-spar-800g/p/624920
+Spar,sladki in slani prigrizki,keksi in napolitanke,291636,Pear 125g,"1,39 €",,https://www.spar.si/online/vaflji-obliti-z-mlecno-cokolado-spar-125g/p/291636
+Spar,sladki in slani prigrizki,keksi in napolitanke,554608,Parsley 250g,"1,99 €",,https://www.spar.si/online/masleni-vaflji-spar-250g/p/554608
+Spar,sladki in slani prigrizki,keksi in napolitanke,595642,Rice 400g,"3,39 €",,https://www.spar.si/online/vafljeve-rolice-z-lesnikovo-kremo-s-budget-400g/p/595642
+Spar,sladki in slani prigrizki,keksi in napolitanke,235262,Kefir 300g,"2,99 €",,https://www.spar.si/online/keksi-plazma-bambi-300g/p/235262
+Spar,sladki in slani prigrizki,keksi in napolitanke,249944,Barley 200g,"1,35 €",,https://www.spar.si/online/baby-piskoti-spar-200g/p/249944
+Spar,sladki in slani prigrizki,keksi in napolitanke,606541,Pear 30g,"0,79 €",,https://www.spar.si/online/bio-otroski-koruzni-prigrizek-natur-spar-naturpur-30g/p/606541
+Spar,sladki in slani prigrizki,keksi in napolitanke,606536,Pear 30g,"0,99 €",,https://www.spar.si/online/bio-otroski-koruzni-prigrizek-z-jabolki-in-jagodami-spar-naturpur-30g/p/606536
+Spar,sladki in slani prigrizki,keksi in napolitanke,626866,Kefir 140g,"1,89 €",,https://www.spar.si/online/keksi-keksolino-kakao-lino-140g/p/626866
+Spar,sladki in slani prigrizki,keksi in napolitanke,331346,Brown rice 100g,"1,29 €",,https://www.spar.si/online/bio-rizevi-vaflji-cokolada-kokos-spar-naturpur-100g/p/331346
+Spar,sladki in slani prigrizki,keksi in napolitanke,331349,Pear 110g,"0,99 €",,https://www.spar.si/online/bio-koruzni-vaflji-spar-naturpur-110g/p/331349
+Spar,sladki in slani prigrizki,keksi in napolitanke,629161,Pear 150g,"1,85 €",,https://www.spar.si/online/bio-mini-koruzni-vaflji-spar-naturpur-150g/p/629161
+Spar,sladki in slani prigrizki,keksi in napolitanke,554152,Pear 120g,"1,49 €",,https://www.spar.si/online/bio-koruzni-vaflji-spar-naturpur-120g/p/554152
+Spar,sladki in slani prigrizki,keksi in napolitanke,331347,Brown rice 100g,"1,29 €",,https://www.spar.si/online/bio-rizevi-vaflji-cokolada-spar-naturpur-100g/p/331347
+Spar,sladki in slani prigrizki,drugi sladki izdelki,298126,Garlic 30g,"0,35 €",,https://www.spar.si/online/msli-ploscica-marelica-spar-30g/p/298126
+Spar,sladki in slani prigrizki,drugi sladki izdelki,298129,Pear 30g,"0,35 €",,https://www.spar.si/online/msli-ploscica-jabolko-spar-30g/p/298129
+Spar,sladki in slani prigrizki,drugi sladki izdelki,568483,Roll 280g,"2,45 €",,https://www.spar.si/online/mini-rolade-lesnik-spar-280g/p/568483
+Spar,sladki in slani prigrizki,drugi sladki izdelki,568484,Roll 280g,"2,45 €",,https://www.spar.si/online/mini-rolade-vanilija-spar-280g/p/568484
+Spar,sladki in slani prigrizki,drugi sladki izdelki,443301,Pear 150g,"1,39 €",,https://www.spar.si/online/msli-ploscica-kokos-spar-61-150g/p/443301
+Spar,sladki in slani prigrizki,drugi sladki izdelki,568483,Roll 280g,"2,45 €",,https://www.spar.si/online/mini-rolade-lesnik-spar-280g/p/568483
+Spar,sladki in slani prigrizki,drugi sladki izdelki,568484,Roll 280g,"2,45 €",,https://www.spar.si/online/mini-rolade-vanilija-spar-280g/p/568484
+Spar,sladki in slani prigrizki,drugi sladki izdelki,539704,Pear 500g,"2,29 €",,https://www.spar.si/online/pecivo-z-mlecno-cokolado-spar-500g/p/539704
+Spar,sladki in slani prigrizki,drugi sladki izdelki,466226,Roll 280g,"2,45 €",,https://www.spar.si/online/mini-rolade-s-cokoladno-kremo-spar-280g/p/466226
+Spar,sladki in slani prigrizki,drugi sladki izdelki,395103,Pear 500g,"1,99 €",,https://www.spar.si/online/pecivo-s-cokoladnim-prelivom-spar-500g/p/395103
+Spar,sladki in slani prigrizki,drugi sladki izdelki,547485,Pear 110g,"3,29 €",,https://www.spar.si/online/bio-cokoladni-zajcek-spar-naturpur-110g/p/547485
+Spar,sladki in slani prigrizki,drugi sladki izdelki,608354,Olive oil 80g,"1,95 €",,https://www.spar.si/online/bio-kroglice-iz-datljev-indijskih-oresckov-in-visenj-spar-naturpur-80g/p/608354
+Spar,sladki in slani prigrizki,drugi sladki izdelki,608469,Olive oil 80g,"1,95 €",,https://www.spar.si/online/bio-kroglice-iz-datljev-in-oresckov-v-kakavu-spar-naturpur-80g/p/608469
+Spar,sladki in slani prigrizki,drugi sladki izdelki,629516,Lime 80g,"1,99 €",,https://www.spar.si/online/bio-indijski-orescki-maline-in-rdeci-ribez-spar-naturpur-80g/p/629516
+Spar,sladki in slani prigrizki,drugi sladki izdelki,505904,Orange 1000g,"12,59 €",,https://www.spar.si/online/kolac-s-kandiranimi-pomarancnimi-lupinami-okrasen-s-celimi-mandlji-colomba-despar-premium-1kg/p/505904
+Spar,sladki in slani prigrizki,drugi sladki izdelki,647916,Vinegar 100g,"3,49 €",,https://www.spar.si/online/draze-zvecilni-gumi-airwaves-blackcurrant-461/p/647916
+Spar,sladki in slani prigrizki,drugi sladki izdelki,621436,Condiments 60g,"2,49 €",,https://www.spar.si/online/zvecilni-gumi-bubble-fresh-mentos-60g/p/621436
+Spar,sladki in slani prigrizki,drugi sladki izdelki,524168,Tuna 360g,"3,99 €",,https://www.spar.si/online/zvecilni-gumi-cunga-lunga-1001-360g/p/524168
+Spar,sladki in slani prigrizki,drugi sladki izdelki,550321,Egg white 14g,"0,99 €",,https://www.spar.si/online/zvecilni-gumi-white-freshmint-orbit-14g/p/550321
+Spar,sladki in slani prigrizki,drugi sladki izdelki,458005,Tempeh 84g,"2,39 €",,https://www.spar.si/online/zvecilni-gumi-extreme-airwaves-601-84g/p/458005
+Spar,sladki in slani prigrizki,drugi sladki izdelki,298126,Garlic 30g,"0,35 €",,https://www.spar.si/online/msli-ploscica-marelica-spar-30g/p/298126
+Spar,sladki in slani prigrizki,drugi sladki izdelki,298129,Pear 30g,"0,35 €",,https://www.spar.si/online/msli-ploscica-jabolko-spar-30g/p/298129
+Spar,sladki in slani prigrizki,drugi sladki izdelki,443301,Pear 150g,"1,39 €",,https://www.spar.si/online/msli-ploscica-kokos-spar-61-150g/p/443301
+Spar,sladki in slani prigrizki,drugi sladki izdelki,298117,Pear 30g,"0,35 €",,https://www.spar.si/online/msli-ploscica-lesniki-spar-30g/p/298117
+Spar,sladki in slani prigrizki,drugi sladki izdelki,298130,Semolina 30g,"0,35 €",,https://www.spar.si/online/msli-ploscica-malina-spar-30g/p/298130
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,568518,Hot dog 170g,"1,74 €",,https://www.spar.si/online/cips-hotspicy-spar-170g/p/568518
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,327033,Parsley 125g,"0,77 €",,https://www.spar.si/online/krompirjeve-palcke-spar-125g/p/327033
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,368723,Tortilla 125g,"0,99 €",,https://www.spar.si/online/koruzni-tortilja-cips-sir-spar-125g/p/368723
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,554311,Paprika 170g,"1,74 €",,https://www.spar.si/online/cips-paprika-spar-170g/p/554311
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,554314,Pear 170g,"1,64 €",,https://www.spar.si/online/cips-kisla-smetana-in-cebula-spar-170g/p/554314
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,568518,Hot dog 170g,"1,74 €",,https://www.spar.si/online/cips-hotspicy-spar-170g/p/568518
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,554311,Paprika 170g,"1,74 €",,https://www.spar.si/online/cips-paprika-spar-170g/p/554311
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,554314,Pear 170g,"1,64 €",,https://www.spar.si/online/cips-kisla-smetana-in-cebula-spar-170g/p/554314
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,554313,Salami 170g,"1,64 €",,https://www.spar.si/online/cips-slani-original-spar-170g/p/554313
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,227036,Paprika 150g,"0,89 €",,https://www.spar.si/online/rebrasti-cips-paprika-spar-150g/p/227036
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,507629,Pear 80g,"0,99 €",,https://www.spar.si/online/bio-koruzni-flips-pufuleti-spar-naturpur-80g/p/507629
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,586293,Leek 80g,"1,99 €",,https://www.spar.si/online/prigrizek-iz-lece-z-morsko-soljo-chio-80g/p/586293
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,658224,Paprika 150g,"2,99 €",,https://www.spar.si/online/krompirjev-cips-v-tulcu-z-okusom-paprike-pom-br-kellys-150g/p/658224
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,534633,Onion 75g,"1,99 €",,https://www.spar.si/online/koruzni-flips-minions-chio-75g/p/534633
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,327033,Parsley 125g,"0,77 €",,https://www.spar.si/online/krompirjeve-palcke-spar-125g/p/327033
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,604925,Parsley 150g,"0,89 €",,https://www.spar.si/online/slane-palcke-polnjene-z-arasidi-spar-150g/p/604925
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,96159,Parsley 250g,"0,99 €",,https://www.spar.si/online/slane-palcke-spar-250g/p/96159
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,96161,Pear 250g,"1,29 €",,https://www.spar.si/online/mesanica-slanega-peciva-spar-250g/p/96161
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,21529,Rice 200g,"0,89 €",,https://www.spar.si/online/slane-prestice-spar-200g/p/21529
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,253755,Pear 270g,"1,04 €",,https://www.spar.si/online/pokovka-lahka-spar-270g/p/253755
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,253756,Pear 300g,"0,95 €",,https://www.spar.si/online/pokovka-soljena-za-mikrovalovno-pecico-spar-31-300g/p/253756
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,517375,Pear 300g,"0,95 €",,https://www.spar.si/online/pokovka-z-okusom-masla-za-mikrovalovno-pecico-spar-31-300g/p/517375
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,489532,Pear 500g,"1,49 €",,https://www.spar.si/online/koruza-za-pokovko-despar-500g/p/489532
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,656862,Rice 70g,"2,79 €",,https://www.spar.si/online/kokice-z-zelenim-jabolkom-pokica-70g/p/656862
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,97312,Semolina 500g,"1,69 €",,https://www.spar.si/online/slani-krekerji-brez-zrn-soli-na-povrsini-despar-500g/p/97312
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,97300,Pear 500g,"1,69 €",,https://www.spar.si/online/krekerji-s-soljo-despar-500g/p/97300
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,448349,Bread 80g,"1,89 €",,https://www.spar.si/online/sirovi-krekreji-brez-glutena-spar-free-from-80g/p/448349
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,448334,Bread 125g,"2,39 €",,https://www.spar.si/online/mini-krekerji-brez-glutena-spar-free-from-125g/p/448334
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,649586,Salami 350g,"1,89 €",,https://www.spar.si/online/slani-krekerji-s-budget-350g/p/649586
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,368723,Tortilla 125g,"0,99 €",,https://www.spar.si/online/koruzni-tortilja-cips-sir-spar-125g/p/368723
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,253780,Tortilla 200g,"1,19 €",,https://www.spar.si/online/tortilja-cips-original-spar-200g/p/253780
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,368730,Tortilla 200g,"1,29 €",,https://www.spar.si/online/koruzni-tortilja-cips-nacho-sir-spar-200g/p/368730
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,559836,Tortilla 125g,"1,45 €",,https://www.spar.si/online/bio-tortilla-cips-spar-naturpur-125g/p/559836
+Spar,sladki in slani prigrizki,cips flips slano pecivo in prigrizki,635627,Tortilla 500g,"5,69 €",,https://www.spar.si/online/koruzni-tortilla-cips-soljen-totopos-mexifoods-500g/p/635627

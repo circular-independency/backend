@@ -32,6 +32,15 @@ class Db:
         conn.commit()
         conn.close()
 
+    @staticmethod
+    def update(qry):
+        conn = sqlite3.connect(Db.DB_FILE)
+        cursor = conn.cursor()
+
+        cursor.execute(qry)
+        conn.commit()
+        conn.close()
+
 
     @staticmethod
     def insert_dataframe_to_table(

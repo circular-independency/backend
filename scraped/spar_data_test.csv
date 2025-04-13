@@ -1,0 +1,106 @@
+store,category,mid_category,product_id,name,price,discount,url
+Lidl,Grains,Premium,a27d840d-220c-4a37-a8e6-38b07c10049c,Grains 500g,9.38,-6%,https://example.com/product/a27d840d-220c-4a37-a8e6-38b07c10049c
+Lidl,Rice,Premium,203e7b75-2329-4329-a75a-f8a6ba813bab,Rice 100g,6.53,,https://example.com/product/203e7b75-2329-4329-a75a-f8a6ba813bab
+Hofer,Brown Rice,Premium,65b3cfd2-326b-4729-ab77-85d500f361d0,Brown Rice 750g,6.5,,https://example.com/product/65b3cfd2-326b-4729-ab77-85d500f361d0
+Tuš,Pasta,Organic,2b263444-b126-4572-8c1f-debbbaf92e89,Pasta 1000g,0.73,-30%,https://example.com/product/2b263444-b126-4572-8c1f-debbbaf92e89
+Hofer,Spaghetti,Local,197296a9-515c-484f-be99-ae464cbaa4be,Spaghetti 100g,4.82,-7%,https://example.com/product/197296a9-515c-484f-be99-ae464cbaa4be
+Tuš,Couscous,Basic,6d980d91-c9f0-4778-83ab-871f3d47c1c9,Couscous 1000g,6.83,-14%,https://example.com/product/6d980d91-c9f0-4778-83ab-871f3d47c1c9
+Tuš,Quinoa,Local,7ef86038-5800-43af-86df-c07572839f07,Quinoa 500g,1.12,-14%,https://example.com/product/7ef86038-5800-43af-86df-c07572839f07
+Lidl,Oats,Imported,dbc06d48-466e-46a6-bf0e-df1aa805f406,Oats 750g,9.49,,https://example.com/product/dbc06d48-466e-46a6-bf0e-df1aa805f406
+Spar,Buckwheat,Imported,0f3cfc54-590b-434b-9bcb-1aca2316e109,Buckwheat 100g,2.31,,https://example.com/product/0f3cfc54-590b-434b-9bcb-1aca2316e109
+Lidl,Barley,Local,d16bdff3-d92d-483f-9dfd-133761838b5e,Barley 750g,6.44,-29%,https://example.com/product/d16bdff3-d92d-483f-9dfd-133761838b5e
+Hofer,Bread,Basic,c3a2625b-106f-4bb6-8dfc-7e03c70ff02c,Bread 1000g,8.99,-7%,https://example.com/product/c3a2625b-106f-4bb6-8dfc-7e03c70ff02c
+Spar,Whole Wheat Bread,Basic,cecd4991-421e-462f-9049-aa33fdd87dc8,Whole Wheat Bread 1000g,8.33,,https://example.com/product/cecd4991-421e-462f-9049-aa33fdd87dc8
+Mercator,Tortilla,Premium,03eef65a-2693-4b50-9311-b7ae3b8d16f6,Tortilla 1000g,5.03,-12%,https://example.com/product/03eef65a-2693-4b50-9311-b7ae3b8d16f6
+Spar,Rye Bread,Organic,0b251fbc-e778-45e0-841b-75e310efdd02,Rye Bread 100g,2.58,,https://example.com/product/0b251fbc-e778-45e0-841b-75e310efdd02
+Spar,Nori,Premium,b560c911-3636-4db8-94cb-2a1cba6d3814,Nori 100g,9.3,,https://example.com/product/b560c911-3636-4db8-94cb-2a1cba6d3814
+Spar,Wakame,Premium,7e3ce9d1-0fd5-4c28-8d44-b8c47f6aa958,Wakame 500g,9.33,-15%,https://example.com/product/7e3ce9d1-0fd5-4c28-8d44-b8c47f6aa958
+Mercator,Kombu,Local,64eb24c8-25d6-4dc3-9c66-a0a7d9e82769,Kombu 750g,6.31,,https://example.com/product/64eb24c8-25d6-4dc3-9c66-a0a7d9e82769
+Spar,Tomato,Organic,629cdfbb-2e87-4e59-9542-a03ada6735e5,Tomato 100g,2.14,-18%,https://example.com/product/629cdfbb-2e87-4e59-9542-a03ada6735e5
+Spar,Potato,Basic,4019107b-f375-4049-8add-97ba0adcbd25,Potato 1000g,6.35,,https://example.com/product/4019107b-f375-4049-8add-97ba0adcbd25
+Lidl,Sweet Potato,Imported,7a1b5b7a-964b-46bd-bd1f-6d02cc658389,Sweet Potato 250g,2.65,,https://example.com/product/7a1b5b7a-964b-46bd-bd1f-6d02cc658389
+Lidl,Onion,Imported,85ee5dc4-29dd-422d-92cd-73ea6bdc0658,Onion 750g,4.15,-22%,https://example.com/product/85ee5dc4-29dd-422d-92cd-73ea6bdc0658
+Spar,Red Onion,Premium,d4786255-fcb0-40e6-be06-52f4af5f1e75,Red Onion 500g,1.78,,https://example.com/product/d4786255-fcb0-40e6-be06-52f4af5f1e75
+Tuš,Carrot,Basic,8cadb9e7-a400-46d1-8457-5a8d6752ef45,Carrot 250g,6.01,,https://example.com/product/8cadb9e7-a400-46d1-8457-5a8d6752ef45
+Hofer,Cucumber,Imported,51cda2b5-cde5-4077-8629-491dfcf4661c,Cucumber 500g,3.23,,https://example.com/product/51cda2b5-cde5-4077-8629-491dfcf4661c
+Lidl,Bell Pepper,Imported,cf80bdf5-8981-4f14-9208-f790adc6bcbc,Bell Pepper 250g,9.49,-13%,https://example.com/product/cf80bdf5-8981-4f14-9208-f790adc6bcbc
+Lidl,Spinach,Basic,38343944-59b4-4242-8704-0434f2c49b77,Spinach 500g,2.06,-29%,https://example.com/product/38343944-59b4-4242-8704-0434f2c49b77
+Spar,Broccoli,Imported,a7a94297-04e6-46c0-94dc-b0bbd8ef323d,Broccoli 500g,1.54,-11%,https://example.com/product/a7a94297-04e6-46c0-94dc-b0bbd8ef323d
+Hofer,Zucchini,Imported,85708476-f8db-4b5f-9856-5eaa6648c225,Zucchini 250g,3.09,-16%,https://example.com/product/85708476-f8db-4b5f-9856-5eaa6648c225
+Spar,Eggplant,Imported,fbcfeadb-1450-47c9-92a1-f3241ab00920,Eggplant 100g,8.18,-5%,https://example.com/product/fbcfeadb-1450-47c9-92a1-f3241ab00920
+Mercator,Cabbage,Basic,1bcc1a00-88b1-443c-8bc1-9a83547a97eb,Cabbage 250g,0.7,-14%,https://example.com/product/1bcc1a00-88b1-443c-8bc1-9a83547a97eb
+Mercator,Garlic,Premium,079139c2-34cf-45bd-b425-f16562ae536f,Garlic 250g,2.75,,https://example.com/product/079139c2-34cf-45bd-b425-f16562ae536f
+Mercator,Leek,Imported,e4bdfc36-6079-46b8-8cfd-89b897fbc46f,Leek 250g,5.47,,https://example.com/product/e4bdfc36-6079-46b8-8cfd-89b897fbc46f
+Tuš,Celery,Premium,3049e498-aada-4310-8d3f-f557cb618e74,Celery 1000g,4.53,,https://example.com/product/3049e498-aada-4310-8d3f-f557cb618e74
+Tuš,Mushroom,Local,b6110e75-7ed0-4d52-96a3-6645258e1b6f,Mushroom 1000g,1.79,,https://example.com/product/b6110e75-7ed0-4d52-96a3-6645258e1b6f
+Spar,Apple,Premium,564c9947-8276-40c2-8e0f-ca15e1783aa5,Apple 500g,1.57,-16%,https://example.com/product/564c9947-8276-40c2-8e0f-ca15e1783aa5
+Tuš,Banana,Imported,91ecf28e-1744-438f-8e38-0e88d9ec8c7f,Banana 1000g,2.76,,https://example.com/product/91ecf28e-1744-438f-8e38-0e88d9ec8c7f
+Tuš,Orange,Local,bd1fbfe2-434d-4612-88c2-e1ae1f53cd26,Orange 100g,6.96,,https://example.com/product/bd1fbfe2-434d-4612-88c2-e1ae1f53cd26
+Lidl,Lemon,Premium,ff936618-f8f2-4c80-aa57-ffb88cfaed0c,Lemon 500g,6.5,,https://example.com/product/ff936618-f8f2-4c80-aa57-ffb88cfaed0c
+Mercator,Lime,Organic,4182e5f9-40cc-4f43-80da-bf49ea795539,Lime 100g,2.79,,https://example.com/product/4182e5f9-40cc-4f43-80da-bf49ea795539
+Tuš,Grapes,Local,e371337d-9bd2-4f91-9401-062985b7e1c3,Grapes 750g,2.77,-29%,https://example.com/product/e371337d-9bd2-4f91-9401-062985b7e1c3
+Lidl,Berries,Imported,f94318b3-972c-4384-aff4-9e955f47a9c4,Berries 500g,4.27,-21%,https://example.com/product/f94318b3-972c-4384-aff4-9e955f47a9c4
+Hofer,Strawberry,Premium,fe29fd6d-c4b6-4f05-9f2f-c87897114c10,Strawberry 1000g,3.61,,https://example.com/product/fe29fd6d-c4b6-4f05-9f2f-c87897114c10
+Mercator,Blueberry,Imported,adfe7485-4b5a-4ba4-b4f0-ddcdf6cca89a,Blueberry 250g,8.02,,https://example.com/product/adfe7485-4b5a-4ba4-b4f0-ddcdf6cca89a
+Lidl,Pineapple,Basic,d9aeac8f-9bf0-4735-a5dd-7839cc255e9a,Pineapple 100g,5.74,-21%,https://example.com/product/d9aeac8f-9bf0-4735-a5dd-7839cc255e9a
+Hofer,Mango,Imported,8fdaf63b-5fef-458c-a9ba-2a6ed69487a5,Mango 1000g,7.87,-23%,https://example.com/product/8fdaf63b-5fef-458c-a9ba-2a6ed69487a5
+Tuš,Pear,Organic,8575a562-39a0-4619-9388-ea791826cf1d,Pear 1000g,6.14,-18%,https://example.com/product/8575a562-39a0-4619-9388-ea791826cf1d
+Lidl,Peach,Premium,af39d419-36da-49f7-b233-709c582d35a0,Peach 250g,8.06,-27%,https://example.com/product/af39d419-36da-49f7-b233-709c582d35a0
+Hofer,Milk,Premium,7ce42985-a69a-4744-a2df-75ef77406c36,Milk 500ml,6.23,-23%,https://example.com/product/7ce42985-a69a-4744-a2df-75ef77406c36
+Hofer,Skim Milk,Basic,a36caebf-5acb-4a5e-809c-9faefe78ae6b,Skim Milk 500g,8.32,-22%,https://example.com/product/a36caebf-5acb-4a5e-809c-9faefe78ae6b
+Lidl,Cheese,Basic,b5a43617-f024-4638-aac2-0e978f505d83,Cheese 750g,7.18,,https://example.com/product/b5a43617-f024-4638-aac2-0e978f505d83
+Lidl,Mozzarella,Organic,4bf7b430-fd86-48a6-815b-9ee7098143cc,Mozzarella 250g,8.7,-24%,https://example.com/product/4bf7b430-fd86-48a6-815b-9ee7098143cc
+Hofer,Butter,Basic,eef620b4-d8a6-42f2-8fd2-aecd9569f86e,Butter 1000g,0.94,-19%,https://example.com/product/eef620b4-d8a6-42f2-8fd2-aecd9569f86e
+Lidl,Yogurt,Premium,342a6057-2cf2-40c3-866d-d42f0b806fe7,Yogurt 750g,7.48,,https://example.com/product/342a6057-2cf2-40c3-866d-d42f0b806fe7
+Mercator,Greek Yogurt,Basic,f98766bd-4d40-479a-8332-365d96dd629a,Greek Yogurt 100g,6.49,-28%,https://example.com/product/f98766bd-4d40-479a-8332-365d96dd629a
+Tuš,Cream,Imported,b0ca369c-f5c8-4080-bee6-49f472bbbafb,Cream 750ml,9.96,,https://example.com/product/b0ca369c-f5c8-4080-bee6-49f472bbbafb
+Hofer,Beef,Premium,b755585b-5a75-4297-87cf-a27cd5a845a5,Beef 750g,1.7,,https://example.com/product/b755585b-5a75-4297-87cf-a27cd5a845a5
+Spar,Chicken,Organic,f9be4045-afe9-4998-8472-3ec2802c1805,Chicken 100g,6.35,,https://example.com/product/f9be4045-afe9-4998-8472-3ec2802c1805
+Mercator,Pork,Organic,f5e8609f-5b49-4f1f-ac45-82a394cdd8d0,Pork 500g,3.39,,https://example.com/product/f5e8609f-5b49-4f1f-ac45-82a394cdd8d0
+Lidl,Lamb,Basic,ea4d3968-d89a-4cc1-a6f2-44411d90c612,Lamb 500g,1.74,,https://example.com/product/ea4d3968-d89a-4cc1-a6f2-44411d90c612
+Mercator,Turkey,Local,e0341695-26a6-45e3-8d14-78850490071f,Turkey 500g,3.77,-12%,https://example.com/product/e0341695-26a6-45e3-8d14-78850490071f
+Mercator,Duck,Basic,ee3334aa-0ec3-446b-ae03-bf00f91972df,Duck 1000g,6.33,-22%,https://example.com/product/ee3334aa-0ec3-446b-ae03-bf00f91972df
+Mercator,Salmon,Imported,73274730-56c5-4ecc-98da-362104e650d5,Salmon 250g,8.19,-27%,https://example.com/product/73274730-56c5-4ecc-98da-362104e650d5
+Lidl,Tuna,Organic,7ba33836-0ef6-49ed-ac29-1007ea0070b1,Tuna 750g,2.9,-25%,https://example.com/product/7ba33836-0ef6-49ed-ac29-1007ea0070b1
+Spar,Cod,Premium,d34f3218-c253-4cd8-ab4b-ba37c1aee501,Cod 750g,8.91,,https://example.com/product/d34f3218-c253-4cd8-ab4b-ba37c1aee501
+Spar,Trout,Basic,57fe7e0c-0156-41bc-becc-b8789b8ad4c1,Trout 100g,7.0,-10%,https://example.com/product/57fe7e0c-0156-41bc-becc-b8789b8ad4c1
+Mercator,Egg,Premium,b47bd404-d862-4a3e-a404-e043c6f85ba7,Egg 1000g,1.18,-26%,https://example.com/product/b47bd404-d862-4a3e-a404-e043c6f85ba7
+Mercator,Egg White,Local,88ffeb82-11ac-47d7-964a-657f934d7dce,Egg White 1000g,4.66,-22%,https://example.com/product/88ffeb82-11ac-47d7-964a-657f934d7dce
+Mercator,Legumes,Local,5c61479b-4ba4-477e-8817-73e614fc50ad,Legumes 500g,3.58,-9%,https://example.com/product/5c61479b-4ba4-477e-8817-73e614fc50ad
+Spar,Lentils,Imported,dc24f73a-17ce-4bd9-923e-d8c8177c24da,Lentils 750g,5.37,,https://example.com/product/dc24f73a-17ce-4bd9-923e-d8c8177c24da
+Hofer,Chickpeas,Basic,90fac682-2c02-4b8f-a6c2-315559285938,Chickpeas 750g,1.6,,https://example.com/product/90fac682-2c02-4b8f-a6c2-315559285938
+Spar,Kidney Beans,Organic,1bc8bae5-f096-492d-9040-28db88072101,Kidney Beans 1000g,2.62,,https://example.com/product/1bc8bae5-f096-492d-9040-28db88072101
+Tuš,Black Beans,Local,994a168c-b41a-4b96-8c9f-af1ad56a653d,Black Beans 250g,6.02,,https://example.com/product/994a168c-b41a-4b96-8c9f-af1ad56a653d
+Hofer,Green Peas,Imported,c1e9f7de-6d16-49a0-ae72-a79294dc6d7b,Green Peas 250g,6.28,,https://example.com/product/c1e9f7de-6d16-49a0-ae72-a79294dc6d7b
+Mercator,Soybeans,Local,daf89366-1a8d-4c7e-817c-43761bd1606e,Soybeans 100g,8.5,-9%,https://example.com/product/daf89366-1a8d-4c7e-817c-43761bd1606e
+Spar,Nuts,Organic,b64277cc-3b92-4fc3-9784-793e16bbce3b,Nuts 500g,8.36,,https://example.com/product/b64277cc-3b92-4fc3-9784-793e16bbce3b
+Hofer,Almonds,Local,d0c92b0e-750a-40b9-9c99-4bc2ef69dacb,Almonds 750g,8.05,-24%,https://example.com/product/d0c92b0e-750a-40b9-9c99-4bc2ef69dacb
+Tuš,Peanuts,Premium,40f0df44-6672-43c4-9c88-bdf342b2eeef,Peanuts 1000g,1.2,,https://example.com/product/40f0df44-6672-43c4-9c88-bdf342b2eeef
+Mercator,Walnuts,Imported,04e5c89e-b688-4ad8-ad92-4d0ace57100a,Walnuts 750g,9.8,-29%,https://example.com/product/04e5c89e-b688-4ad8-ad92-4d0ace57100a
+Spar,Cashews,Premium,5c68a322-9d42-40c6-9879-baa0acd9c0a6,Cashews 1000g,2.48,-13%,https://example.com/product/5c68a322-9d42-40c6-9879-baa0acd9c0a6
+Tuš,Olive Oil,Organic,0b2ecaca-26d3-4ba4-abc5-3c0e84e8d1c1,Olive Oil 750ml,3.39,,https://example.com/product/0b2ecaca-26d3-4ba4-abc5-3c0e84e8d1c1
+Spar,Vegetable Oil,Local,b2cee360-7e2d-4917-baca-c30037448a64,Vegetable Oil 250ml,1.39,,https://example.com/product/b2cee360-7e2d-4917-baca-c30037448a64
+Lidl,Coconut Oil,Premium,21cbaebd-26c5-47fc-8761-ba17ef81ec36,Coconut Oil 1000ml,1.25,-26%,https://example.com/product/21cbaebd-26c5-47fc-8761-ba17ef81ec36
+Spar,Avocado Oil,Imported,1d28cb9a-49c0-4dda-95a4-50d7a08531cf,Avocado Oil 750ml,3.51,,https://example.com/product/1d28cb9a-49c0-4dda-95a4-50d7a08531cf
+Tuš,Condiments,Local,0fad6612-1884-4278-9865-d153f1feb7f6,Condiments 750g,2.44,-23%,https://example.com/product/0fad6612-1884-4278-9865-d153f1feb7f6
+Hofer,Salt,Organic,d3addecc-1e4d-4102-88f1-6851c2ccc94b,Salt 500g,6.53,-8%,https://example.com/product/d3addecc-1e4d-4102-88f1-6851c2ccc94b
+Tuš,Sugar,Local,87994be9-3adf-419b-a2e7-af789a1a1bf7,Sugar 500g,7.93,,https://example.com/product/87994be9-3adf-419b-a2e7-af789a1a1bf7
+Hofer,Honey,Premium,3bf3fbf4-9032-4df9-88aa-fe91e1c7f5aa,Honey 500g,5.01,-13%,https://example.com/product/3bf3fbf4-9032-4df9-88aa-fe91e1c7f5aa
+Tuš,Vinegar,Basic,636a782f-5e09-48f3-be95-4b14b65970e1,Vinegar 100ml,6.83,,https://example.com/product/636a782f-5e09-48f3-be95-4b14b65970e1
+Spar,Soy Sauce,Organic,a85686ab-27a4-4831-bfba-a461f663c9c8,Soy Sauce 1000ml,7.12,,https://example.com/product/a85686ab-27a4-4831-bfba-a461f663c9c8
+Tuš,Miso,Imported,b11a6e79-34e5-4289-8288-496d4d1aa61d,Miso 100g,3.81,,https://example.com/product/b11a6e79-34e5-4289-8288-496d4d1aa61d
+Mercator,Mustard,Organic,553796af-105c-4b05-9440-72018599a4f0,Mustard 1000g,9.34,-7%,https://example.com/product/553796af-105c-4b05-9440-72018599a4f0
+Tuš,Mayonnaise,Imported,c4fb3c16-64b9-4a74-a62e-de0d29064132,Mayonnaise 500g,1.21,,https://example.com/product/c4fb3c16-64b9-4a74-a62e-de0d29064132
+Tuš,Herbs,Premium,6c473fc3-6ab7-4ac1-9e58-4d5aea73c3f5,Herbs 750g,9.25,,https://example.com/product/6c473fc3-6ab7-4ac1-9e58-4d5aea73c3f5
+Spar,Basil,Organic,f35f3734-154a-4928-8f41-d104fd60db96,Basil 500g,5.45,-17%,https://example.com/product/f35f3734-154a-4928-8f41-d104fd60db96
+Lidl,Parsley,Imported,4b9d2afc-1f18-443d-845b-471d1b558985,Parsley 750g,1.59,,https://example.com/product/4b9d2afc-1f18-443d-845b-471d1b558985
+Hofer,Coriander,Local,179e6ea3-41f8-44e9-b05f-9b6eefb2bbe4,Coriander 250g,9.43,-13%,https://example.com/product/179e6ea3-41f8-44e9-b05f-9b6eefb2bbe4
+Mercator,Dill,Premium,0855f51c-5823-4d7d-ab3b-86a81111735d,Dill 1000g,7.7,-13%,https://example.com/product/0855f51c-5823-4d7d-ab3b-86a81111735d
+Mercator,Spices,Basic,6b784a9f-4cb6-4b7a-931c-b8cd36359f1b,Spices 100g,2.75,,https://example.com/product/6b784a9f-4cb6-4b7a-931c-b8cd36359f1b
+Lidl,Black Pepper,Local,ce1c03a5-6b09-4eef-8e10-a0f04f44bf3f,Black Pepper 100g,9.34,-9%,https://example.com/product/ce1c03a5-6b09-4eef-8e10-a0f04f44bf3f
+Hofer,Cinnamon,Local,ee41bd28-d55b-437d-be05-37345062c68f,Cinnamon 100g,7.19,-10%,https://example.com/product/ee41bd28-d55b-437d-be05-37345062c68f
+Hofer,Turmeric,Local,d520fdd6-9b2b-467a-84e6-6dfcf3ab3418,Turmeric 1000g,2.29,,https://example.com/product/d520fdd6-9b2b-467a-84e6-6dfcf3ab3418
+Tuš,Paprika,Premium,1565342f-acb2-41b4-b5ec-9b48887da4fa,Paprika 1000g,9.12,,https://example.com/product/1565342f-acb2-41b4-b5ec-9b48887da4fa
+Mercator,Tofu,Imported,c334aead-3a8c-4f4e-bb12-df0ecd49bd63,Tofu 100g,7.01,,https://example.com/product/c334aead-3a8c-4f4e-bb12-df0ecd49bd63
+Spar,Tempeh,Local,87ddc341-ad42-4058-a740-afb78b50e978,Tempeh 1000g,5.65,,https://example.com/product/87ddc341-ad42-4058-a740-afb78b50e978
+Spar,Seaweed,Premium,500373be-9197-410c-91e8-8f79b8e404ac,Seaweed 500g,8.27,-28%,https://example.com/product/500373be-9197-410c-91e8-8f79b8e404ac

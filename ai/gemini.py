@@ -1,7 +1,7 @@
 from google import genai
 import os
-from ai.ai_utils import prepare_ai_category
 from db.models import Item, FoodCategory
+from api_types import WeekMealPlan
 
 class GeminiClient:
 
@@ -47,4 +47,29 @@ class GeminiClient:
             out += chunk.text
 
         return out
+    
+
+    @staticmethod
+    def map_ingredient_to_category(data):
+        client = genai.Client(api_key=GeminiClient.KEY)
+        
+        categories = FoodCategory.get_all()
+
+        promt = f"""
+            {data}
+            This is a list of items scraped from a store. Change all ingredient names to the closest food category from the following list. Use the name column:
+            {categories}
+            Please parse it and return a list of items in the provided JSON format.
+        """
+
+        response = client.models.generate_content(
+            model="gemini-2.0-flash-lite",
+            contents=promt,
+            config={
+                'response_mime_type': 'application/json',
+                'response_schema': WeekMealPlan,
+            },
+        )
+
+        return response.text
     

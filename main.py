@@ -8,9 +8,10 @@ from fastapi import FastAPI
 from db.db import Db
 from dotenv import load_dotenv
 from api_types import WeekMealPlan
-from db.models import FoodCategory, Shop, Item, ShoppingList
+from db.models import FoodCategory, Shop, Item, Storage, ShoppingList
 from lib import handle_meal_plan, scraped_to_items, get_user_shopping_list_for_bu, prepare_for_bu, bu_do_cart
-
+from ai.gemini import GeminiClient
+import json as json_module
 
 load_dotenv()
 app = FastAPI()
@@ -37,13 +38,18 @@ def read_category_list():
 
 @app.post("/plan/week")
 async def handle_week_plan(week_plan: WeekMealPlan):
-    mon = week_plan.monday
-    tue = week_plan.tuesday
-    wed = week_plan.wednesday
-    thu = week_plan.thursday
-    fri = week_plan.friday
-    sat = week_plan.saturday
-    sun = week_plan.sunday
+
+    week_plan_mapped = GeminiClient.map_ingredient_to_category(week_plan)
+    week_plan_mapped = json_module.loads(week_plan_mapped)
+    week_plan_mapped = WeekMealPlan(**week_plan_mapped)
+
+    mon = week_plan_mapped.monday
+    tue = week_plan_mapped.tuesday
+    wed = week_plan_mapped.wednesday
+    thu = week_plan_mapped.thursday
+    fri = week_plan_mapped.friday
+    sat = week_plan_mapped.saturday
+    sun = week_plan_mapped.sunday
 
     # here we will check if any ingredients were added aditionaly
     # TODO: handle that
@@ -95,3 +101,20 @@ async def get_shopping_list(user_id: int):
     await bu_do_cart(bu_data)
 
     return bu_data
+
+@app.get("/storage/list/{user_id}")
+async def get_storage_list(user_id: int):
+    qry = f"SELECT * FROM storage WHERE user_id = {user_id};"
+    res = Db.select(qry)
+    return res
+
+@app.post("/shopping/shop/{shop_name}/{user_id}")
+async def shop_shopping_list(shop_name: str, user_id: int):
+
+    res = Shop.get_by_name(shop_name)[0]
+    shop = Shop(**res)
+
+    Storage.add_items_from_shop(user_id, shop.id)
+    ShoppingList.shop_user_store_list(user_id, shop.id)
+
+    return {"status": 200}

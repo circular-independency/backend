@@ -19,16 +19,18 @@ def handle_meal_plan(meal_plan: MealPlan):
 def handle_recipe(recipe : Recipe):
 
     for ingredient in recipe.ingredients:   
-
-        # map ingredient to food category
-
-
         # check if we have ingredient in fridge
+        # if it does not exist in category we will skip it and add it later
         # if we have it, check if we have enough of it
         check = Storage.user_has_category(ingredient.name, ingredient.amount)
 
         if not check:
             item = Item.get_cheapest_item_for_category(ingredient.name)
+
+            if item is None:
+                print(f"Item {ingredient.name} not found in database.")
+                continue
+
             # add to user shopping list
             ShoppingList.add_item(item.id, 1)
 
